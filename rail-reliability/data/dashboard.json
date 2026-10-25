@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-25T19:26:36.246014Z",
+  "generatedAt": "2026-10-25T19:41:37.199733Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-25T19:23:35Z",
-    "fetchedAt": "2026-10-25T19:26:36.246014Z",
+    "sourceAt": "2026-10-25T19:29:18Z",
+    "fetchedAt": "2026-10-25T19:41:37.199733Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273428:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E][F] trains are running with delays after EMS responded to someone in need on a train at W 4 St-Wash Sq.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792954620,
-            "end": 1792956600
-          }
-        ],
-        "createdAt": 1792954620,
-        "updatedAt": 1792955004
-      },
       {
         "id": "lmm:planned_work:34778",
         "type": "Planned - Reroute",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808508211
+            "end": 1808508555
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3db28d494053fce892190c87772929a9e784e2b8966547f0b127e193307f692c"
+    "sha256": "7766b81b5cfdbf3a0c26f6c218c4a78248819b35a147a55e4488b3ba0ec85165"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-25T19:26:36.246014Z",
+    "fetchedAt": "2026-10-25T19:41:37.199733Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -11,6 +11,11 @@ function alertState(current, now = Date.now()) {
   if (current.state !== "ok") return current.state === "error" ? "error" : "unavailable";
   return now - source > 6e5 || now - fetched > 12e4 ? "stale" : "fresh";
 }
+function selectAlertSnapshot(riderCurrent, dashboardCurrent, now = Date.now()) {
+  const candidates = [riderCurrent, dashboardCurrent];
+  const valid = candidates.filter((current) => ["fresh", "stale"].includes(alertState(current, now)));
+  return valid.sort((a, b) => Date.parse(b.sourceAt) - Date.parse(a.sourceAt) || Date.parse(b.fetchedAt) - Date.parse(a.fetchedAt))[0] ?? candidates.find((current) => current != null);
+}
 function riderState(value, now = Date.now()) {
   if (!value || value.state !== "ok") return value?.state === "error" ? "error" : "unavailable";
   const source = Date.parse(value.sourceAt), fetched = Date.parse(value.fetchedAt);
@@ -95,7 +100,7 @@ function serviceHealth({ rider: rider2, observations: observations2, dashboard: 
     observations2?.health === "fresh" && ["fresh", "duplicate"].includes(observations2?.lastSampleState) && within(recordAge, 1200) && within(publishedAge, 1200),
     { state: observations2?.lastSampleState || "unavailable", sourceAgeSeconds: recordAge, publicationAgeSeconds: publishedAge, publicationAllowanceSeconds: 1200 }
   );
-  const alerts = rider2?.current || dashboard2?.current;
+  const alerts = selectAlertSnapshot(rider2?.current, dashboard2?.current, now);
   const alertStatus = alertState(alerts, now);
   add("service_alerts", alertStatus === "fresh", { state: alertStatus, sourceAgeSeconds: age(alerts?.sourceAt, now), fetchedAgeSeconds: age(alerts?.fetchedAt, now), sourceAllowanceSeconds: 600, downloadAllowanceSeconds: 120 });
   const operational = rider2?.operational || observations2?.operational;

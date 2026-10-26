@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T10:41:53.708615Z",
+  "generatedAt": "2026-10-26T10:56:54.354510Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-26T10:34:03Z",
-    "fetchedAt": "2026-10-26T10:41:53.708615Z",
+    "sourceAt": "2026-10-26T10:49:26Z",
+    "fetchedAt": "2026-10-26T10:56:54.354510Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808562842
+            "end": 1808563766
           }
         ],
         "createdAt": 1784303199,
@@ -42,10 +42,10 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "12156f2226ef91b25592ca935e0741aa054047bc0bc3020383177c33c0844a47"
+    "sha256": "58cf5306c852f730e67e8acf878ec2cf743f491e1686f404f50fd52d3404f08b"
   },
   "victoria": {
-    "state": "ok",
+    "state": "error",
     "fetchedAt": "2026-10-26T10:41:53.708615Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
@@ -56,7 +56,9 @@
         "validity": []
       }
     ],
-    "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
+    "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified.",
+    "attemptedAt": "2026-10-26T10:56:54.354510Z",
+    "error": "Official source fetch or validation failed"
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",

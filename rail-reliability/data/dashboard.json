@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T21:57:38.359032Z",
+  "generatedAt": "2026-10-26T22:12:35.865215Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-26T21:57:16Z",
-    "fetchedAt": "2026-10-26T21:57:38.359032Z",
+    "sourceAt": "2026-10-26T22:12:11Z",
+    "fetchedAt": "2026-10-26T22:12:35.865215Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273588:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E] trains are running with delays after rerouted [F][M] trains shared tracks.",
+        "description": "What happened?\nWe addressed a signal problem at 23 St on the [F][M] lines.",
+        "periods": [
+          {
+            "start": 1793052184,
+            "end": 1793054100
+          }
+        ],
+        "createdAt": 1793052184,
+        "updatedAt": 1793052454
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808603835
+            "end": 1808604728
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b6dfe7b9c60974e1e9289dc627bee3a31a170afe398e6082d3fe51b316b4a72a"
+    "sha256": "0b54f27b3225a19ff9f9eb6ebd3c50140362b4d571001cb7191249858c283854"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-26T21:57:38.359032Z",
+    "fetchedAt": "2026-10-26T22:12:35.865215Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

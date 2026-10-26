@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T00:56:42.400561Z",
+  "generatedAt": "2026-10-26T01:11:39.700472Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-26T00:54:37Z",
-    "fetchedAt": "2026-10-26T00:56:42.400561Z",
+    "sourceAt": "2026-10-26T00:58:46Z",
+    "fetchedAt": "2026-10-26T01:11:39.700472Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273454:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we moved a train that had its brakes activated at Forest Hills-71 Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1792974479,
-            "end": 1792976400
-          }
-        ],
-        "createdAt": 1792974479,
-        "updatedAt": 1792975953
-      },
       {
         "id": "lmm:planned_work:34778",
         "type": "Planned - Reroute",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808528076
+            "end": 1808528324
           }
         ],
         "createdAt": 1784303199,
@@ -74,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c342f10996f51ec1f39a89a650314a710c4f02c7e8a43ca68e931ac0677fb0a4"
+    "sha256": "84c7a55c820e1b11f0d80aeeac4e2e90343eff0cd5a55bb995d8ab727bf46f90"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-26T00:56:42.400561Z",
+    "fetchedAt": "2026-10-26T01:11:39.700472Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-10-26T01:06:17Z",
+            "toDate": "2026-10-26T04:10:18Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

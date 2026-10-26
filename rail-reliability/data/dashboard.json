@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T00:26:39.536848Z",
+  "generatedAt": "2026-10-26T00:41:37.499522Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-26T00:18:18Z",
-    "fetchedAt": "2026-10-26T00:26:39.536848Z",
+    "sourceAt": "2026-10-26T00:40:24Z",
+    "fetchedAt": "2026-10-26T00:41:37.499522Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273454:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are running with delays after we moved a train that had its brakes activated at Forest Hills-71 Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1792974479,
+            "end": null
+          }
+        ],
+        "createdAt": 1792974479,
+        "updatedAt": 1792974939
+      },
       {
         "id": "lmm:planned_work:34778",
         "type": "Planned - Reroute",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808525898
+            "end": 1808527223
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "393c2fca872b5dce9adeb715f7d853bbb40593ced7bdfc36220dbf8b3935103f"
+    "sha256": "248637e1313d44f78f048c68de71434b0183736519a1943d963f352b9ea34770"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-26T00:26:39.536848Z",
+    "fetchedAt": "2026-10-26T00:41:37.499522Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

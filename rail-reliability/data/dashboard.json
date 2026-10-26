@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T02:56:41.960886Z",
+  "generatedAt": "2026-10-26T03:11:41.922535Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-26T02:49:51Z",
-    "fetchedAt": "2026-10-26T02:56:41.960886Z",
+    "sourceAt": "2026-10-26T03:07:07Z",
+    "fetchedAt": "2026-10-26T03:11:41.922535Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:273465:29",
-        "type": "Stops Skipped",
+        "id": "lmm:alert:273465:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 29,
-        "header": "Jamaica Center-York College-bound [E]/Jamaica-179 St-bound [F] trains are running express from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "description": "We are requesting EMS assistance for a person in need on a train at Elmhurst Av\n.\nFor service to/from bypassed stations, take a downtown train.",
+        "priority": 26,
+        "header": "Jamaica Center-York College-bound [E]/Jamaica-179 St-bound [F] trains are running with delays after we requested EMS assistance for a person in need on a train at Elmhurst Av.",
+        "description": "Jamaica Center-York College-bound [E]/Jamaica-179 St-bound [F] trains have resumed running local from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
         "periods": [
           {
             "start": 1792982991,
-            "end": null
+            "end": 1792985760
           }
         ],
         "createdAt": 1792982991,
-        "updatedAt": 1792982991
+        "updatedAt": 1792984027
       },
       {
         "id": "lmm:planned_work:34778",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808534988
+            "end": 1808536027
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7169f2a0893fb0f0b73d10a6c7608c91bad0b4b4fd13c4d33382323b75a1a3cc"
+    "sha256": "f7f0f2ded3e621a856205fbdf9bc9e8463d9f55f0c8a127b5d68a81562140af7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-26T02:56:41.960886Z",
+    "fetchedAt": "2026-10-26T03:11:41.922535Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -89,7 +89,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-10-26T01:06:17Z",
-            "toDate": "2026-10-26T05:55:44Z",
+            "toDate": "2026-10-26T06:10:44Z",
             "isNow": true
           }
         ]

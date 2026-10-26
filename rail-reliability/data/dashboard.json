@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T13:42:05.288424Z",
+  "generatedAt": "2026-10-26T13:57:08.304734Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-26T13:41:01Z",
-    "fetchedAt": "2026-10-26T13:42:05.288424Z",
+    "sourceAt": "2026-10-26T13:52:38Z",
+    "fetchedAt": "2026-10-26T13:57:08.304734Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273515:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we moved a train that had its brakes activated at Lexington Av/53 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793019389,
-            "end": null
-          }
-        ],
-        "createdAt": 1793019389,
-        "updatedAt": 1793019832
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808574061
+            "end": 1808574758
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3d30b625abb0a0426e2f124313467db48e8d2248d25460165155f708303872ec"
+    "sha256": "338a4c77228409b14eb67a9560aa4531205b621febb835b7b4086b472806ffcc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-26T13:42:05.288424Z",
+    "fetchedAt": "2026-10-26T13:57:08.304734Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-27T04:12:58.035211Z",
+  "generatedAt": "2026-10-27T04:27:57.941521Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-27T04:00:07Z",
-    "fetchedAt": "2026-10-27T04:12:58.035211Z",
+    "fetchedAt": "2026-10-27T04:27:57.941521Z",
     "state": "ok",
     "alerts": [
       {
@@ -90,21 +90,14 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-27T04:12:58.035211Z",
+    "fetchedAt": "2026-10-27T04:27:57.941521Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
-        "reason": "Victoria Line: Service will resume later this morning.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-27T01:16:03Z",
-            "toDate": "2026-10-27T07:12:07Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

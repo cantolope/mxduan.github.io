@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T13:30:23.065929Z",
+  "generatedAt": "2026-10-28T13:45:26.388356Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T13:20:01Z",
-    "fetchedAt": "2026-10-28T13:30:23.065929Z",
+    "sourceAt": "2026-10-28T13:39:33Z",
+    "fetchedAt": "2026-10-28T13:45:26.388356Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273824:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "You will wait longer for uptown [E] trains.",
-        "description": "What Happened? \nWe removed a train from service at World Trade Center.",
-        "periods": [
-          {
-            "start": 1793192728,
-            "end": 1793194800
-          }
-        ],
-        "createdAt": 1793192728,
-        "updatedAt": 1793193594
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808745601
+            "end": 1808746773
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "decfc8a5548855009f7ab6da915787f39e02bbae2be83bd8b5eb83805a599fbf"
+    "sha256": "b6e49d61a0a4a871bb0a3c4c72a06fcdde00432697545e288e024a59a9fa53c4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T13:30:23.065929Z",
+    "fetchedAt": "2026-10-28T13:45:26.388356Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

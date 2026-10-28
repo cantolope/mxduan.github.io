@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T07:29:27.119588Z",
+  "generatedAt": "2026-10-28T07:34:25.876797Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T07:26:37Z",
-    "fetchedAt": "2026-10-28T07:29:27.119588Z",
+    "sourceAt": "2026-10-28T07:33:28Z",
+    "fetchedAt": "2026-10-28T07:34:25.876797Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:273771:29",
-        "type": "Stops Skipped",
+        "id": "lmm:alert:273771:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 29,
-        "header": "Jamaica-bound [E][F] trains are running on the express track from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "description": "What's Happening?\nWe are performing track maintenance near Grand Av-Newtown.\n\nFor service to/from bypassed stations, take a downtown [E] or [F] train. \n\nPlanned Work Reminder:\nNo [E] service in both directions at Queens Plaza, Court Sq-23 St, Lexington Av/53 St, 5 Av/53 St, 7 Av, 50 St, 42 St-Port Authority, 34 St-Penn Station, 23 St, 14 St, Spring St, Canal St and World Trade Center\n.\nNo [F] service at 21 St-Queensbridge, Roosevelt Island, Lexington Av/63 St, 57 St, 47-50 Sts-Rockefeller Ctr, 42 St-Bryant Pk, 34 St-Herald Sq, 23 St, 14 St, Broadway-Lafayette St, 2 Av, Delancey St-Essex St, East Broadway and York St\n.\nFree shuttle buses run between W 4 St-Wash Sq and East Broadway, stopping at Broadway-Lafayette St, 2 Av, Grand St and Delancey St-Essex St.",
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions after track maintenance at Grand Av-Newtown concluded.",
+        "description": "Jamaica-bound [E][F] trains have resumed running on the local track from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
         "periods": [
           {
             "start": 1793161517,
-            "end": null
+            "end": 1793174700
           }
         ],
         "createdAt": 1793161517,
-        "updatedAt": 1793170187
+        "updatedAt": 1793172807
       },
       {
         "id": "lmm:planned_work:34850",
@@ -78,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808724397
+            "end": 1808724808
           }
         ],
         "createdAt": 1784303199,
@@ -102,11 +102,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "aedb28578fb45085959b7bd53390ac09fc59fd3c778142e6005963ec61bfdcbd"
+    "sha256": "f84e670c46d556ad274f98dd5102783c81e9f6fe29b6a48385cd9becd622abb6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T07:29:27.119588Z",
+    "fetchedAt": "2026-10-28T07:34:25.876797Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

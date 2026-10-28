@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T07:59:30.734632Z",
+  "generatedAt": "2026-10-28T08:14:38.230165Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-28T07:33:28Z",
-    "fetchedAt": "2026-10-28T07:59:30.734632Z",
+    "fetchedAt": "2026-10-28T08:14:38.230165Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273771:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after track maintenance at Grand Av-Newtown concluded.",
-        "description": "Jamaica-bound [E][F] trains have resumed running on the local track from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "periods": [
-          {
-            "start": 1793161517,
-            "end": 1793174700
-          }
-        ],
-        "createdAt": 1793161517,
-        "updatedAt": 1793172807
-      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -106,7 +90,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T07:59:30.734632Z",
+    "fetchedAt": "2026-10-28T08:14:38.230165Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

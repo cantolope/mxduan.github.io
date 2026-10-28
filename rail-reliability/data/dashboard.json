@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T18:00:55.487507Z",
+  "generatedAt": "2026-10-28T18:15:58.243368Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,42 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T17:55:29Z",
-    "fetchedAt": "2026-10-28T18:00:55.487507Z",
+    "sourceAt": "2026-10-28T18:15:02Z",
+    "fetchedAt": "2026-10-28T18:15:58.243368Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273861:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [B][D] via [C] from W 4 St-Wash Sq to 59 St.\nSome uptown [E] express from Canal St to 42 St.\nSome uptown [C] express from Canal St to 59 St.",
+        "description": "What's Happening?\nWe are requesting EMS for someone on a train at 42 St-Bryant Park.\n\nExpect delays in uptown [A] service while they share the tracks with rerouted trains. \n\nFor service to/from bypassed stations, take [F][M] [N][Q][R][W] trains.\nListen for announcements to hear how your train will operate.",
+        "periods": [
+          {
+            "start": 1793210598,
+            "end": null
+          }
+        ],
+        "createdAt": 1793210598,
+        "updatedAt": 1793211301
+      },
+      {
+        "id": "lmm:alert:273862:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are delayed while we request EMS assistance for someone in need at Queens Plaza.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793211173,
+            "end": null
+          }
+        ],
+        "createdAt": 1793211173,
+        "updatedAt": 1793211173
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808762125
+            "end": 1808763302
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a84318ca60ac716a15a89642410b216c983b780105fdac3bc2e10269a6c8918e"
+    "sha256": "d8d166021bfba5d7f7461cf2c4d02771d6726cdeab63716bc9226e14acd8611a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T18:00:55.487507Z",
+    "fetchedAt": "2026-10-28T18:15:58.243368Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T04:13:53.529220Z",
+  "generatedAt": "2026-10-28T04:28:53.861769Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T04:00:09Z",
-    "fetchedAt": "2026-10-28T04:13:53.529220Z",
+    "sourceAt": "2026-10-28T04:25:18Z",
+    "fetchedAt": "2026-10-28T04:28:53.861769Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273771:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions while we perform track maintenance in Queens.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793161517,
+            "end": null
+          }
+        ],
+        "createdAt": 1793161517,
+        "updatedAt": 1793161517
+      },
       {
         "id": "lmm:planned_work:34850",
         "type": "Planned - Reroute",
@@ -62,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808712006
+            "end": 1808713515
           }
         ],
         "createdAt": 1784303199,
@@ -86,25 +102,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b8bd665e3bb5c8fca80e04213cea0ccf19c37581d5178612c24ef106475b2abe"
+    "sha256": "1df755ec7ac89a2a42cbbbf8c3ea06785f9a02c4009722e3d7817c83cd4b01e0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T04:13:53.529220Z",
+    "fetchedAt": "2026-10-28T04:28:53.861769Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
-        "reason": "Victoria Line: Service will resume later this morning.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-28T01:15:03Z",
-            "toDate": "2026-10-28T07:12:49Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

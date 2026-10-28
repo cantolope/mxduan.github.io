@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T09:59:50.052917Z",
+  "generatedAt": "2026-10-28T10:14:54.720413Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T09:15:07Z",
-    "fetchedAt": "2026-10-28T09:59:50.052917Z",
+    "sourceAt": "2026-10-28T10:00:11Z",
+    "fetchedAt": "2026-10-28T10:14:54.720413Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,35 +34,19 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808730905
+            "end": 1808733609
           }
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
-      },
-      {
-        "id": "lmm:planned_work:35945",
-        "type": "Station Notice",
-        "planned": true,
-        "priority": 3,
-        "header": "[airplane icon] JFK AirTrain service between Howard Beach-JFK Airport and all Airline Terminals is suspended and replaced by free shuttle buses",
-        "description": "Free shuttle buses will run from Howard Beach, Lefferts Boulevard, and Federal Circle Ground Level to all Airline terminals.\nAirTrain will continue to operate between Jamaica and Federal Circle only.\n\nNote: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
-        "periods": [
-          {
-            "start": 1793152800,
-            "end": 1793181600
-          }
-        ],
-        "createdAt": 1792677165,
-        "updatedAt": 1792677648
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "67e5304946a2bc8d6e35954e5c5fed2c3813d5f68534611b5c7a4b9b645b2515"
+    "sha256": "9cd1a0bd991f0b8b7e0ccad264c6a43dac747fd1a7778f5538ff187ca6965201"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T09:59:50.052917Z",
+    "fetchedAt": "2026-10-28T10:14:54.720413Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

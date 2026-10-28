@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T00:13:50.612230Z",
+  "generatedAt": "2026-10-28T00:28:50.192875Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T00:08:30Z",
-    "fetchedAt": "2026-10-28T00:13:50.612230Z",
+    "sourceAt": "2026-10-28T00:27:25Z",
+    "fetchedAt": "2026-10-28T00:28:50.192875Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273736:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we requested NYPD assistance for someone being disruptive at Jamaica Center-York College.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793144723,
-            "end": 1793146800
-          }
-        ],
-        "createdAt": 1793144723,
-        "updatedAt": 1793144902
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808698109
+            "end": 1808699243
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "87e3950a323202ccbdd92bb16ff1fe7ea412ac0ecb6e281f6c2f196d40ea978d"
+    "sha256": "8796318fdea437703e85a66e506a4a68abcbcab8117b6428c152238b7bbb8b2f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T00:13:50.612230Z",
+    "fetchedAt": "2026-10-28T00:28:50.192875Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

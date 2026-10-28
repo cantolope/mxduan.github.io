@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-28T20:46:33.480925Z",
+  "generatedAt": "2026-10-28T21:01:19.467865Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-28T20:43:49Z",
-    "fetchedAt": "2026-10-28T20:46:33.480925Z",
+    "sourceAt": "2026-10-28T20:56:43Z",
+    "fetchedAt": "2026-10-28T21:01:19.467865Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:273877:32",
-        "type": "Reroute",
+        "id": "lmm:alert:273877:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 32,
-        "header": "Uptown [C] trains are running express from Canal St to 59 St-Columbus Circle.",
-        "description": "Some uptown [E] trains are running express from Canal St to 42 St-Port Authority Bus Terminal.\nSome uptown [E] trains are running via the [F] line from W 4 St-Wash Sq to 5 Av/53 St\n.\nListen to announcements for how your train will operate. \nWhat's Happening?\nWe are requesting medical assistance for someone in need on a train at 14 St. \nBoarding Change:\nBoard uptown [C][E] trains on the [A] platform at 34 St-Penn Station.",
+        "priority": 26,
+        "header": "Uptown [A][C][E] trains are running with delays after we requested medical assistance for someone in need on a train at 14 St.",
+        "description": "Uptown [C][E] trains have resumed making scheduled stops in Manhattan.",
         "periods": [
           {
             "start": 1793219582,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793219582,
-        "updatedAt": 1793219983
+        "updatedAt": 1793221003
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808772226
+            "end": 1808773003
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9bf2f76d80b49f40e7abc3f1357880235755f3f224d968ada1c1a7fb97a8f9d4"
+    "sha256": "60ae14284b489762e0914f218f1eae3f62238e41f9b10a5994a98bb73a73ff6d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-28T20:46:33.480925Z",
+    "fetchedAt": "2026-10-28T21:01:19.467865Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

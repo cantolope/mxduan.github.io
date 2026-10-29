@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T10:03:34.496392Z",
+  "generatedAt": "2026-10-29T10:18:35.509823Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-10-29T09:47:58Z",
-    "fetchedAt": "2026-10-29T10:03:34.496392Z",
+    "fetchedAt": "2026-10-29T10:18:35.509823Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:273956:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E][F] trains are running with delays after we addressed a mechanical problem on a train at Woodhaven Blvd.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793267269,
-            "end": 1793268600
-          }
-        ],
-        "createdAt": 1793267269,
-        "updatedAt": 1793267278
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,21 +46,14 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-29T10:03:34.496392Z",
+    "fetchedAt": "2026-10-29T10:18:35.509823Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-10-29T07:49:16Z",
-            "toDate": "2026-10-30T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

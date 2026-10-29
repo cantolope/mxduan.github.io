@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T09:33:50.313013Z",
+  "generatedAt": "2026-10-29T09:48:30.572838Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-29T09:32:08Z",
-    "fetchedAt": "2026-10-29T09:33:50.313013Z",
+    "sourceAt": "2026-10-29T09:47:58Z",
+    "fetchedAt": "2026-10-29T09:48:30.572838Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:273956:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E][F] trains are running with delays after we addressed a mechanical problem on a train at Woodhaven Blvd.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793267269,
+            "end": 1793268600
+          }
+        ],
+        "createdAt": 1793267269,
+        "updatedAt": 1793267278
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808818327
+            "end": 1808819278
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9815eaf26eb1a153b8b4963f49084d59a2f0863eccb5b655ac58d1cd58b60881"
+    "sha256": "2e6fd6a749214166a72b13a628cd0326e53893e736a059c5b870a9a0de5d3478"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-29T09:33:50.313013Z",
+    "fetchedAt": "2026-10-29T09:48:30.572838Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T09:48:30.572838Z",
+  "generatedAt": "2026-10-29T10:03:34.496392Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-10-29T09:47:58Z",
-    "fetchedAt": "2026-10-29T09:48:30.572838Z",
+    "fetchedAt": "2026-10-29T10:03:34.496392Z",
     "state": "ok",
     "alerts": [
       {
@@ -55,22 +55,6 @@
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
-      },
-      {
-        "id": "lmm:planned_work:35944",
-        "type": "Station Notice",
-        "planned": true,
-        "priority": 3,
-        "header": "[airplane icon] JFK AirTrain service between Jamaica and Federal Circle stations is suspended and replaced by free shuttle buses",
-        "description": "Free shuttle buses will run from Jamaica Station and Federal Circle Ground Level.\nAirTrain will continue to operate from Howard Beach, Lefferts Boulevard, and Federal Circle to all Airline Terminals.\n\nNote: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
-        "periods": [
-          {
-            "start": 1793239200,
-            "end": 1793268000
-          }
-        ],
-        "createdAt": 1792676264,
-        "updatedAt": 1792676907
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
@@ -78,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-29T09:48:30.572838Z",
+    "fetchedAt": "2026-10-29T10:03:34.496392Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

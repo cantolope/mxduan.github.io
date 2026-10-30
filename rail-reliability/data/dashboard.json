@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T11:05:21.585770Z",
+  "generatedAt": "2026-10-30T11:20:24.581898Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-30T11:04:17Z",
-    "fetchedAt": "2026-10-30T11:05:21.585770Z",
+    "sourceAt": "2026-10-30T11:19:14Z",
+    "fetchedAt": "2026-10-30T11:20:24.581898Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays while the FDNY investigates a report of smoke at 75 Av.",
-        "description": "Downtown [E][F] trains will arrive on the express track at 75 Av.",
+        "header": "Downtown [E][F] trains are running with delays after the FDNY extinguished a track fire at 75 Av.",
+        "description": "Downtown [E][F] trains have resumed making scheduled stops at 75 Av.",
         "periods": [
           {
             "start": 1793358078,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793358078,
-        "updatedAt": 1793358078
+        "updatedAt": 1793359012
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808910256
+            "end": 1808911154
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "eecbcdcd0aa1e872512982a59aeb18fae18166ce13fd2e91bec77c9ca46026c7"
+    "sha256": "9bca05374aef9dfb5ee932cc7fd65fa0e43a17a555d7c452883b7756cda38c4b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-30T11:05:21.585770Z",
+    "fetchedAt": "2026-10-30T11:20:24.581898Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

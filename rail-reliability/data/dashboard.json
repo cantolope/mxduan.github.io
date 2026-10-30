@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T10:50:22.022285Z",
+  "generatedAt": "2026-10-30T11:05:21.585770Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-30T10:38:20Z",
-    "fetchedAt": "2026-10-30T10:50:22.022285Z",
+    "sourceAt": "2026-10-30T11:04:17Z",
+    "fetchedAt": "2026-10-30T11:05:21.585770Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274139:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays while the FDNY investigates a report of smoke at 75 Av.",
+        "description": "Downtown [E][F] trains will arrive on the express track at 75 Av.",
+        "periods": [
+          {
+            "start": 1793358078,
+            "end": null
+          }
+        ],
+        "createdAt": 1793358078,
+        "updatedAt": 1793358078
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808908695
+            "end": 1808910256
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a079bf0b12c0b7053432fedc2ab412ac32b1d532b77f5456676aff2c34a509d8"
+    "sha256": "eecbcdcd0aa1e872512982a59aeb18fae18166ce13fd2e91bec77c9ca46026c7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-30T10:50:22.022285Z",
+    "fetchedAt": "2026-10-30T11:05:21.585770Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

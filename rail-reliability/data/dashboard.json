@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T13:51:03.679059Z",
+  "generatedAt": "2026-10-30T14:05:23.536798Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-30T13:49:16Z",
-    "fetchedAt": "2026-10-30T13:51:03.679059Z",
+    "sourceAt": "2026-10-30T14:02:19Z",
+    "fetchedAt": "2026-10-30T14:05:23.536798Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:274148:25",
-        "type": "Express to Local",
+        "id": "lmm:alert:274148:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 25,
-        "header": "Downtown [E] trains are running local from Jamaica-Van Wyck to Kew Gardens-Union Tpke while we address a signal malfunction near Briarwood.",
-        "description": "Expect delays in [E][F] service while trains share tracks.",
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running  with delays after we addressed a signal problem near Briarwood.",
+        "description": "Downtown [E] trains have resumed making scheduled stops.",
         "periods": [
           {
             "start": 1793363141,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793363141,
-        "updatedAt": 1793363141
+        "updatedAt": 1793368939
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808920156
+            "end": 1808920939
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6582d8dd8bce9abd2ca14805af9cdbc58ed92143ad6cd0ac566ec57704eb1f89"
+    "sha256": "60ecd78dc531c5b98c068535c42f5f76c58d16bd4da3c5772a66a49eb3090978"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-30T13:51:03.679059Z",
+    "fetchedAt": "2026-10-30T14:05:23.536798Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

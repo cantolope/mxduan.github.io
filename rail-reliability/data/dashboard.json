@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T13:20:22.716541Z",
+  "generatedAt": "2026-10-30T13:35:23.166634Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-30T13:10:47Z",
-    "fetchedAt": "2026-10-30T13:20:22.716541Z",
+    "sourceAt": "2026-10-30T13:33:58Z",
+    "fetchedAt": "2026-10-30T13:35:23.166634Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274146:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[A][C][E] trains are running with delays in both directions after the NYPD assisted with an unauthorized person on the tracks at 42 St-Port Authority Bus Terminal.",
-        "description": "[A] trains have resumed making express stops in both directions between Canal St and 59 St-Columbus Circle.",
-        "periods": [
-          {
-            "start": 1793361660,
-            "end": 1793366700
-          }
-        ],
-        "createdAt": 1793361660,
-        "updatedAt": 1793365846
-      },
       {
         "id": "lmm:alert:274148:25",
         "type": "Express to Local",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808917846
+            "end": 1808919235
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "bfd3c802657df99c95afb2532b3660dfc18944bf0f0d63239dfc405321f36af0"
+    "sha256": "b47e1bd92e84494bb597703d0fec16d3bee16a69d4f67b7d09705eded6b86ac6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-30T13:20:22.716541Z",
+    "fetchedAt": "2026-10-30T13:35:23.166634Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

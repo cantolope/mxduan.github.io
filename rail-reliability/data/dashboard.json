@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T22:49:02.784484Z",
+  "generatedAt": "2026-10-31T22:53:44.276667Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-31T22:44:20Z",
-    "fetchedAt": "2026-10-31T22:49:02.784484Z",
+    "sourceAt": "2026-10-31T22:49:39Z",
+    "fetchedAt": "2026-10-31T22:53:44.276667Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274379:29",
+        "type": "Stops Skipped",
+        "planned": false,
+        "priority": 29,
+        "header": "[A][E] trains in both directions are bypassing W 4 St-Wash Sq due to the Halloween Parade.",
+        "description": "Consider a [1] train at nearby Christopher St-Stonewall or [R][W] trains at nearby 8 St-NYU.",
+        "periods": [
+          {
+            "start": 1793486978,
+            "end": null
+          }
+        ],
+        "createdAt": 1793486978,
+        "updatedAt": 1793486978
+      },
       {
         "id": "lmm:planned_work:35692",
         "type": "Planned - Stops Skipped",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809038659
+            "end": 1809038979
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c10b76f6f0fa17d4a7bf1f37962c2c74fc9c32862c15260287e7b19bd1ade53a"
+    "sha256": "2336569418972ef69ee0379b5368eeddd4ef63f4a552d08bd5b4cb5a121f92e7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-31T22:49:02.784484Z",
+    "fetchedAt": "2026-10-31T22:53:44.276667Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

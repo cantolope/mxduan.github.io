@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T20:53:21.065879Z",
+  "generatedAt": "2026-10-31T21:08:24.787387Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-31T20:39:18Z",
-    "fetchedAt": "2026-10-31T20:53:21.065879Z",
+    "sourceAt": "2026-10-31T21:05:42Z",
+    "fetchedAt": "2026-10-31T21:08:24.787387Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:35692",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Manhattan, downtown [A][E] skip Spring St",
+        "description": "Expect crowded conditions at Spring St and other stations along 6 Av. Please follow the directions of NYPD and MTA personnel.\n\nConsider using service at nearby [1][A][C][E] or [R] stations.\n\nNotes: Inwood-bound [A] runs via the [F] from Jay St-MetroTech to W 4 St-Wash Sq during this time.\nDowntown [A] runs local from 125 St to Canal St.\n168 St-bound [C] runs via the [F] from Jay St-MetroTech to 34 St-Herald Sq and via the [D] to 59 St-Columbus Circle. \nEuclid Av-bound [C] runs via the [D] from 59 St-Columbus Circle to 34 St-Herald Sq and via the [F] to Jay St-MetroTech.\n\nWhat's happening?\nNYC's 53rd Annual Village Halloween Parade",
+        "periods": [
+          {
+            "start": 1793480400,
+            "end": 1793498400
+          }
+        ],
+        "createdAt": 1791997896,
+        "updatedAt": 1793103162
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809031158
+            "end": 1809032742
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "db33d8952499e7a81494dc6bd39f7e4c08be61a3d7061122793587773c4d931f"
+    "sha256": "ea357adebe0bcf8358822b36f60fbbe08f187fc7e9b7d69db9b5bab18d786dcd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-31T20:53:21.065879Z",
+    "fetchedAt": "2026-10-31T21:08:24.787387Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

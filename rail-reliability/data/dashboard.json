@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T08:07:12.546936Z",
+  "generatedAt": "2026-10-31T08:22:14.890693Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-31T07:52:32Z",
-    "fetchedAt": "2026-10-31T08:07:12.546936Z",
+    "sourceAt": "2026-10-31T08:18:12Z",
+    "fetchedAt": "2026-10-31T08:22:14.890693Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274318:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E] trains are running with delays after we addressed a door problem on a train at 50 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793434691,
+            "end": 1793435940
+          }
+        ],
+        "createdAt": 1793434691,
+        "updatedAt": 1793434691
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1808985149
+            "end": 1808986690
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ac94b012d9af47f0d66471bfeeffc238d3d4a771f62403ed4538d56d365ec5b3"
+    "sha256": "b4e05fd1e6bc0aa3149df94e39dcdda97c72fae934fe7e9c5e3eb40723116989"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-31T08:07:12.546936Z",
+    "fetchedAt": "2026-10-31T08:22:14.890693Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

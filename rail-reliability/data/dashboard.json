@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T21:38:31.809677Z",
+  "generatedAt": "2026-10-31T21:53:36.132204Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-10-31T21:37:56Z",
-    "fetchedAt": "2026-10-31T21:38:31.809677Z",
+    "sourceAt": "2026-10-31T21:48:18Z",
+    "fetchedAt": "2026-10-31T21:53:36.132204Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274368:29",
-        "type": "Stops Skipped",
-        "planned": false,
-        "priority": 29,
-        "header": "Downtown [A][E] trains are bypassing Spring St due to the Halloween Parade.",
-        "description": "For service to/from Spring St, take an uptown [E] train or consider taking a [1] train at the nearby Houston St station.\n\nPlanned Work Reminder:\nDowntown [A] local from 125 St to Canal St.\n\nIn both directions, [C] rerouted via [F] between Jay St-MetroTech and W 4 St-Wash Sq, then via [D] to/from 59 St-Columbus Circle.",
-        "periods": [
-          {
-            "start": 1793481247,
-            "end": null
-          }
-        ],
-        "createdAt": 1793481247,
-        "updatedAt": 1793481247
-      },
       {
         "id": "lmm:planned_work:35692",
         "type": "Planned - Stops Skipped",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809034676
+            "end": 1809035298
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a011a8d15552412c590a5f9f2db7e11bd99e5b7511cc72d22816f836b94e465f"
+    "sha256": "9ad863218a597c3b820c17e6f926d51d909b2aed5ddd7ff35db8c109a0f3d04e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-10-31T21:38:31.809677Z",
+    "fetchedAt": "2026-10-31T21:53:36.132204Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

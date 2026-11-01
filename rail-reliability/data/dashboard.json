@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T02:23:59.917617Z",
+  "generatedAt": "2026-11-01T02:39:05.602269Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T02:08:02Z",
-    "fetchedAt": "2026-11-01T02:23:59.917617Z",
+    "sourceAt": "2026-11-01T02:35:13Z",
+    "fetchedAt": "2026-11-01T02:39:05.602269Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274379:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[A][C][D][E][F] trains have resumed stopping at W 4 St-Wash Sq in both directions.",
-        "description": "What Happened?\nHalloween Parade.",
-        "periods": [
-          {
-            "start": 1793486978,
-            "end": null
-          }
-        ],
-        "createdAt": 1793486978,
-        "updatedAt": 1793497891
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809050882
+            "end": 1809052513
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7c014c1eb5a01aa1c4d42bb0aff602ffc58ed75fc22c8d8f2c18d634668b9f83"
+    "sha256": "6a075a7c27dd7eb28b43d598bed546088041c9a4ba49a927e28c44a00b642241"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T02:23:59.917617Z",
+    "fetchedAt": "2026-11-01T02:39:05.602269Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T01:08:53.859482Z",
+  "generatedAt": "2026-11-01T01:23:56.126206Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T01:07:50Z",
-    "fetchedAt": "2026-11-01T01:08:53.859482Z",
+    "sourceAt": "2026-11-01T01:19:09Z",
+    "fetchedAt": "2026-11-01T01:23:56.126206Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Stops Skipped",
         "planned": false,
         "priority": 29,
-        "header": "[A][C][D][E][F] trains in both directions are bypassing W 4 St-Wash Sq due to the Halloween Parade.",
+        "header": "[A][C][D][E][F] trains in both directions are bypassing W 4 St-Wash Sq due to the Halloween Parade.\nExpect delays in both directions.",
         "description": "Consider a [1] train at nearby Christopher St-Stonewall or [N][R]  trains at nearby 8 St-NYU.",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793486978,
-        "updatedAt": 1793491072
+        "updatedAt": 1793495371
       },
       {
         "id": "lmm:planned_work:35692",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809047270
+            "end": 1809047947
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0f18f83b2203a95b006e2d3ce726be09d78c90d0b2267fc64b0d62ee2f840cbb"
+    "sha256": "284e53b9f6acff5a803eec52459995c215d53ef65478f4292c44bc81f3405ef1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T01:08:53.859482Z",
+    "fetchedAt": "2026-11-01T01:23:56.126206Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

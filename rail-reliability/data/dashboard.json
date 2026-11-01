@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T10:24:17.057773Z",
+  "generatedAt": "2026-11-01T10:39:16.407181Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T10:21:49Z",
-    "fetchedAt": "2026-11-01T10:24:17.057773Z",
+    "sourceAt": "2026-11-01T10:37:10Z",
+    "fetchedAt": "2026-11-01T10:39:16.407181Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,11 +34,11 @@
         "periods": [
           {
             "start": 1793528508,
-            "end": null
+            "end": 1793530200
           }
         ],
         "createdAt": 1793528508,
-        "updatedAt": 1793528508
+        "updatedAt": 1793529430
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809080507
+            "end": 1809081430
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +58,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "488d0bb65b64724b4c48e0f6f978fff0bcf6ec3673df7ae0f58af57cdf548c2b"
+    "sha256": "3d0195112b3804b3f8eaf8c88977290d2832c2d771d9f2f6733cdacb52fa42f5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T10:24:17.057773Z",
+    "fetchedAt": "2026-11-01T10:39:16.407181Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays between Walthamstow Central and Sven Sisters due to an earlier faulty train at Tottenham Hale. GOOD SERVICE on the rest of the line.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-01T10:15:59Z",
-            "toDate": "2026-11-02T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

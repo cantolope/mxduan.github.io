@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T01:41:09.024982Z",
+  "generatedAt": "2026-11-01T01:54:01.486211Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T01:28:46Z",
-    "fetchedAt": "2026-11-01T01:41:09.024982Z",
+    "sourceAt": "2026-11-01T01:51:31Z",
+    "fetchedAt": "2026-11-01T01:54:01.486211Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:274379:29",
-        "type": "Stops Skipped",
+        "id": "lmm:alert:274379:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 29,
-        "header": "[A][C][D][E][F] trains in both directions are bypassing W 4 St-Wash Sq due to the Halloween Parade.\nExpect delays in both directions.",
-        "description": "Consider a [1] train at nearby Christopher St-Stonewall or [N][R]  trains at nearby 8 St-NYU.",
+        "priority": 26,
+        "header": "[A][C][D][E][F] trains have resumed stopping at W 4 St-Wash Sq in both directions.",
+        "description": "What Happened?\nHalloween Parade.",
         "periods": [
           {
             "start": 1793486978,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793486978,
-        "updatedAt": 1793495371
+        "updatedAt": 1793497891
       },
       {
         "id": "lmm:planned_work:35692",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809048525
+            "end": 1809049891
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "bb9ab7cbba3cb418ac954cfbb68d6537d56b10103f470d22c34ea050e92da0ae"
+    "sha256": "cf21173fba55b1df7099572589c9199cb793121e2694b6b942e5e575013f80e0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T01:41:09.024982Z",
+    "fetchedAt": "2026-11-01T01:54:01.486211Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

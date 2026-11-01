@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T10:09:19.543763Z",
+  "generatedAt": "2026-11-01T10:24:17.057773Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T09:24:11Z",
-    "fetchedAt": "2026-11-01T10:09:19.543763Z",
+    "sourceAt": "2026-11-01T10:21:49Z",
+    "fetchedAt": "2026-11-01T10:24:17.057773Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274437:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are running with delays after we addressed a mechanical problem on a train at Steinway St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793528508,
+            "end": null
+          }
+        ],
+        "createdAt": 1793528508,
+        "updatedAt": 1793528508
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809077051
+            "end": 1809080507
           }
         ],
         "createdAt": 1784303199,
@@ -42,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6a64d539486957ae9d710a13d556589ccc56ac6cc3cfb93ae19d98048116dcbf"
+    "sha256": "488d0bb65b64724b4c48e0f6f978fff0bcf6ec3673df7ae0f58af57cdf548c2b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T10:09:19.543763Z",
+    "fetchedAt": "2026-11-01T10:24:17.057773Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays between Walthamstow Central and Sven Sisters due to an earlier faulty train at Tottenham Hale. GOOD SERVICE on the rest of the line.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-01T10:15:59Z",
+            "toDate": "2026-11-02T01:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T10:39:16.407181Z",
+  "generatedAt": "2026-11-01T10:54:18.001038Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T10:37:10Z",
-    "fetchedAt": "2026-11-01T10:39:16.407181Z",
+    "sourceAt": "2026-11-01T10:47:44Z",
+    "fetchedAt": "2026-11-01T10:54:18.001038Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274437:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we addressed a mechanical problem on a train at Steinway St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793528508,
-            "end": 1793530200
-          }
-        ],
-        "createdAt": 1793528508,
-        "updatedAt": 1793529430
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809081430
+            "end": 1809082064
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3d0195112b3804b3f8eaf8c88977290d2832c2d771d9f2f6733cdacb52fa42f5"
+    "sha256": "e3b164de78efd5731fe7def6b6968f016121a6d17ee399c01f64be3112dfb44e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T10:39:16.407181Z",
+    "fetchedAt": "2026-11-01T10:54:18.001038Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

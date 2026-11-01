@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T00:38:56.254095Z",
+  "generatedAt": "2026-11-01T00:53:55.860336Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-01T00:30:37Z",
-    "fetchedAt": "2026-11-01T00:38:56.254095Z",
+    "sourceAt": "2026-11-01T00:46:45Z",
+    "fetchedAt": "2026-11-01T00:53:55.860336Z",
     "state": "ok",
     "alerts": [
       {
@@ -39,6 +39,22 @@
         ],
         "createdAt": 1793486978,
         "updatedAt": 1793491072
+      },
+      {
+        "id": "lmm:alert:274392:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [A][E] trains are delayed while request NYPD/EMS for a person in need on a train at 14 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793494005,
+            "end": null
+          }
+        ],
+        "createdAt": 1793494005,
+        "updatedAt": 1793494005
       },
       {
         "id": "lmm:planned_work:35692",
@@ -66,7 +82,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809045034
+            "end": 1809046003
           }
         ],
         "createdAt": 1784303199,
@@ -90,11 +106,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6e498d5ab486293d00e1c0c061fd4bb6d40a54c0e0c74c6572b830964b6e20f2"
+    "sha256": "997e1b2337c6e645a8e9dc9dee3e422efdd04e3a0a6e96e2fd4899526d55d578"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T00:38:56.254095Z",
+    "fetchedAt": "2026-11-01T00:53:55.860336Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

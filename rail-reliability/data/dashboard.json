@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T02:53:56.349530Z",
+  "generatedAt": "2026-11-01T03:09:00.939938Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-01T02:48:46Z",
-    "fetchedAt": "2026-11-01T02:53:56.349530Z",
+    "fetchedAt": "2026-11-01T03:09:00.939938Z",
     "state": "ok",
     "alerts": [
       {
@@ -39,22 +39,6 @@
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
-      },
-      {
-        "id": "lmm:planned_work:35691",
-        "type": "Station Notice",
-        "planned": true,
-        "priority": 3,
-        "header": "Some stairways at [A][C][E], [D][F] and [L] stations on 6 Av will be exit or entrance-only and subject to intermittent closures to prevent platform crowding",
-        "description": "Expect crowding at these stations and please follow the directions of NYPD and MTA personnel.\n14 St/6 Av [L][F]\nW 4 St-Wash Sq [A][C][E][D][F]\nSpring St [A][E] (no downtown service from 5 PM to 10 PM)\n\nConsider using nearby [1][2][3] [R] stations or [A][C][E] stations at 14 St (8 Av) or Canal St.\n\nWhat's happening?\nNYC's 53rd Annual Village Halloween Parade",
-        "periods": [
-          {
-            "start": 1793476800,
-            "end": 1793502000
-          }
-        ],
-        "createdAt": 1791997694,
-        "updatedAt": 1792003305
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-01T02:53:56.349530Z",
+    "fetchedAt": "2026-11-01T03:09:00.939938Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

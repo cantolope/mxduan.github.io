@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T15:57:19.700913Z",
+  "generatedAt": "2026-11-02T16:12:21.921099Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-02T15:54:16Z",
-    "fetchedAt": "2026-11-02T15:57:19.700913Z",
+    "sourceAt": "2026-11-02T16:08:25Z",
+    "fetchedAt": "2026-11-02T16:12:21.921099Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:274566:26",
-        "type": "Delays",
+        "id": "lmm:alert:274566:34",
+        "type": "Part Suspended",
         "planned": false,
-        "priority": 26,
-        "header": "[A][C] [E] trains are delayed in both directions while we address a signal problem near Canal St.",
-        "description": "Some downtown [A] trains are running via the [D] line from 59 St-Columbus Circle to W 4 St-Wash Sq.\n\nSome [C] trains are running via the [F] line between W 4 St-Wash Sq and Jay St-MetroTech in both directions.\n\nListen to announcements on your train to hear how it will run. \n\nExpect delays on [D][F] trains while they share the track with rerouted trains.",
+        "priority": 34,
+        "header": "[A][C] [E] trains are delayed in both directions while we address a signal problem near Canal St.\n\nNo [E] between W 4 St-Wash Sq and World Trade Center both directions.",
+        "description": "The last stop on downtown [E] trains will be 2 Av on the [F] line, where they will turn back for uptown service.\n\nAdditional Service Changes\n\nDowntown [A] trains are running via the [D] line from 59 St-Columbus Circle to W 4 St-Wash Sq.\n\nUptown [A] trains are running via the [F] line from Jay St-MetroTech to W 4 St-Wash Sq.\n\n[C] trains are running via the [F] line between W 4 St-Wash Sq and Jay St-MetroTech in both directions.\n\nListen to announcements on your train to hear how it will run.\n\nExpect delays on [D][F] trains while they share the track with rerouted trains.\n\nAs an alternative for service in Lower Manhattan, consider using nearby [1][2][3] trains.\n\nAs an alternative for service between Brooklyn and Manhattan, and in Manhattan, consider taking [N][Q][R] trains.",
         "periods": [
           {
             "start": 1793634167,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793634167,
-        "updatedAt": 1793634818
+        "updatedAt": 1793635705
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809186856
+            "end": 1809187705
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "42343e5500adb90c20790a4e5fff3214a1a77eb8fa2322d5715d1740df09daa3"
+    "sha256": "b2a619d935b859486ea0f6de001ffb910db754012d34a890ea426b3dfdb00b6d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-02T15:57:19.700913Z",
+    "fetchedAt": "2026-11-02T16:12:21.921099Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

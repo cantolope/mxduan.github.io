@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T18:12:42.689348Z",
+  "generatedAt": "2026-11-02T18:27:38.198861Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,16 +20,16 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-02T18:10:37Z",
-    "fetchedAt": "2026-11-02T18:12:42.689348Z",
+    "sourceAt": "2026-11-02T18:23:26Z",
+    "fetchedAt": "2026-11-02T18:27:38.198861Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:274566:30",
-        "type": "Severe Delays",
+        "id": "lmm:alert:274566:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 30,
-        "header": "[A][C]  delays in both directions.\nSevere downtown [E] delays.\nUptown [E] delays.\nWhat Happened?\nWe restored power to our signaling system near Canal St.",
+        "priority": 26,
+        "header": "[A][C][E] trains are running with delays in both directions after we restored power to our signaling system near Canal St.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793634167,
-        "updatedAt": 1793641218
+        "updatedAt": 1793643173
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809195037
+            "end": 1809195803
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a9383debc998820a4801d1ea4443174f01896945227198eade87940a19b8e048"
+    "sha256": "029c2e3939c4336524f0963cfdd38619f689463034ba1b5ba252a6531a103fe5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-02T18:12:42.689348Z",
+    "fetchedAt": "2026-11-02T18:27:38.198861Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

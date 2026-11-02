@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T18:57:40.893585Z",
+  "generatedAt": "2026-11-02T19:12:41.390333Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-02T18:52:56Z",
-    "fetchedAt": "2026-11-02T18:57:40.893585Z",
+    "sourceAt": "2026-11-02T19:10:03Z",
+    "fetchedAt": "2026-11-02T19:12:41.390333Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274566:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[A][C][E] trains are running with delays in both directions after we restored power to our signaling system near Canal St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793634167,
-            "end": null
-          }
-        ],
-        "createdAt": 1793634167,
-        "updatedAt": 1793643173
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809197576
+            "end": 1809198602
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "35db4443b31113df4f62a093143bc3e864d758b755a7c53109514bba1309157f"
+    "sha256": "e3db96b295c62128cd5f11f18a95ae17c1f22437ce38eb8ab56c18f506134adc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-02T18:57:40.893585Z",
+    "fetchedAt": "2026-11-02T19:12:41.390333Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

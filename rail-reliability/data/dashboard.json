@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T17:27:28.089184Z",
+  "generatedAt": "2026-11-02T17:42:37.510261Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-02T17:27:07Z",
-    "fetchedAt": "2026-11-02T17:27:28.089184Z",
+    "sourceAt": "2026-11-02T17:40:18Z",
+    "fetchedAt": "2026-11-02T17:42:37.510261Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Severe Delays",
         "planned": false,
         "priority": 30,
-        "header": "[A][C] [E] trains are running with severe delays in both directions after we restored power to our signaling system near Canal St.",
-        "description": "[A][C][E] trains have resumed making scheduled stops in both directions.\nWhile we bring service back on schedule, consider the following alternatives:\nFor service in Lower Manhattan, consider using nearby [1][2][3] trains.\nFor service between Brooklyn and Manhattan, and in Manhattan, consider taking [N][Q][R] trains.",
+        "header": "[A][C]  delays in both directions.\nSevere downtown [E] delays.\nUptown [E] delays.\nWhat Happened?\nWe restored power to our signaling system near Canal St.",
+        "description": "",
         "periods": [
           {
             "start": 1793634167,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793634167,
-        "updatedAt": 1793639005
+        "updatedAt": 1793641218
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809192425
+            "end": 1809193218
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6c907352ce3f58f0dff8f51462a9031cc78360637ff029c30814704e75e5ece9"
+    "sha256": "bb20244bb5b8b9e3ae392cb4977417efc250d67016fda9affbcee3992745780a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-02T17:27:28.089184Z",
+    "fetchedAt": "2026-11-02T17:42:37.510261Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

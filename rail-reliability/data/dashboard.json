@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T16:57:24.551435Z",
+  "generatedAt": "2026-11-02T17:12:25.413453Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-02T16:39:52Z",
-    "fetchedAt": "2026-11-02T16:57:24.551435Z",
+    "sourceAt": "2026-11-02T17:10:54Z",
+    "fetchedAt": "2026-11-02T17:12:25.413453Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:274566:34",
-        "type": "Part Suspended",
+        "id": "lmm:alert:274566:30",
+        "type": "Severe Delays",
         "planned": false,
-        "priority": 34,
-        "header": "[A][C] [E] train service is severely disrupted in both directions.\n\nNo [E] between W 4 St-Wash Sq and World Trade Center both directions.",
-        "description": "What's Happening?\n\nWe are addressing a loss of power to our signaling system near Canal St.\n\nService Changes\n\nThe last stop on downtown [E] trains will be 2 Av on the [F] line, where they will turn back for uptown service.\n\nAdditional Service Changes\n\nDowntown [A] trains are running via the [D] line from 59 St-Columbus Circle to W 4 St-Wash Sq\n.\nDowntown [C] trains are running via the [B] line from 59 St-Columbus Circle to W 4 St-Wash Sq.\n\n[A][C] trains are running via the [F] line between W 4 St-Wash Sq and Jay St-MetroTech in both directions.\n\nExpect delays on [B][D][F][M] trains while they share the track with rerouted trains.\n\nAs an alternative for service in Lower Manhattan, consider using nearby [1][2][3] trains.\n\nAs an alternative for service between Brooklyn and Manhattan, and in Manhattan, consider taking [N][Q][R] trains.",
+        "priority": 30,
+        "header": "[A][C] [E] trains are running with severe delays in both directions after we restored power to our signaling system near Canal St.",
+        "description": "[A][C][E] trains have resumed making scheduled stops in both directions.\nWhile we bring service back on schedule, consider the following alternatives:\nFor service in Lower Manhattan, consider using nearby [1][2][3] trains.\nFor service between Brooklyn and Manhattan, and in Manhattan, consider taking [N][Q][R] trains.",
         "periods": [
           {
             "start": 1793634167,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793634167,
-        "updatedAt": 1793637591
+        "updatedAt": 1793639005
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809189591
+            "end": 1809191454
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "afd8e9ed70ef6a7bd887c4c7ff00a6c3f32d4f2cda9ed506ffd0141e3272723f"
+    "sha256": "5b842767475a38987e9e47479dbdb4e9081197418bedd48fb75a9e4eb218125b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-02T16:57:24.551435Z",
+    "fetchedAt": "2026-11-02T17:12:25.413453Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

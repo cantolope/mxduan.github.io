@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T20:15:02.666884Z",
+  "generatedAt": "2026-11-03T20:30:03.658168Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T20:11:06Z",
-    "fetchedAt": "2026-11-03T20:15:02.666884Z",
+    "sourceAt": "2026-11-03T20:23:43Z",
+    "fetchedAt": "2026-11-03T20:30:03.658168Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274724:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays after we requested medical assistance for someone in need on a train at Forest Hills-71 Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793737303,
+            "end": null
+          }
+        ],
+        "createdAt": 1793737303,
+        "updatedAt": 1793737303
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809288666
+            "end": 1809289423
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f59030ecc4bc1af0907a0cffa54bd53a18726a5f2f0f96a67439998cba57ee75"
+    "sha256": "34d29b09c47b04c5d5ecabaf4fb690de15bd3c78db86535dc2e6668372a78b72"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T20:15:02.666884Z",
+    "fetchedAt": "2026-11-03T20:30:03.658168Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -69,7 +85,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-03T19:47:15Z",
-            "toDate": "2026-11-03T23:14:36Z",
+            "toDate": "2026-11-03T23:28:37Z",
             "isNow": true
           }
         ]

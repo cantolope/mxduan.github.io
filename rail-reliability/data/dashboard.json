@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T20:30:03.658168Z",
+  "generatedAt": "2026-11-03T20:45:04.538540Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T20:23:43Z",
-    "fetchedAt": "2026-11-03T20:30:03.658168Z",
+    "sourceAt": "2026-11-03T20:42:59Z",
+    "fetchedAt": "2026-11-03T20:45:04.538540Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,11 +34,11 @@
         "periods": [
           {
             "start": 1793737303,
-            "end": null
+            "end": 1793739600
           }
         ],
         "createdAt": 1793737303,
-        "updatedAt": 1793737303
+        "updatedAt": 1793737822
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809289423
+            "end": 1809290579
           }
         ],
         "createdAt": 1784303199,
@@ -58,34 +58,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "34d29b09c47b04c5d5ecabaf4fb690de15bd3c78db86535dc2e6668372a78b72"
+    "sha256": "cce98cdd01bcb2742fd04fb78d55a3aa4cfeadc713277903d592f0590d23df71"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T20:30:03.658168Z",
+    "fetchedAt": "2026-11-03T20:45:04.538540Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Brixton and Warren Street and SEVERE DELAYS on the rest of the line while we fix a faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Themeslink the Weaver line, Southeastern and South Western Railway,",
+        "reason": "Victoria Line: Severe delays due to an earlier faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Themeslink the Weaver line, Southeastern and South Western Railway,",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-03T19:47:15Z",
+            "fromDate": "2026-11-03T20:37:21Z",
             "toDate": "2026-11-04T01:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Brixton and Warren Street and SEVERE DELAYS on the rest of the line while we fix a faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Themeslink the Weaver line, Southeastern and South Western Railway,",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-03T19:47:15Z",
-            "toDate": "2026-11-03T23:28:37Z",
             "isNow": true
           }
         ]

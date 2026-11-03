@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T01:58:24.576927Z",
+  "generatedAt": "2026-11-03T02:13:17.702433Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T01:57:51Z",
-    "fetchedAt": "2026-11-03T01:58:24.576927Z",
+    "sourceAt": "2026-11-03T02:01:30Z",
+    "fetchedAt": "2026-11-03T02:13:17.702433Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274636:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F][M][R] trains are running with delays in both directions after we performed planned maintenance in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793668408,
-            "end": null
-          }
-        ],
-        "createdAt": 1793668408,
-        "updatedAt": 1793668819
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809223070
+            "end": 1809223288
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ed8adb84b0188bad3c81628f3049d2a4a617e046be9ba2274f80369c8d4e21fe"
+    "sha256": "c00b732de11a7b95390695bc746bdb9db9969870941588036442e8ee97956deb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T01:58:24.576927Z",
+    "fetchedAt": "2026-11-03T02:13:17.702433Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-03T01:18:10Z",
-            "toDate": "2026-11-03T04:57:02Z",
+            "toDate": "2026-11-03T05:12:05Z",
             "isNow": true
           }
         ]

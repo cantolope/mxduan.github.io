@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T19:29:58.886878Z",
+  "generatedAt": "2026-11-03T19:44:56.391331Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T19:08:17Z",
-    "fetchedAt": "2026-11-03T19:29:58.886878Z",
+    "sourceAt": "2026-11-03T19:41:10Z",
+    "fetchedAt": "2026-11-03T19:44:56.391331Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [M][R] trains are running express from Forest Hills-71 Av to Jackson Hts while we remove a train with a mechanical problem from service at Grand Av-Newtown",
-        "description": "If your stop is skipped, take a Forest Hills-71 Av-bound [M][R] train.\nExpect delays in downtown [E][F] service.",
+        "header": "Downtown [E][F][M][R] trains are running with delays after we removed a train with a mechanical problem from service at Grand Av-Newtown.",
+        "description": "Downtown [M][R] trains have resumed scheduled stops.",
         "periods": [
           {
             "start": 1793732896,
-            "end": null
+            "end": 1793735400
           }
         ],
         "createdAt": 1793732896,
-        "updatedAt": 1793732896
+        "updatedAt": 1793734388
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809284896
+            "end": 1809286870
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ea8aaf24a74d25cfff3694ab2f15862a91d1fa53016ee227bf6eb0631ed8274a"
+    "sha256": "5b1ff3f15f0dc6114a6024de26c75781b72f93fdbdbe5db2d74f2e83cd2c3b72"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T19:29:58.886878Z",
+    "fetchedAt": "2026-11-03T19:44:56.391331Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-03T19:21:22Z",
-            "toDate": "2026-11-03T22:29:05Z",
+            "toDate": "2026-11-03T22:44:06Z",
             "isNow": true
           }
         ]

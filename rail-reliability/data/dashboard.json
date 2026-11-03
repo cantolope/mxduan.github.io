@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T18:59:46.344679Z",
+  "generatedAt": "2026-11-03T19:14:52.454909Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T18:59:06Z",
-    "fetchedAt": "2026-11-03T18:59:46.344679Z",
+    "sourceAt": "2026-11-03T19:08:17Z",
+    "fetchedAt": "2026-11-03T19:14:52.454909Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274717:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [M][R] trains are running express from Forest Hills-71 Av to Jackson Hts while we remove a train with a mechanical problem from service at Grand Av-Newtown",
+        "description": "If your stop is skipped, take a Forest Hills-71 Av-bound [M][R] train.\nExpect delays in downtown [E][F] service.",
+        "periods": [
+          {
+            "start": 1793732896,
+            "end": null
+          }
+        ],
+        "createdAt": 1793732896,
+        "updatedAt": 1793732896
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809284346
+            "end": 1809284896
           }
         ],
         "createdAt": 1784303199,
@@ -42,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "904d75109ce0040a3fb11230741d2add411af479b19bc085a5a347d3123ce7e0"
+    "sha256": "ea8aaf24a74d25cfff3694ab2f15862a91d1fa53016ee227bf6eb0631ed8274a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T18:59:46.344679Z",
+    "fetchedAt": "2026-11-03T19:14:52.454909Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays while we fix a faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, the Weaver line, Southeastern and South Western Railway,",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-03T19:06:41Z",
+            "toDate": "2026-11-04T01:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

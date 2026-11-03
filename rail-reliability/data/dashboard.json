@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T13:58:51.415717Z",
+  "generatedAt": "2026-11-03T14:13:52.773091Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,42 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T13:58:34Z",
-    "fetchedAt": "2026-11-03T13:58:51.415717Z",
+    "sourceAt": "2026-11-03T14:11:49Z",
+    "fetchedAt": "2026-11-03T14:13:52.773091Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274687:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are running with delays after we requested EMS assistance for someone on a train at Jamaica Center-York College.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793714390,
+            "end": 1793716200
+          }
+        ],
+        "createdAt": 1793714390,
+        "updatedAt": 1793715078
+      },
+      {
+        "id": "lmm:alert:274690:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E][F] trains are running with delays after we addressed a door problem on a train at Lexington Av/53 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793715033,
+            "end": 1793715900
+          }
+        ],
+        "createdAt": 1793715033,
+        "updatedAt": 1793715043
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809266314
+            "end": 1809267104
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "369b31a6b4babf83f711974aaa3004a69efa61baf074caf9069e7b4660dae398"
+    "sha256": "e20fa5115ab494f4cfee24b476dc4d066c2f377ef7cf9fdb2e79d05edcecf05c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T13:58:51.415717Z",
+    "fetchedAt": "2026-11-03T14:13:52.773091Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

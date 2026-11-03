@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T12:58:33.721485Z",
+  "generatedAt": "2026-11-03T13:13:41.677538Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T12:58:09Z",
-    "fetchedAt": "2026-11-03T12:58:33.721485Z",
+    "sourceAt": "2026-11-03T13:12:13Z",
+    "fetchedAt": "2026-11-03T13:13:41.677538Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274680:10",
+        "type": "Boarding Change",
+        "planned": false,
+        "priority": 10,
+        "header": "Downtown [E][F] trains are arriving on the local track at Queens Plaza while we request EMS assistance for someone on a train at that station.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793710971,
+            "end": null
+          }
+        ],
+        "createdAt": 1793710971,
+        "updatedAt": 1793711110
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809262687
+            "end": 1809263532
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "be9806f9c22f233e7028f36eff56b86ddc049f97ca510d7b19d1b8a51fd9d351"
+    "sha256": "42d023c5b0fab1fd4d22d9092e26c8969e8956491fc5441209f4c0d40529ef3f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T12:58:33.721485Z",
+    "fetchedAt": "2026-11-03T13:13:41.677538Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

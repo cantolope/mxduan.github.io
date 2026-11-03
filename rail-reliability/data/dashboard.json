@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T22:30:11.733504Z",
+  "generatedAt": "2026-11-03T22:38:24.243854Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-03T22:28:29Z",
-    "fetchedAt": "2026-11-03T22:30:11.733504Z",
+    "sourceAt": "2026-11-03T22:32:30Z",
+    "fetchedAt": "2026-11-03T22:38:24.243854Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809296909
+            "end": 1809297150
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "55ee8e0edb57314e63249a079a5d03ab75ae9ac4cec9ebbc2a7b32223191377e"
+    "sha256": "5568621debbff1ec6cf9fa1beb1b0d74bf96d7a76989086e18574c6782bfacaa"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-03T22:30:11.733504Z",
+    "fetchedAt": "2026-11-03T22:38:24.243854Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Themeslink the Weaver line, Southeastern and South Western Railway,",
+        "reason": "Victoria Line: Severe delays due to an earlier faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Thameslink the Weaver line, Southeastern and South Western Railway,",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-03T20:37:21Z",
+            "fromDate": "2026-11-03T22:30:06Z",
             "toDate": "2026-11-04T01:29:00Z",
             "isNow": true
           }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T12:32:15.494942Z",
+  "generatedAt": "2026-11-04T12:47:19.055593Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-04T12:28:07Z",
-    "fetchedAt": "2026-11-04T12:32:15.494942Z",
+    "sourceAt": "2026-11-04T12:41:33Z",
+    "fetchedAt": "2026-11-04T12:47:19.055593Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274826:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica Center-York College [E] and Jamaica-179 St-bound [F] trains are running with delays after we addressed a door problem on a train at Queens Plaza.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793795252,
-            "end": 1793795700
-          }
-        ],
-        "createdAt": 1793795252,
-        "updatedAt": 1793795252
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809347285
+            "end": 1809348093
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8980e82b605c6ba8b2e4e97c4426ce48285003dddf34d362a37cc94fb948a918"
+    "sha256": "cc59e665456f906f75051e7657c892cb6f795898223e20cdd73dc7318a97e1a9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-04T12:32:15.494942Z",
+    "fetchedAt": "2026-11-04T12:47:19.055593Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

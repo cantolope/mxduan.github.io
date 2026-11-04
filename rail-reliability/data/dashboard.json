@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T19:48:20.847829Z",
+  "generatedAt": "2026-11-04T20:03:21.739919Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-04T19:48:15Z",
-    "fetchedAt": "2026-11-04T19:48:20.847829Z",
+    "sourceAt": "2026-11-04T19:50:53Z",
+    "fetchedAt": "2026-11-04T20:03:21.739919Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Some uptown [E][F] trains are rerouted via Roosevelt Island from Manhattan to Queens while we address a signal problem near Lexington Av/53 St.\nExpect delays.",
-        "description": "Service Changes:\nSome uptown [E] trains are rerouted via the [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr, then via Roosevelt Island to Jackson Heights-Roosevelt Av\n.\nSome uptown [F] trains are running via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av.\nSome uptown [F] trains will run via the [G] line from Bergen St to Court Sq.\nExpect delays in [M] service while they share tracks with rerouted trains.\n\nListen for announcements to hear how your train will run.\nTravel Alternatives:\nFor service in Manhattan along the [E] between W 4 St-Wash Sq and 50 St, take a [C] train.",
+        "header": "[E][F] trains in both directions and Forest Hills-71 Av-bound [M] trains are running with delays after we addressed a signal malfunction near Lexington Av/53 St.",
+        "description": "Uptown [E][F] trains have resumed scheduled stops.",
         "periods": [
           {
             "start": 1793817006,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793817006,
-        "updatedAt": 1793820349
+        "updatedAt": 1793821852
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809373695
+            "end": 1809373853
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7929b85f831b7c17fd9bd99e921a9fb4ffbe16eb68237f4d0f45d44c3a103967"
+    "sha256": "7b1ed9aff4e8f6dd1f504f7dcbd8a9e42b54ab1f530249f5be2c347fb7f58176"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-04T19:48:20.847829Z",
+    "fetchedAt": "2026-11-04T20:03:21.739919Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

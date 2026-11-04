@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T20:18:27.614541Z",
+  "generatedAt": "2026-11-04T20:33:24.537072Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-04T20:04:30Z",
-    "fetchedAt": "2026-11-04T20:18:27.614541Z",
+    "sourceAt": "2026-11-04T20:32:52Z",
+    "fetchedAt": "2026-11-04T20:33:24.537072Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274874:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains in both directions and Forest Hills-71 Av-bound [M] trains are running with delays after we addressed a signal malfunction near Lexington Av/53 St.",
-        "description": "Uptown [E][F] trains have resumed scheduled stops.",
-        "periods": [
-          {
-            "start": 1793817006,
-            "end": 1793823900
-          }
-        ],
-        "createdAt": 1793817006,
-        "updatedAt": 1793822670
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809374668
+            "end": 1809376370
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3daba95b19d8c4fcd5b35fe3b3ff76338d360b19fa6cc105725ec9e453ed68ee"
+    "sha256": "02482641d36a80ea89311e194a3e0004b27156124b7212c69f56950ae8d59732"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-04T20:18:27.614541Z",
+    "fetchedAt": "2026-11-04T20:33:24.537072Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

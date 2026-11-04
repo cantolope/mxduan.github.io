@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T01:15:35.574840Z",
+  "generatedAt": "2026-11-04T01:30:37.293899Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-04T01:11:55Z",
-    "fetchedAt": "2026-11-04T01:15:35.574840Z",
+    "sourceAt": "2026-11-04T01:28:24Z",
+    "fetchedAt": "2026-11-04T01:30:37.293899Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809306715
+            "end": 1809307704
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2c546f1655cf07e4f6872838288607a7897cb3cb1a66535ae9a23250dd9f9067"
+    "sha256": "76b2a2251a214ede6b649519a03df54b65cc0d1e8f0cbaea1e7e1cb0ff055bc5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-04T01:15:35.574840Z",
+    "fetchedAt": "2026-11-04T01:30:37.293899Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Thameslink the Weaver line, Southeastern and South Western Railway,",
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-03T22:30:06Z",
-            "toDate": "2026-11-05T01:29:00Z",
+            "fromDate": "2026-11-04T01:25:44Z",
+            "toDate": "2026-11-04T04:29:59Z",
             "isNow": true
           }
         ]

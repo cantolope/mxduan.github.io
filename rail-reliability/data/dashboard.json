@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T19:18:17.952536Z",
+  "generatedAt": "2026-11-04T19:33:16.852949Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-04T18:46:04Z",
-    "fetchedAt": "2026-11-04T19:18:17.952536Z",
+    "sourceAt": "2026-11-04T19:25:50Z",
+    "fetchedAt": "2026-11-04T19:33:16.852949Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [E][F] trains are running with delays while we address a signal problem near Lexington Av/53 St.",
-        "description": "Some uptown [F] trains are running via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to 36 St (QNS). \n\nExpect delays in [M] service while they share the tracks with rerouted trains.\n\nListen for announcements to hear how your train will run.",
+        "header": "Some uptown [E][F] trains are rerouted via Roosevelt Island from Manhattan to Queens while we address a signal problem near Lexington Av/53 St.\nExpect delays.",
+        "description": "Service Changes:\nSome uptown [E] trains are rerouted via the [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr, then via Roosevelt Island to Jackson Heights-Roosevelt Av\n.\nSome uptown [F] trains are running via Roosevelt Island from 47-50 Sts-Rockefeller Ctr to Jackson Heights-Roosevelt Av.\nSome uptown [F] trains will run via the [G] line from Bergen St to Court Sq.\nExpect delays in [M] service while they share tracks with rerouted trains.\n\nListen for announcements to hear how your train will run.\nTravel Alternatives:\nFor service in Manhattan along the [E] between W 4 St-Wash Sq and 50 St, take a [C] train.",
         "periods": [
           {
             "start": 1793817006,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793817006,
-        "updatedAt": 1793817006
+        "updatedAt": 1793820349
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809369963
+            "end": 1809372349
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +58,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5254a9a49320ab11325ff930320a71b4b60e76f1acc9b3ea588170e76ed9b655"
+    "sha256": "177ca6f299930343d40e6aa9fb779e79f3ecda7a10ee3915c145f41d0409a7ed"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-04T19:18:17.952536Z",
+    "fetchedAt": "2026-11-04T19:33:16.852949Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-04T16:20:18Z",
-            "toDate": "2026-11-05T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."
@@ -2211,7 +2204,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-11-03T19:29:58.886878Z",
+    "fetchedAt": "2026-11-04T19:33:16.852949Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T14:50:26.476161Z",
+  "generatedAt": "2026-11-05T15:05:21.706613Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T14:47:02Z",
-    "fetchedAt": "2026-11-05T14:50:26.476161Z",
+    "sourceAt": "2026-11-05T15:03:49Z",
+    "fetchedAt": "2026-11-05T15:05:21.706613Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275004:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [C][E] trains are running with delays after we removed a train with a door problem from service at 42 St-Port Authority Bus Terminal.",
-        "description": "Downtown [C][E] have resumed making local stops.",
-        "periods": [
-          {
-            "start": 1793887964,
-            "end": null
-          }
-        ],
-        "createdAt": 1793887964,
-        "updatedAt": 1793888302
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809442022
+            "end": 1809443029
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8db587bda191d31d25005536ead5749c6910a69081deaca87292d3124074d641"
+    "sha256": "6ad7dac2ea667456ce82885bf2e8454624473d74e32d5b195cbce4a4ad2f5fb0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T14:50:26.476161Z",
+    "fetchedAt": "2026-11-05T15:05:21.706613Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

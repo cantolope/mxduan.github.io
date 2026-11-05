@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T02:34:19.115070Z",
+  "generatedAt": "2026-11-05T02:49:22.378215Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T02:29:56Z",
-    "fetchedAt": "2026-11-05T02:34:19.115070Z",
+    "sourceAt": "2026-11-05T02:49:15Z",
+    "fetchedAt": "2026-11-05T02:49:22.378215Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274926:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Queens-bound [E][F][M] trains are running with delays after we moved a train that had its brakes activated near 5 Av/53 St.",
-        "description": "[E][M][F] trains have resumed making regular stops between Queens and Manhattan.",
-        "periods": [
-          {
-            "start": 1793840230,
-            "end": null
-          }
-        ],
-        "createdAt": 1793840230,
-        "updatedAt": 1793841810
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809397794
+            "end": 1809398955
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1478679e06a1834def164bd315321a9fbaa5d20102665165898bcdae88dd74a3"
+    "sha256": "beca3b4a82b3dae7f27ad8409c86ed226b3a62ea95c0ee83c720cbe9d3a499a4"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T02:34:19.115070Z",
+    "fetchedAt": "2026-11-05T02:49:22.378215Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-05T01:20:18Z",
-            "toDate": "2026-11-05T05:33:13Z",
+            "toDate": "2026-11-05T05:47:18Z",
             "isNow": true
           }
         ]

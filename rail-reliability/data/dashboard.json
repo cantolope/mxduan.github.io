@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T09:49:33.994943Z",
+  "generatedAt": "2026-11-05T10:04:46.240062Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,45 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-05T09:32:00Z",
-    "fetchedAt": "2026-11-05T09:49:33.994943Z",
+    "fetchedAt": "2026-11-05T10:04:46.240062Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274960:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793858484,
-            "end": 1793872800
-          }
-        ],
-        "createdAt": 1793858484,
-        "updatedAt": 1793865630
-      },
-      {
-        "id": "lmm:planned_work:35357",
-        "type": "Planned - Stops Skipped",
-        "planned": true,
-        "priority": 16,
-        "header": "In Queens, Jamaica Center-bound [E] skips Briarwood",
-        "description": "For service to this station, take the [E] to Jamaica-Van Wyck and transfer to a Manhattan-bound [E].\n\nFor service from this station, take the [E] or [F] to Kew Gardens-Union Tpke and transfer to a Jamaica Center-bound [E].\n\nWhat's happening?\nWe're making station improvements",
-        "periods": [
-          {
-            "start": 1793767500,
-            "end": 1793786400
-          },
-          {
-            "start": 1793853900,
-            "end": 1793872800
-          }
-        ],
-        "createdAt": 1790955512,
-        "updatedAt": 1791471017
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -82,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T09:49:33.994943Z",
+    "fetchedAt": "2026-11-05T10:04:46.240062Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

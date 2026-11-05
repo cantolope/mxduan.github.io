@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T14:20:15.399419Z",
+  "generatedAt": "2026-11-05T14:35:21.478613Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T14:20:13Z",
-    "fetchedAt": "2026-11-05T14:20:15.399419Z",
+    "sourceAt": "2026-11-05T14:34:20Z",
+    "fetchedAt": "2026-11-05T14:35:21.478613Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:274992:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we moved a train that had its brakes activated at Kew Gardens-Union Tpke.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793884456,
-            "end": null
-          }
-        ],
-        "createdAt": 1793884456,
-        "updatedAt": 1793884456
-      },
       {
         "id": "lmm:alert:275004:26",
         "type": "Delays",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809440412
+            "end": 1809441260
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c5d01cda4b1b06650fd8b7315db2a9fc335d5ee75ad525443d4d1d961147b5fd"
+    "sha256": "2f49b8cd6c6cd74a58990208cad38a5cf55a8cb3d1d67745e62a45283fc42fc9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T14:20:15.399419Z",
+    "fetchedAt": "2026-11-05T14:35:21.478613Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

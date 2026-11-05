@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T03:49:26.587686Z",
+  "generatedAt": "2026-11-05T04:04:43.215323Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T03:47:52Z",
-    "fetchedAt": "2026-11-05T03:49:26.587686Z",
+    "sourceAt": "2026-11-05T03:52:42Z",
+    "fetchedAt": "2026-11-05T04:04:43.215323Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:274952:29",
-        "type": "Stops Skipped",
+        "id": "lmm:alert:274952:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 29,
-        "header": "Downtown [A][E] trains are running on the express track from 34 St-Penn Station to Canal St while we investigate why a train's brakes were activated at 14 St.",
-        "description": "For service to/from bypassed stations, take an uptown train.",
+        "priority": 26,
+        "header": "Downtown [A][E] trains are running with delays after we moved a train that had its brakes activated at 14 St.",
+        "description": "Downtown [A][E] trains have resumed running on the local track from 34 St-Penn Station to Canal St.",
         "periods": [
           {
             "start": 1793849916,
-            "end": null
+            "end": 1793852400
           }
         ],
         "createdAt": 1793849916,
-        "updatedAt": 1793850088
+        "updatedAt": 1793850762
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809402471
+            "end": 1809402762
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ae7d0acb5d80b88a80efe45f5fa7da62dc262f3671b8e6df978b819e962c71c8"
+    "sha256": "a01cdd62907452728f5a55f084a41dedee9e0615c7dbd92455bfad873931bf4c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T03:49:26.587686Z",
+    "fetchedAt": "2026-11-05T04:04:43.215323Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-05T01:20:18Z",
-            "toDate": "2026-11-05T06:48:19Z",
+            "toDate": "2026-11-05T07:03:20Z",
             "isNow": true
           }
         ]

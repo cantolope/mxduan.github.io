@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T21:06:18.459449Z",
+  "generatedAt": "2026-11-05T21:21:22.494023Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T21:06:17Z",
-    "fetchedAt": "2026-11-05T21:06:18.459449Z",
+    "sourceAt": "2026-11-05T21:18:21Z",
+    "fetchedAt": "2026-11-05T21:21:22.494023Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275049:32",
+        "type": "Reroute",
+        "planned": false,
+        "priority": 32,
+        "header": "Downtown [E][F] trains are rerouted via Roosevelt Island from Queens to Manhattan while we request EMS assistance for someone on a train at Lexington Av/53 St.",
+        "description": "Downtown [E] trains are running via Roosevelt Island from 36 St to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\nDowntown [F] trains are either rerouted:\nVia Roosevelt Island from 36 St to 47-50 Sts-Rockefeller Ctr\nVia the [G] line from Court Sq to Bergen St, bypassing Manhattan\nListen to announcements for how your train will operate.\n\nFor Manhattan-bound service:\nAt Queens Plaza, take an [R] train\nAt Court Sq-23 St, take a [7] train.",
+        "periods": [
+          {
+            "start": 1793913060,
+            "end": null
+          }
+        ],
+        "createdAt": 1793913060,
+        "updatedAt": 1793913501
+      },
       {
         "id": "lmm:alert:275041:26",
         "type": "Delays",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809464777
+            "end": 1809465501
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a66b249fc20b129f97b27141aa1c0706b70c04db42469f8ea9985bc40a305742"
+    "sha256": "c625ad0127a8c1c80404ac33da6b99cb58a9e5e9d99fa394a5421ca439479884"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T21:06:18.459449Z",
+    "fetchedAt": "2026-11-05T21:21:22.494023Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

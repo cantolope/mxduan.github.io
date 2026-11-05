@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T22:21:27.835884Z",
+  "generatedAt": "2026-11-05T22:36:34.353811Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T22:08:15Z",
-    "fetchedAt": "2026-11-05T22:21:27.835884Z",
+    "sourceAt": "2026-11-05T22:31:36Z",
+    "fetchedAt": "2026-11-05T22:36:34.353811Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are running with delays in both directions. \nDowntown [F] trains are running with delays.",
-        "description": "Downtown [E] trains have resumed making scheduled stops from 5 Av/53 St to W 4 St-Wash Sq\n.\nWhat Happened?\n \nWe requested EMS assistance for someone on a train at 7 Av.",
+        "header": "[E][F] trains are running with delays in both directions after we requested EMS assistance for someone on a train at 7 Av.",
+        "description": "Some downtown [F] trains will run via the [G] line from Queens Plaza to Bergen St. (Bypassing Manhattan.)\nListen to announcements for how your train will operate.",
         "periods": [
           {
             "start": 1793913060,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793913060,
-        "updatedAt": 1793915019
+        "updatedAt": 1793917369
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809468495
+            "end": 1809469895
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "23d7a508267b5fc4df4b799cce4c0f4f5d2a31f0b8d789f6e076ac1e44029d77"
+    "sha256": "e9d529aad0238fbaf43e099ca888a8bbf26565e51fec92ecfe8c198e56fb06a0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T22:21:27.835884Z",
+    "fetchedAt": "2026-11-05T22:36:34.353811Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

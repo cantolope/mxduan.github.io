@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T14:05:16.838377Z",
+  "generatedAt": "2026-11-05T14:20:15.399419Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T14:02:46Z",
-    "fetchedAt": "2026-11-05T14:05:16.838377Z",
+    "sourceAt": "2026-11-05T14:20:13Z",
+    "fetchedAt": "2026-11-05T14:20:15.399419Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,6 +41,22 @@
         "updatedAt": 1793884456
       },
       {
+        "id": "lmm:alert:275004:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [C][E] trains are running with delays after we removed a train with a door problem from service at 42 St-Port Authority Bus Terminal.",
+        "description": "Downtown [C][E] have resumed making local stops.",
+        "periods": [
+          {
+            "start": 1793887964,
+            "end": null
+          }
+        ],
+        "createdAt": 1793887964,
+        "updatedAt": 1793888302
+      },
+      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809439366
+            "end": 1809440412
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "bb6b0d19125cadad6902b0378b34d3277c14739b2186fd9b74a53854c2b839de"
+    "sha256": "c5d01cda4b1b06650fd8b7315db2a9fc335d5ee75ad525443d4d1d961147b5fd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T14:05:16.838377Z",
+    "fetchedAt": "2026-11-05T14:20:15.399419Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

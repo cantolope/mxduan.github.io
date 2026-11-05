@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T00:49:02.925705Z",
+  "generatedAt": "2026-11-05T01:04:05.814184Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T00:04:57Z",
-    "fetchedAt": "2026-11-05T00:49:02.925705Z",
+    "sourceAt": "2026-11-05T01:00:44Z",
+    "fetchedAt": "2026-11-05T01:04:05.814184Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274926:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Queens-bound [E][F][M] trains are delayed.\nUptown [C] trains are delayed.",
+        "description": "What's Happening? \nWe are investigating what activated a train's brakes near 5 Av/53 St.",
+        "periods": [
+          {
+            "start": 1793840230,
+            "end": null
+          }
+        ],
+        "createdAt": 1793840230,
+        "updatedAt": 1793840443
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809389096
+            "end": 1809392444
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "dfaf368e41ae7b781838506e41bbd59abb5f200d89ba306c32a985dd6b6ad454"
+    "sha256": "dc076f16d58e001519e23b2dab1f582e45484f9af6b6b7f80db2cf3b2b130f8d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T00:49:02.925705Z",
+    "fetchedAt": "2026-11-05T01:04:05.814184Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

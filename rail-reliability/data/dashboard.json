@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T21:36:28.261109Z",
+  "generatedAt": "2026-11-05T21:51:24.811563Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T21:32:24Z",
-    "fetchedAt": "2026-11-05T21:36:28.261109Z",
+    "sourceAt": "2026-11-05T21:45:10Z",
+    "fetchedAt": "2026-11-05T21:51:24.811563Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:275049:32",
-        "type": "Reroute",
+        "id": "lmm:alert:275049:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 32,
-        "header": "[E] trains are running with delays in both directions. \nDowntown [E] trains are rerouted via the [F] from 5 Av/53 St to W 4 St-Wash Sq.",
-        "description": "Expect delays on downtown [F] trains while they share the tracks with rerouted trains. \nIf your stop is skipped, take an uptown [E] train.\nWhat's Happening?\n \nWe are requesting EMS assistance for someone on a train at 7 Av.",
+        "priority": 26,
+        "header": "[E] trains are running with delays in both directions. \nDowntown [F] trains are running with delays.",
+        "description": "Downtown [E] trains have resumed making scheduled stops from 5 Av/53 St to W 4 St-Wash Sq\n.\nWhat Happened?\n \nWe requested EMS assistance for someone on a train at 7 Av.",
         "periods": [
           {
             "start": 1793913060,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1793913060,
-        "updatedAt": 1793914343
+        "updatedAt": 1793915019
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809466344
+            "end": 1809467110
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ba8d052565b99dd208e13eeaa7bcbfcb0553c5237c03bc11256985cfc82be28c"
+    "sha256": "cd593d0f58bf502349dd3a30f91ee92a36255d8e6f1006ada3258b1ff4741246"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T21:36:28.261109Z",
+    "fetchedAt": "2026-11-05T21:51:24.811563Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

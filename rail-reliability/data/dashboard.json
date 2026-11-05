@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T23:06:37.370110Z",
+  "generatedAt": "2026-11-05T23:36:41.034662Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T22:59:51Z",
-    "fetchedAt": "2026-11-05T23:06:37.370110Z",
+    "sourceAt": "2026-11-05T23:31:27Z",
+    "fetchedAt": "2026-11-05T23:36:41.034662Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275049:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after we requested EMS assistance for someone on a train at 7 Av.",
-        "description": "Some downtown [F] trains will run via the [G] line from Queens Plaza to Bergen St. (Bypassing Manhattan.)\nListen to announcements for how your train will operate.",
-        "periods": [
-          {
-            "start": 1793913060,
-            "end": null
-          }
-        ],
-        "createdAt": 1793913060,
-        "updatedAt": 1793917369
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809471590
+            "end": 1809473485
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "753b0d740c8f2ca20f1ed2615e506f6219ed678e5db7574744ba0578df9ed7ca"
+    "sha256": "102f3dccc8617f8117a69baafe0f17f576f4005d108172941333f492bde22eb0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T23:06:37.370110Z",
+    "fetchedAt": "2026-11-05T23:36:41.034662Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

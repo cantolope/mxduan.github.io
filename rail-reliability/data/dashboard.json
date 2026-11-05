@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T03:34:29.388705Z",
+  "generatedAt": "2026-11-05T03:44:19.365748Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T03:15:03Z",
-    "fetchedAt": "2026-11-05T03:34:29.388705Z",
+    "sourceAt": "2026-11-05T03:41:29Z",
+    "fetchedAt": "2026-11-05T03:44:19.365748Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:274952:29",
+        "type": "Stops Skipped",
+        "planned": false,
+        "priority": 29,
+        "header": "Downtown [A][E] trains are running on the express track from 34 St-Penn Station to Canal St while we investigate why a train's brakes were activated at 14 St.",
+        "description": "For service to/from bypassed stations, take an uptown train.",
+        "periods": [
+          {
+            "start": 1793849916,
+            "end": null
+          }
+        ],
+        "createdAt": 1793849916,
+        "updatedAt": 1793850088
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809400502
+            "end": 1809402088
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5375194c8bdc0998e88ddaa6b407c94dd0fbdc0226f87d238fa476d910b96371"
+    "sha256": "55f76147e54c43376d746ca966fc8e23125fc8e3abdd1551b56fab2f803268f1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T03:34:29.388705Z",
+    "fetchedAt": "2026-11-05T03:44:19.365748Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-05T01:20:18Z",
-            "toDate": "2026-11-05T06:33:20Z",
+            "toDate": "2026-11-05T06:43:19Z",
             "isNow": true
           }
         ]

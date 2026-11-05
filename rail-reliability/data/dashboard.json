@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T04:34:30.773283Z",
+  "generatedAt": "2026-11-05T04:49:41.643619Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,9 +21,45 @@
   },
   "current": {
     "sourceAt": "2026-11-05T04:28:03Z",
-    "fetchedAt": "2026-11-05T04:34:30.773283Z",
+    "fetchedAt": "2026-11-05T04:49:41.643619Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:35356",
+        "type": "Planned - Reroute",
+        "planned": true,
+        "priority": 18,
+        "header": "Jamaica Center-bound [E] runs via the Roosevelt Island [F] from W 4 St-Wash Sq, Manhattan to 21 St-Queensbridge, Queens, resuming service at 36 St",
+        "description": "[shuttle bus icon] Free Q96 buses run between Court Sq-23 St and 21 St-Queensbridge, stopping at Queens Plaza.\n\nTravel alternatives:\nFor 14 St, 23 St, 34 St-Penn Station, 42 St-Port Authority and 50 St, take the [A] or use nearby [F] stations along 6 Av.\n\nFor 7 Av, take the [D] instead.\n\nFor 5 Av/53 St, use nearby [F] stations at 57 St or 47-50 Sts.\n\nFor Lexington Av/53 St, use the nearby Lexington Av/59 St [N]  station.\n\nFor Court Sq-23 St, take the [7].\n\nFor Queens Plaza, take a Manhattan-bound [E] or Manhattan-bound [F] via transfer at Steinway St, use the nearby Queensboro Plaza [accessibility icon] | [7][N] station or take [shuttle bus icon] free shuttle buses.\n\nTransfer stations:\nW 4 St-Wash Sq [accessibility icon] | [A][E][D][F]\n34 St-Herald Sq [accessibility icon] | Jamaica Center-bound [E], [D][F][N]\n42 St-Port Authority/Times Sq/Bryant Park\n[7][A][E][D][F][N]\n47-50 Sts-Rockefeller Ctr [accessibility icon] | Jamaica Center-bound [E], [D][F]\n21 St-Queensbridge [accessibility icon] | Jamaica Center-bound [E], Jamaica-bound [F] and [shuttle bus icon]\nQueens Plaza [accessibility icon] | Manhattan-bound [E], Manhattan-bound [F] and [shuttle bus icon]\nSteinway St [E][F]\nJackson Hts-Roosevelt Av/74 St-Broadway [accessibility icon] | [7][E][F]\nNote: Brooklyn-bound [F] trains are rerouted via Court Sq [E] from 36 St to 5 Av/53 St and resumes service at 47-50 Sts-Rockefeller Ctr during this time.\n\nWhat's happening?\nTrack maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip.",
+        "periods": [
+          {
+            "start": 1793853900,
+            "end": 1793872800
+          }
+        ],
+        "createdAt": 1790954751,
+        "updatedAt": 1793804807
+      },
+      {
+        "id": "lmm:planned_work:35357",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Jamaica Center-bound [E] skips Briarwood",
+        "description": "For service to this station, take the [E] to Jamaica-Van Wyck and transfer to a Manhattan-bound [E].\n\nFor service from this station, take the [E] or [F] to Kew Gardens-Union Tpke and transfer to a Jamaica Center-bound [E].\n\nWhat's happening?\nWe're making station improvements",
+        "periods": [
+          {
+            "start": 1793767500,
+            "end": 1793786400
+          },
+          {
+            "start": 1793853900,
+            "end": 1793872800
+          }
+        ],
+        "createdAt": 1790955512,
+        "updatedAt": 1791471017
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -46,7 +82,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T04:34:30.773283Z",
+    "fetchedAt": "2026-11-05T04:49:41.643619Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

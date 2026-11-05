@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T20:51:18.971113Z",
+  "generatedAt": "2026-11-05T21:06:18.459449Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T20:48:19Z",
-    "fetchedAt": "2026-11-05T20:51:18.971113Z",
+    "sourceAt": "2026-11-05T21:06:17Z",
+    "fetchedAt": "2026-11-05T21:06:18.459449Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E][F] trains are running with delays after we moved a train that had its brakes activated near Queens Plaza.",
+        "header": "Downtown [E] trains are running with delays after we moved a train that had its brakes activated near Queens Plaza.",
         "description": "",
         "periods": [
           {
             "start": 1793910788,
-            "end": null
+            "end": 1793915100
           }
         ],
         "createdAt": 1793910788,
-        "updatedAt": 1793910788
+        "updatedAt": 1793912760
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809463699
+            "end": 1809464777
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f5ba854bc10df14b218ab41fa5b5c77a3c3200eeefc07d57c85d40166ed01563"
+    "sha256": "a66b249fc20b129f97b27141aa1c0706b70c04db42469f8ea9985bc40a305742"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T20:51:18.971113Z",
+    "fetchedAt": "2026-11-05T21:06:18.459449Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

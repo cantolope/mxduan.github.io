@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T18:50:56.736742Z",
+  "generatedAt": "2026-11-05T19:05:23.004910Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T18:43:31Z",
-    "fetchedAt": "2026-11-05T18:50:56.736742Z",
+    "sourceAt": "2026-11-05T19:04:19Z",
+    "fetchedAt": "2026-11-05T19:05:23.004910Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275030:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F][M][R] trains are running with delays after we requested EMS assistance for someone in need on a train at Jackson Heights-Roosevelt Av.",
-        "description": "Downtown [E][F] trains have resumed making express stops from Forest Hills-71 Av to Jackson Heights-Roosevelt Av.",
-        "periods": [
-          {
-            "start": 1793903489,
-            "end": null
-          }
-        ],
-        "createdAt": 1793903489,
-        "updatedAt": 1793904072
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809456209
+            "end": 1809457459
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7659b0bf61c0883979f4a0ef1620b885f92bd1ede23e50b98e0aeb5782a66bdc"
+    "sha256": "0eb1ff842681bb669d778617c5c1c7f897b8cbb928c769d76fe5a0db85510465"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T18:50:56.736742Z",
+    "fetchedAt": "2026-11-05T19:05:23.004910Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

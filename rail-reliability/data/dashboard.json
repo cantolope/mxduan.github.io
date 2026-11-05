@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T20:21:14.596257Z",
+  "generatedAt": "2026-11-05T20:36:18.209067Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T20:17:48Z",
-    "fetchedAt": "2026-11-05T20:21:14.596257Z",
+    "sourceAt": "2026-11-05T20:33:08Z",
+    "fetchedAt": "2026-11-05T20:36:18.209067Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275041:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E][F] trains are running with delays after we moved a train that had its brakes activated near Queens Plaza.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793910788,
+            "end": null
+          }
+        ],
+        "createdAt": 1793910788,
+        "updatedAt": 1793910788
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809461868
+            "end": 1809462784
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5c5dde8d7a23b6677f6fa863f4a4ad8fdb2ef4da7ba772d2dfe6cd3e95c1265e"
+    "sha256": "4aeb27299beb741ea34f324db00dad1d63e3253d49acca398e74d53e3354c600"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T20:21:14.596257Z",
+    "fetchedAt": "2026-11-05T20:36:18.209067Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

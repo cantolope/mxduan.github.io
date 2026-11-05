@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T21:21:22.494023Z",
+  "generatedAt": "2026-11-05T21:36:28.261109Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-05T21:18:21Z",
-    "fetchedAt": "2026-11-05T21:21:22.494023Z",
+    "sourceAt": "2026-11-05T21:32:24Z",
+    "fetchedAt": "2026-11-05T21:36:28.261109Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Reroute",
         "planned": false,
         "priority": 32,
-        "header": "Downtown [E][F] trains are rerouted via Roosevelt Island from Queens to Manhattan while we request EMS assistance for someone on a train at Lexington Av/53 St.",
-        "description": "Downtown [E] trains are running via Roosevelt Island from 36 St to 47-50 Sts-Rockefeller Ctr, then via the [F] to W 4 St-Wash Sq.\nDowntown [F] trains are either rerouted:\nVia Roosevelt Island from 36 St to 47-50 Sts-Rockefeller Ctr\nVia the [G] line from Court Sq to Bergen St, bypassing Manhattan\nListen to announcements for how your train will operate.\n\nFor Manhattan-bound service:\nAt Queens Plaza, take an [R] train\nAt Court Sq-23 St, take a [7] train.",
+        "header": "[E] trains are running with delays in both directions. \nDowntown [E] trains are rerouted via the [F] from 5 Av/53 St to W 4 St-Wash Sq.",
+        "description": "Expect delays on downtown [F] trains while they share the tracks with rerouted trains. \nIf your stop is skipped, take an uptown [E] train.\nWhat's Happening?\n \nWe are requesting EMS assistance for someone on a train at 7 Av.",
         "periods": [
           {
             "start": 1793913060,
@@ -38,23 +38,7 @@
           }
         ],
         "createdAt": 1793913060,
-        "updatedAt": 1793913501
-      },
-      {
-        "id": "lmm:alert:275041:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we moved a train that had its brakes activated near Queens Plaza.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1793910788,
-            "end": 1793915100
-          }
-        ],
-        "createdAt": 1793910788,
-        "updatedAt": 1793912760
+        "updatedAt": 1793914343
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809465501
+            "end": 1809466344
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c625ad0127a8c1c80404ac33da6b99cb58a9e5e9d99fa394a5421ca439479884"
+    "sha256": "ba8d052565b99dd208e13eeaa7bcbfcb0553c5237c03bc11256985cfc82be28c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-05T21:21:22.494023Z",
+    "fetchedAt": "2026-11-05T21:36:28.261109Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

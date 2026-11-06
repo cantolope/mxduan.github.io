@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T22:39:24.088058Z",
+  "generatedAt": "2026-11-06T22:54:25.194438Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T22:34:05Z",
-    "fetchedAt": "2026-11-06T22:39:24.088058Z",
+    "sourceAt": "2026-11-06T22:52:01Z",
+    "fetchedAt": "2026-11-06T22:54:25.194438Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are delayed in both directions while we investigate why a train's brakes activated at Jamaica-Van Wyck.",
-        "description": "",
+        "header": "[E] trains are running with delays in both directions after we moved a train that had its brakes activated near Jamaica-Van Wyck.",
+        "description": "[E] service has resumed between Briarwood and Jamaica Center-York College.",
         "periods": [
           {
             "start": 1794004412,
-            "end": null
+            "end": 1794007200
           }
         ],
         "createdAt": 1794004412,
-        "updatedAt": 1794004412
+        "updatedAt": 1794005367
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809556443
+            "end": 1809557520
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "45be73a3e34e6225f1fce5b1a39536bf81f1c4a3817d63c9a5eb34e125a598dd"
+    "sha256": "d2a244bc69f356f47b61bf352a4193af1e83b965946643712fae1e0f8eaf2293"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T22:39:24.088058Z",
+    "fetchedAt": "2026-11-06T22:54:25.194438Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

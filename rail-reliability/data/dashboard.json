@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T22:54:25.194438Z",
+  "generatedAt": "2026-11-06T23:24:25.841791Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T22:52:01Z",
-    "fetchedAt": "2026-11-06T22:54:25.194438Z",
+    "sourceAt": "2026-11-06T23:22:11Z",
+    "fetchedAt": "2026-11-06T23:24:25.841791Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275251:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are running with delays in both directions after we moved a train that had its brakes activated near Jamaica-Van Wyck.",
-        "description": "[E] service has resumed between Briarwood and Jamaica Center-York College.",
-        "periods": [
-          {
-            "start": 1794004412,
-            "end": 1794007200
-          }
-        ],
-        "createdAt": 1794004412,
-        "updatedAt": 1794005367
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809557520
+            "end": 1809559331
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "d2a244bc69f356f47b61bf352a4193af1e83b965946643712fae1e0f8eaf2293"
+    "sha256": "49b097bebc31b1440c1cf2e7dd4554c8369a2147ef874d12825b784d44407716"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T22:54:25.194438Z",
+    "fetchedAt": "2026-11-06T23:24:25.841791Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

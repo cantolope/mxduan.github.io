@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T22:24:21.581965Z",
+  "generatedAt": "2026-11-06T22:39:24.088058Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T22:17:43Z",
-    "fetchedAt": "2026-11-06T22:24:21.581965Z",
+    "sourceAt": "2026-11-06T22:34:05Z",
+    "fetchedAt": "2026-11-06T22:39:24.088058Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275251:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are delayed in both directions while we investigate why a train's brakes activated at Jamaica-Van Wyck.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794004412,
+            "end": null
+          }
+        ],
+        "createdAt": 1794004412,
+        "updatedAt": 1794004412
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809555462
+            "end": 1809556443
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "03ecfdac42f328c2feef9b215440992914ca36f7199d9dc0d69df639f3522302"
+    "sha256": "45be73a3e34e6225f1fce5b1a39536bf81f1c4a3817d63c9a5eb34e125a598dd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T22:24:21.581965Z",
+    "fetchedAt": "2026-11-06T22:39:24.088058Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

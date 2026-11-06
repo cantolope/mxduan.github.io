@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T08:53:06.677760Z",
+  "generatedAt": "2026-11-06T09:08:11.008656Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-06T08:39:05Z",
-    "fetchedAt": "2026-11-06T08:53:06.677760Z",
+    "fetchedAt": "2026-11-06T09:08:11.008656Z",
     "state": "ok",
     "alerts": [
       {
@@ -39,22 +39,6 @@
         ],
         "createdAt": 1793944512,
         "updatedAt": 1793944512
-      },
-      {
-        "id": "lmm:alert:275132:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[A][D][E][F] trains are running with delays in both directions after emergency teams responded to a person who was struck by a train at Broadway-Lafayette St.",
-        "description": "Downtown [D] trains have resumed running scheduled service from W 4 St-Wash Sq to Coney Island-Stillwell Av.",
-        "periods": [
-          {
-            "start": 1793949314,
-            "end": 1793955540
-          }
-        ],
-        "createdAt": 1793949314,
-        "updatedAt": 1793953143
       },
       {
         "id": "lmm:planned_work:33366",
@@ -78,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T08:53:06.677760Z",
+    "fetchedAt": "2026-11-06T09:08:11.008656Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

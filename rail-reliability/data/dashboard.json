@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T08:07:58.766547Z",
+  "generatedAt": "2026-11-06T08:23:03.869356Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T07:51:02Z",
-    "fetchedAt": "2026-11-06T08:07:58.766547Z",
+    "sourceAt": "2026-11-06T08:19:04Z",
+    "fetchedAt": "2026-11-06T08:23:03.869356Z",
     "state": "ok",
     "alerts": [
       {
@@ -45,16 +45,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[A][E] trains are delayed in both directions. \nDowntown [D] trains are running on the [F] line from W 4 St-Wash Sq to Coney Island-Stillwell Av.",
-        "description": "What's Happening?\nEmergency teams are responding to a person who was struck by a train at Broadway-Lafayette St.\n\nAdditional Service Changes:\n\nThe last stop on some [A][D] trains is 59 St-Columbus Circle.\nSome Coney Island-Stillwell Av-bound [N] train are running on the [D] line from 36 St to Coney Island-Stillwell Av.\n\nListen to onboard announcements to hear how your train will run.\n\nYou may wait longer for a downtown [F] train while rerouted trains share the tracks.\n\nAs an alternative, consider taking [1][2] trains.",
+        "header": "[A][D][E][F] trains are running with delays in both directions after emergency teams responded to a person who was struck by a train at Broadway-Lafayette St.",
+        "description": "Downtown [D] trains have resumed running scheduled service from W 4 St-Wash Sq to Coney Island-Stillwell Av.",
         "periods": [
           {
             "start": 1793949314,
-            "end": null
+            "end": 1793955540
           }
         ],
         "createdAt": 1793949314,
-        "updatedAt": 1793951462
+        "updatedAt": 1793953143
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809503461
+            "end": 1809505144
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "873f934429f177ec089e8182ddc0c88d86e08bb4489ffd36a4a0a809acb9fd6c"
+    "sha256": "fde3b35a6157356037bfa30d9306c459723e1bb9980197a791f29e095e91fa7f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T08:07:58.766547Z",
+    "fetchedAt": "2026-11-06T08:23:03.869356Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

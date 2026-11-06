@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T03:22:20.760542Z",
+  "generatedAt": "2026-11-06T03:37:21.479851Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T03:17:21Z",
-    "fetchedAt": "2026-11-06T03:22:20.760542Z",
+    "sourceAt": "2026-11-06T03:35:44Z",
+    "fetchedAt": "2026-11-06T03:37:21.479851Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275105:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays after we requested NYPD assistance for someone being disruptive on a train at 34 St-Penn Station.",
-        "description": "Uptown [C] trains have resumed making local stops from Canal St and 59 St-Columbus Circle\n.\nUptown [E] trains have resumed making local stops from  Canal St and 42 St-Port Authority Bus Terminal.",
-        "periods": [
-          {
-            "start": 1793932283,
-            "end": 1793935800
-          }
-        ],
-        "createdAt": 1793932283,
-        "updatedAt": 1793934833
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809487041
+            "end": 1809488143
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "46d73fb15046a8f911c920f8026de93b53cc3d01d86b47eb7ef954b404ff0c7b"
+    "sha256": "1703b0d84a6241859a2c8562d5d0aa98a90f5e675003263e9429cb689beebc5a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T03:22:20.760542Z",
+    "fetchedAt": "2026-11-06T03:37:21.479851Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-06T01:22:32Z",
-            "toDate": "2026-11-06T06:21:37Z",
+            "toDate": "2026-11-06T06:36:38Z",
             "isNow": true
           }
         ]

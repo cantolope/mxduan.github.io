@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T21:39:14.409146Z",
+  "generatedAt": "2026-11-06T21:54:14.340161Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T21:35:02Z",
-    "fetchedAt": "2026-11-06T21:39:14.409146Z",
+    "sourceAt": "2026-11-06T21:54:10Z",
+    "fetchedAt": "2026-11-06T21:54:14.340161Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275245:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays after NYPD conducted an investigation at Jackson Heights-Roosevelt Av.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794001921,
+            "end": 1794003300
+          }
+        ],
+        "createdAt": 1794001921,
+        "updatedAt": 1794002050
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809552900
+            "end": 1809554050
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1fc4898ca16a0b4d77db1b5b68ae086ae74e91575943bcd96f0f479f9ef906dc"
+    "sha256": "6c8c756520e0bf2a6926e83ee8e2e2bc426f2cadcee13a6bc70117da6d7354bd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T21:39:14.409146Z",
+    "fetchedAt": "2026-11-06T21:54:14.340161Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

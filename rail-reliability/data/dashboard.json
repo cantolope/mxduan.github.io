@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T15:38:14.195289Z",
+  "generatedAt": "2026-11-06T15:53:16.647407Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T15:14:47Z",
-    "fetchedAt": "2026-11-06T15:38:14.195289Z",
+    "sourceAt": "2026-11-06T15:52:49Z",
+    "fetchedAt": "2026-11-06T15:53:16.647407Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809530087
+            "end": 1809532369
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "342576f93fafb53f95f575b65a5f171556cbdc2c13462116285df126dc35be72"
+    "sha256": "84feb052b14b83a7d80271840395a30d01a8201f26100b45b7276778ba1dedd3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T15:38:14.195289Z",
+    "fetchedAt": "2026-11-06T15:53:16.647407Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays while we fix a faulty train at Green Park.",
+        "reason": "Victoria Line: Minor delays while due to a earlier faulty train at Green Park.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-06T15:18:00Z",
+            "fromDate": "2026-11-06T15:48:31Z",
             "toDate": "2026-11-07T01:29:00Z",
             "isNow": true
           }

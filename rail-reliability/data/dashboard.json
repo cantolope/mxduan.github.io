@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T02:22:05.389264Z",
+  "generatedAt": "2026-11-06T02:37:09.266278Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-06T02:15:10Z",
-    "fetchedAt": "2026-11-06T02:22:05.389264Z",
+    "sourceAt": "2026-11-06T02:31:24Z",
+    "fetchedAt": "2026-11-06T02:37:09.266278Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275105:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [C][E] trains are delayed while we investigate a report of someone being disruptive on a train at 34 St-Penn Station.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1793932283,
+            "end": null
+          }
+        ],
+        "createdAt": 1793932283,
+        "updatedAt": 1793932283
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809483309
+            "end": 1809484281
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "45c1a18234581104ec4d0eac299c0ca52a6a1306c5b5a3b55a93dfd4556b0300"
+    "sha256": "256e473ff8f9214d4e3534a2248b409f23eb3de8cac0ce1f9514358fec924c64"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-06T02:22:05.389264Z",
+    "fetchedAt": "2026-11-06T02:37:09.266278Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-06T01:22:32Z",
-            "toDate": "2026-11-06T05:21:20Z",
+            "toDate": "2026-11-06T05:35:20Z",
             "isNow": true
           }
         ]

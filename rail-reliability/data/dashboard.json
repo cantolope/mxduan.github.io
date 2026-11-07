@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T01:24:42.662574Z",
+  "generatedAt": "2026-11-07T01:39:46.859481Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-07T01:24:24Z",
-    "fetchedAt": "2026-11-07T01:24:42.662574Z",
+    "sourceAt": "2026-11-07T01:28:38Z",
+    "fetchedAt": "2026-11-07T01:39:46.859481Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275264:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are delayed entering/leaving World Trade Center while we request EMS assistance for someone in need at that station.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794013103,
-            "end": null
-          }
-        ],
-        "createdAt": 1794013103,
-        "updatedAt": 1794013103
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809566661
+            "end": 1809566918
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "dd89f10e81e8f9c96a36253a93dce49b5935d63d80615c666dc88e922c580b4b"
+    "sha256": "a254060cb61d42a686824f9e295fe6d90d4a00266431c744a77d9d510cd95fdc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-07T01:24:42.662574Z",
+    "fetchedAt": "2026-11-07T01:39:46.859481Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

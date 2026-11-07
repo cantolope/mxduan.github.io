@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T13:26:51.006195Z",
+  "generatedAt": "2026-11-07T13:34:16.466625Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-07T13:15:29Z",
-    "fetchedAt": "2026-11-07T13:26:51.006195Z",
+    "sourceAt": "2026-11-07T13:31:57Z",
+    "fetchedAt": "2026-11-07T13:34:16.466625Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809609329
+            "end": 1809610316
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2718d5ddf09ae8e5043f5f4f7ca982722a67c3efc79d5a261a953ca6b945f7b0"
+    "sha256": "8e69409fbeb41bfab78cdea6982c658f90b207932e4bb2eb753c5896fd2a0962"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-07T13:26:51.006195Z",
+    "fetchedAt": "2026-11-07T13:34:16.466625Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

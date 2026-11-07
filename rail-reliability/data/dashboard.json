@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T10:11:18.551541Z",
+  "generatedAt": "2026-11-07T10:26:23.832413Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-07T10:04:47Z",
-    "fetchedAt": "2026-11-07T10:11:18.551541Z",
+    "sourceAt": "2026-11-07T10:19:57Z",
+    "fetchedAt": "2026-11-07T10:26:23.832413Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275303:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we requested EMS/NYPD assistance for someone on a train at Court Sq-23 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794044593,
-            "end": null
-          }
-        ],
-        "createdAt": 1794044593,
-        "updatedAt": 1794044795
-      },
       {
         "id": "lmm:planned_work:35343",
         "type": "Planned - Stops Skipped",
@@ -74,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809597886
+            "end": 1809598793
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +66,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9de954162492c163d0be81ffbf2f4ff5f681ea145824f2280b39a280ae60e220"
+    "sha256": "3681d0c7d096a68a33e15bb7b4fd996b253bcd12221fff156d97df14a1309bca"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-07T10:11:18.551541Z",
+    "fetchedAt": "2026-11-07T10:26:23.832413Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

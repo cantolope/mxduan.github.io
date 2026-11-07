@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T10:41:26.209939Z",
+  "generatedAt": "2026-11-07T10:56:27.946836Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-07T10:38:16Z",
-    "fetchedAt": "2026-11-07T10:41:26.209939Z",
+    "sourceAt": "2026-11-07T10:46:56Z",
+    "fetchedAt": "2026-11-07T10:56:27.946836Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [A][E] trains are delayed while we request NYPD assistance with someone being disruptive on a train at W 4 St-Wash Sq.",
+        "header": "Uptown [A][E] trains are running with delays after NYPD responded to someone being disruptive on a train at W 4 St-Wash Sq.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794047896,
-        "updatedAt": 1794047896
+        "updatedAt": 1794048415
       },
       {
         "id": "lmm:planned_work:35343",
@@ -74,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809599895
+            "end": 1809600415
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "262c39642112deae304b21669cbfa114cc940ca753877f1a83216ecd703a9e3f"
+    "sha256": "a76bdaddfec001f20a2bcda26e437aa571f9434d6674f46acb27fc882217bd42"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-07T10:41:26.209939Z",
+    "fetchedAt": "2026-11-07T10:56:27.946836Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

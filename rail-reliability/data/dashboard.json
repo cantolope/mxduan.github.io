@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T11:11:28.588855Z",
+  "generatedAt": "2026-11-07T11:26:29.645844Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-07T11:02:44Z",
-    "fetchedAt": "2026-11-07T11:11:28.588855Z",
+    "fetchedAt": "2026-11-07T11:26:29.645844Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275304:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E] trains are running with delays after NYPD responded to someone being disruptive on a train at W 4 St-Wash Sq.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794047896,
-            "end": 1794050400
-          }
-        ],
-        "createdAt": 1794047896,
-        "updatedAt": 1794049363
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-07T11:11:28.588855Z",
+    "fetchedAt": "2026-11-07T11:26:29.645844Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

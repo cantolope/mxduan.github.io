@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T04:40:22.938839Z",
+  "generatedAt": "2026-11-07T04:55:25.392651Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,34 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-07T04:30:20Z",
-    "fetchedAt": "2026-11-07T04:40:22.938839Z",
+    "sourceAt": "2026-11-07T04:54:16Z",
+    "fetchedAt": "2026-11-07T04:55:25.392651Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:35343",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
+        "description": "For service to these stations, take the [E] or [F] to Jackson Hts-Roosevelt Av [accessibility icon] and transfer to a local Manhattan-bound [E] or [F].\n\nFor service from these stations, take the [E] to Queens Plaza [accessibility icon] or the [F] to 21 St-Queensbridge [accessibility icon] and transfer to a Jamaica-bound train.\n\nSchedule reminder: [E][F] does not serve these local stations days and evenings.\n\nWhat's happening?\nWe're making accessibility improvements",
+        "periods": [
+          {
+            "start": 1794026700,
+            "end": 1794049200
+          },
+          {
+            "start": 1794106800,
+            "end": 1794135600
+          },
+          {
+            "start": 1794193200,
+            "end": 1794218400
+          }
+        ],
+        "createdAt": 1790950866,
+        "updatedAt": 1791315397
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809577816
+            "end": 1809579256
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +66,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1664af6f8de470d545964a0062fe4454f1fdb1eb237a379e67c91006999bfa41"
+    "sha256": "c015cc7884fdd9f4a34dbb6eea7603d306adf69b79014356656defbec4ca4be5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-07T04:40:22.938839Z",
+    "fetchedAt": "2026-11-07T04:55:25.392651Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

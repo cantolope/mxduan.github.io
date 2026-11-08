@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-08T07:57:53.628533Z",
+  "generatedAt": "2026-11-08T08:12:52.076940Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-08T07:55:43Z",
-    "fetchedAt": "2026-11-08T07:57:53.628533Z",
+    "sourceAt": "2026-11-08T08:04:38Z",
+    "fetchedAt": "2026-11-08T08:12:52.076940Z",
     "state": "ok",
     "alerts": [
       {
@@ -58,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809676540
+            "end": 1809677078
           }
         ],
         "createdAt": 1784303199,
@@ -66,21 +66,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "24f8748aa14653c07d3b401d36630a0743ffed1b5b72163b12bbb2cae4440beb"
+    "sha256": "990459f7aba827aec6459de4a6eea70c9dbfa741135b28027810dc2240999744"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-08T07:57:53.628533Z",
+    "fetchedAt": "2026-11-08T08:12:52.076940Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier customer incident at King's Cross St Pancras. Tickets are being accepted on London Buses.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to an earlier customer incident at King's Cross St Pancras.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-08T07:34:18Z",
+            "fromDate": "2026-11-08T08:11:20Z",
             "toDate": "2026-11-09T01:29:00Z",
             "isNow": true
           }

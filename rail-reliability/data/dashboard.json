@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-09T05:44:06.284945Z",
+  "generatedAt": "2026-11-09T05:59:07.518973Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-09T04:12:50Z",
-    "fetchedAt": "2026-11-09T05:44:06.284945Z",
+    "sourceAt": "2026-11-09T05:49:39Z",
+    "fetchedAt": "2026-11-09T05:59:07.518973Z",
     "state": "ok",
     "alerts": [
       {
@@ -58,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809749569
+            "end": 1809755377
           }
         ],
         "createdAt": 1784303199,
@@ -66,11 +66,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2cc4a2853cd6f93e48b9472b6fbaa0c12777d2c9cd4b446cc73f6fb4421a67a5"
+    "sha256": "66c3df7b3cd4cc0f525266b339b2ac79ff091eb4f71205780f7ff80ebfbf789d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-09T05:44:06.284945Z",
+    "fetchedAt": "2026-11-09T05:59:07.518973Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -84,17 +84,10 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-11-08T05:57:53.255697Z",
+    "fetchedAt": "2026-11-09T05:59:07.518973Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-07-12",
-          "end": "2026-07-13",
-          "coverage": "archive-window",
-          "count": 1,
-          "days": 1
-        },
         {
           "start": "2026-07-13",
           "end": "2026-07-14",
@@ -927,6 +920,13 @@
           "coverage": "unavailable",
           "count": null,
           "days": null
+        },
+        {
+          "start": "2026-11-09",
+          "end": "2026-11-10",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
         }
       ],
       "month": [
@@ -1070,13 +1070,6 @@
     "coverageStart": "2020-04-28",
     "weeks": [
       {
-        "start": "2026-07-20",
-        "coverage": "archive-window",
-        "count": 35,
-        "days": 7,
-        "planned": 0
-      },
-      {
         "start": "2026-07-27",
         "coverage": "archive-window",
         "count": 36,
@@ -1176,6 +1169,13 @@
       },
       {
         "start": "2026-11-02",
+        "coverage": "unavailable",
+        "count": null,
+        "days": null,
+        "planned": null
+      },
+      {
+        "start": "2026-11-09",
         "coverage": "unavailable",
         "count": null,
         "days": null,
@@ -1800,323 +1800,6 @@
           "delays"
         ],
         "alertId": "533236"
-      },
-      {
-        "eventId": "260292",
-        "firstDelayAt": "2026-07-26T11:01:00.000",
-        "header": "Uptown E trains are running with delays after emergency teams responded to someone who was struck by a train earlier at Court Sq-23 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "533053"
-      },
-      {
-        "eventId": "260285",
-        "firstDelayAt": "2026-07-26T07:03:00.000",
-        "header": "Manhattan-bound E trains running via the F from 36 St to W 4 St-Wash Sq while emergency teams respond to someone who was struck by a train at Court Sq-23 St.",
-        "labels": [
-          "delays",
-          "reroute"
-        ],
-        "alertId": "533034"
-      },
-      {
-        "eventId": "260283",
-        "firstDelayAt": "2026-07-26T05:18:00.000",
-        "header": "E/F trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "533030"
-      },
-      {
-        "eventId": "260191",
-        "firstDelayAt": "2026-07-25T03:18:00.000",
-        "header": "Downtown A/E trains are delayed while we address a mechanical problem on a train at 50 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532849"
-      },
-      {
-        "eventId": "260150",
-        "firstDelayAt": "2026-07-24T20:58:00.000",
-        "header": "Downtown E/F trains are delayed while we investigate why a train's brakes activated near Queens Plaza.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532715"
-      },
-      {
-        "eventId": "260147",
-        "firstDelayAt": "2026-07-24T20:17:00.000",
-        "header": "Uptown E trains are running with delays.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532702"
-      },
-      {
-        "eventId": "260126",
-        "firstDelayAt": "2026-07-24T18:50:00.000",
-        "header": "E trains are running with delays in both directions.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532653"
-      },
-      {
-        "eventId": "260042",
-        "firstDelayAt": "2026-07-24T08:10:00.000",
-        "header": "Downtown A/E trains are delayed while we request EMS assistance for a person in need on a train at 34 St-Penn Station.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532485"
-      },
-      {
-        "eventId": "260031",
-        "firstDelayAt": "2026-07-24T03:38:00.000",
-        "header": "E F trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532463"
-      },
-      {
-        "eventId": "260015",
-        "firstDelayAt": "2026-07-24T00:17:00.000",
-        "header": "E/F trains are running with delays in both directions while we address a signal problem near Lexington Av/53 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532428"
-      },
-      {
-        "eventId": "259967",
-        "firstDelayAt": "2026-07-23T18:34:00.000",
-        "header": "Downtown E/F trains are running with delays after we moved a train that had its brakes activated near Lexington Av/53 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532329"
-      },
-      {
-        "eventId": "259960",
-        "firstDelayAt": "2026-07-23T17:43:00.000",
-        "header": "Uptown C trains express from Canal St to 59 St-Columbus Circle while we address a switch problem at 59 St-Columbus Circle.",
-        "labels": [
-          "delays",
-          "stops-skipped"
-        ],
-        "alertId": "532317"
-      },
-      {
-        "eventId": "259944",
-        "firstDelayAt": "2026-07-23T14:54:00.000",
-        "header": "Downtown E/F/M/R trains are running with delays while we perform signal maintenance near Jackson Heights-Roosevelt Av.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532283"
-      },
-      {
-        "eventId": "259929",
-        "firstDelayAt": "2026-07-23T13:31:00.000",
-        "header": "Uptown C/E trains are running with delays after we removed debris from the tracks at Spring St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532259"
-      },
-      {
-        "eventId": "259906",
-        "firstDelayAt": "2026-07-23T11:02:00.000",
-        "header": "Downtown E trains are delayed while we remove a train with a mechanical problem from service at Jamaica-Van Wyck.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532218"
-      },
-      {
-        "eventId": "259884",
-        "firstDelayAt": "2026-07-23T04:49:00.000",
-        "header": "E/F trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532156"
-      },
-      {
-        "eventId": "259882",
-        "firstDelayAt": "2026-07-23T03:56:00.000",
-        "header": "Uptown E trains are delayed while we address a door problem on a train at Canal St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532152"
-      },
-      {
-        "eventId": "259828",
-        "firstDelayAt": "2026-07-22T21:23:00.000",
-        "header": "Jamaica-bound E trains are running with delays after we moved a train that had its brakes activated near 7 Av.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "532053"
-      },
-      {
-        "eventId": "259800",
-        "firstDelayAt": "2026-07-22T19:05:00.000",
-        "header": "Downtown E/F trains are delayed while we investigate what caused a train's brakes to be activated at Queens Plaza.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531995"
-      },
-      {
-        "eventId": "259776",
-        "firstDelayAt": "2026-07-22T17:07:00.000",
-        "header": "Downtown E/F trains are running with delays after the FDNY responded to a track fire at 75 Av.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531969"
-      },
-      {
-        "eventId": "259758",
-        "firstDelayAt": "2026-07-22T14:51:00.000",
-        "header": "Downtown C/E trains have resumed scheduled stops after we removed a train car in need of cleaning from service at 23 St.\nExpect downtown C/E train delays.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531926"
-      },
-      {
-        "eventId": "259728",
-        "firstDelayAt": "2026-07-22T10:59:00.000",
-        "header": "E trains are running with delays in both directions while we address a switch malfunction near Jamaica Center-Parsons/Archer.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531873"
-      },
-      {
-        "eventId": "259714",
-        "firstDelayAt": "2026-07-22T08:54:00.000",
-        "header": "Jamaica Center-Parsons/Archer-bound E/Jamaica-179 St-bound F trains are delayed while we investigate why a train's brakes were activated at 63 Dr-Rego Park.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531845"
-      },
-      {
-        "eventId": "259705",
-        "firstDelayAt": "2026-07-22T05:49:00.000",
-        "header": "Uptown E/F trains are delayed while we request EMS assistance for a person in need on a train at Jamaica-179 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531821"
-      },
-      {
-        "eventId": "259702",
-        "firstDelayAt": "2026-07-22T04:39:00.000",
-        "header": "E/F  trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531817"
-      },
-      {
-        "eventId": "259640",
-        "firstDelayAt": "2026-07-21T21:38:00.000",
-        "header": "E trains are running with delays in both directions after we moved a train that had its brakes activated at Lexington Av/53 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531706"
-      },
-      {
-        "eventId": "259634",
-        "firstDelayAt": "2026-07-21T20:59:00.000",
-        "header": "Jamaica-bound E/F trains are delayed while we investigate why a train's brakes activated near Lexington Av/53 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531695"
-      },
-      {
-        "eventId": "259625",
-        "firstDelayAt": "2026-07-21T20:23:00.000",
-        "header": "Downtown E trains are running with delays after we moved a train that had its brakes activated at 50 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531682"
-      },
-      {
-        "eventId": "259493",
-        "firstDelayAt": "2026-07-21T04:49:00.000",
-        "header": "E/F trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531449"
-      },
-      {
-        "eventId": "259452",
-        "firstDelayAt": "2026-07-20T22:16:00.000",
-        "header": "Uptown C/E trains are running with delays after we moved a train that had its brakes activated at 50 St .",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531368"
-      },
-      {
-        "eventId": "259418",
-        "firstDelayAt": "2026-07-20T20:00:00.000",
-        "header": "E trains are delayed in both directions while we investigate what activated a train's brakes at Sutphin Blvd/Archer Av-JFK Airport.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531312"
-      },
-      {
-        "eventId": "259390",
-        "firstDelayAt": "2026-07-20T15:56:00.000",
-        "header": "E/F/M/R trains are delayed in both directions while we address a signal problem near 36 St (QNS).",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531245"
-      },
-      {
-        "eventId": "259366",
-        "firstDelayAt": "2026-07-20T13:48:00.000",
-        "header": "Uptown C/E trains are delayed while we request EMS for someone in need of medical assistance on a train at 34 St-Penn Station.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531202"
-      },
-      {
-        "eventId": "259329",
-        "firstDelayAt": "2026-07-20T08:52:00.000",
-        "header": "Uptown E trains are delayed while we investigate why a train's brakes were activated at 50 St.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531148"
-      },
-      {
-        "eventId": "259325",
-        "firstDelayAt": "2026-07-20T07:11:00.000",
-        "header": "E/F trains are running with delays in both directions after track maintenance at Sutphin Blvd concluded.",
-        "labels": [
-          "delays"
-        ],
-        "alertId": "531143"
       }
     ],
     "state": "ok",

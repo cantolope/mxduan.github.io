@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T04:30:20.931683Z",
+  "generatedAt": "2026-11-10T04:45:19.806041Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-10T04:26:18Z",
-    "fetchedAt": "2026-11-10T04:30:20.931683Z",
+    "sourceAt": "2026-11-10T04:38:43Z",
+    "fetchedAt": "2026-11-10T04:45:19.806041Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,44 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [D] trains via the [A] from W 4 St-Wash Sq to 59 St-Columbus Circle. \nUptown [F] trains rerouted via Court Sq-23 St from 47-50 Sts-Rockefeller Ctr to 36 St.",
-        "description": "If your stop is skipped, take a downtown [D][F] train.\nExpect delays on uptown [A][E] trains while they share tracks with rerouted trains. \nWhat's Happening?\n \nWe are addressing  a switch problem at 47-50 Sts-Rockefeller Ctr.",
+        "header": "Uptown [A] [D][E][F] trains are running with delays after we addressed a switch problem at 47-50 Sts-Rockefeller Ctr.",
+        "description": "Uptown [D] trains have resumed running scheduled service from W 4 St-Wash Sq to 59 St-Columbus Circle. \nUptown [F] trains have resumed running scheduled service  from 47-50 Sts-Rockefeller Ctr to 36 St.",
         "periods": [
           {
             "start": 1794281580,
-            "end": null
+            "end": 1794286740
           }
         ],
         "createdAt": 1794281580,
-        "updatedAt": 1794283044
+        "updatedAt": 1794285523
+      },
+      {
+        "id": "lmm:planned_work:35526",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
+        "description": "For service to these stations, take a train to Jackson Hts-Roosevelt Av and transfer to a Manhattan-bound [E][F] local.\n\nFor service from these stations, take the [E] to Queens Plaza, or the [F] to 21 St-Queensbridge and transfer to a Jamaica-bound train.\n\nWhat's happening?\nTrack maintenance",
+        "periods": [
+          {
+            "start": 1794285900,
+            "end": 1794304800
+          },
+          {
+            "start": 1794372300,
+            "end": 1794391200
+          },
+          {
+            "start": 1794458700,
+            "end": 1794477600
+          },
+          {
+            "start": 1794545100,
+            "end": 1794564000
+          }
+        ],
+        "createdAt": 1791468498,
+        "updatedAt": 1791900669
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +78,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809836778
+            "end": 1809837523
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +86,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9d44bf8fccf27aa004e61e3c450761f0f3524c09ee9896a45de66a03aa48ec0a"
+    "sha256": "adf53701fc7c721e543a51a6fe7842eda5b83ff18e0c78dbd0eee1dc841a3526"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-10T04:30:20.931683Z",
+    "fetchedAt": "2026-11-10T04:45:19.806041Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
-        "reason": "Victoria Line: Service will resume later this morning.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-10T01:21:59Z",
-            "toDate": "2026-11-10T07:28:33Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

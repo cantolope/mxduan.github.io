@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T07:00:21.254558Z",
+  "generatedAt": "2026-11-10T07:15:22.611946Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-10T06:36:23Z",
-    "fetchedAt": "2026-11-10T07:00:21.254558Z",
+    "fetchedAt": "2026-11-10T07:15:22.611946Z",
     "state": "ok",
     "alerts": [
       {
@@ -39,22 +39,6 @@
         ],
         "createdAt": 1794289277,
         "updatedAt": 1794289277
-      },
-      {
-        "id": "lmm:alert:275643:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [A][E] trains are running with delays after EMS/NYPD responded to a person in need on a train at 42 St-Port Authority Bus Terminal.",
-        "description": "Downtown [A] trains have resumed running on the local track from 59 St-Columbus Circle to Canal St\n.\nDowntown [E] trains have resumed running on the local track from 42 St-Port Authority Bus Terminal to Canal St.",
-        "periods": [
-          {
-            "start": 1794291619,
-            "end": 1794294300
-          }
-        ],
-        "createdAt": 1794291619,
-        "updatedAt": 1794292582
       },
       {
         "id": "lmm:planned_work:35526",
@@ -106,7 +90,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-10T07:00:21.254558Z",
+    "fetchedAt": "2026-11-10T07:15:22.611946Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

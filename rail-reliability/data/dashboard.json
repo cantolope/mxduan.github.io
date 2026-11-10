@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T03:45:20.640432Z",
+  "generatedAt": "2026-11-10T04:00:22.145672Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-10T03:33:28Z",
-    "fetchedAt": "2026-11-10T03:45:20.640432Z",
+    "sourceAt": "2026-11-10T03:57:24Z",
+    "fetchedAt": "2026-11-10T04:00:22.145672Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275631:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [D] trains via the [A] from W 4 St-Wash Sq to 59 St-Columbus Circle. \nUptown [F] trains rerouted via Court Sq-23 St from 47-50 Sts-Rockefeller Ctr to 36 St.",
+        "description": "If your stop is skipped, take a downtown [D][F] train.\nExpect delays on uptown [A][E] trains while they share tracks with rerouted trains. \nWhat's Happening?\n \nWe are addressing  a switch problem at 47-50 Sts-Rockefeller Ctr.",
+        "periods": [
+          {
+            "start": 1794281580,
+            "end": null
+          }
+        ],
+        "createdAt": 1794281580,
+        "updatedAt": 1794283044
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809833604
+            "end": 1809835043
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "23bc0d326f57e5de7f2674854563a3a207288fd8e1c328d582cda97286f5d8d3"
+    "sha256": "b65966eedc4ac5e522ebc34a59306368d1c288edcd0337158d228065a118b66c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-10T03:45:20.640432Z",
+    "fetchedAt": "2026-11-10T04:00:22.145672Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-10T01:21:59Z",
-            "toDate": "2026-11-10T06:43:25Z",
+            "toDate": "2026-11-10T06:58:32Z",
             "isNow": true
           }
         ]

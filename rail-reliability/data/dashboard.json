@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T15:31:30.098482Z",
+  "generatedAt": "2026-11-10T15:46:32.648449Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-10T15:30:02Z",
-    "fetchedAt": "2026-11-10T15:31:30.098482Z",
+    "sourceAt": "2026-11-10T15:40:58Z",
+    "fetchedAt": "2026-11-10T15:46:32.648449Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275707:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [C][E] trains are running with delays after NYPD conducted an investigation on a train at 42 St-Port Authority Bus Terminal.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794325037,
+            "end": null
+          }
+        ],
+        "createdAt": 1794325037,
+        "updatedAt": 1794325080
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809876602
+            "end": 1809877258
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "abc4c15f4fc5bc4f5105cb836878e67554816aa99b27538515291e36e25cb291"
+    "sha256": "752b614900990a5503dd2885b4570f29d0e147f808f888a4127e96d573525008"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-10T15:31:30.098482Z",
+    "fetchedAt": "2026-11-10T15:46:32.648449Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

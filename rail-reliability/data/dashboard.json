@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T04:45:19.806041Z",
+  "generatedAt": "2026-11-10T05:00:20.746165Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-10T04:38:43Z",
-    "fetchedAt": "2026-11-10T04:45:19.806041Z",
+    "fetchedAt": "2026-11-10T05:00:20.746165Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275631:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A] [D][E][F] trains are running with delays after we addressed a switch problem at 47-50 Sts-Rockefeller Ctr.",
-        "description": "Uptown [D] trains have resumed running scheduled service from W 4 St-Wash Sq to 59 St-Columbus Circle. \nUptown [F] trains have resumed running scheduled service  from 47-50 Sts-Rockefeller Ctr to 36 St.",
-        "periods": [
-          {
-            "start": 1794281580,
-            "end": 1794286740
-          }
-        ],
-        "createdAt": 1794281580,
-        "updatedAt": 1794285523
-      },
       {
         "id": "lmm:planned_work:35526",
         "type": "Planned - Stops Skipped",
@@ -90,7 +74,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-10T04:45:19.806041Z",
+    "fetchedAt": "2026-11-10T05:00:20.746165Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

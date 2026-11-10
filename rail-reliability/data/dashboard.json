@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T17:31:41.274826Z",
+  "generatedAt": "2026-11-10T17:46:42.151771Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-10T17:31:11Z",
-    "fetchedAt": "2026-11-10T17:31:41.274826Z",
+    "sourceAt": "2026-11-10T17:32:31Z",
+    "fetchedAt": "2026-11-10T17:46:42.151771Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809883871
+            "end": 1809883951
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "efdca801782cfbc19f32e8f9438fdff3f3027f378b8067bcde0b53967f5eb255"
+    "sha256": "03f72bc495771055167e2f64d44299f319ee2840c4dafb1e2171e00dca728cbc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-10T17:31:41.274826Z",
+    "fetchedAt": "2026-11-10T17:46:42.151771Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays while we fix a track fault at Brixton.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays while we fix a track fault at Brixton. Tickets are being accepted on London Buses, London Overground, Great Northern Railway, Thameslink, Greater Anglia, South Western Railway and Southeastern Railway services.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-10T16:55:11Z",
+            "fromDate": "2026-11-10T17:35:35Z",
             "toDate": "2026-11-11T01:29:00Z",
             "isNow": true
           }

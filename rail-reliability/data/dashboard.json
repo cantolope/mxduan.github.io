@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T11:03:53.085024Z",
+  "generatedAt": "2026-11-11T11:18:55.948944Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T09:15:31Z",
-    "fetchedAt": "2026-11-11T11:03:53.085024Z",
+    "sourceAt": "2026-11-11T11:13:55Z",
+    "fetchedAt": "2026-11-11T11:18:55.948944Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275805:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica Center-York College-bound [E] and Jamaica-179 St-bound [F] trains are running with delays while we address a signal problem at Kew Gardens-Union Tpke.",
+        "description": "Some Jamaica Center-York College--bound [E] and Jamaica-179 St-bound [F] trains will end at Queens Plaza or Forest Hills-71 Av.\nSome uptown [E] trains are running on the [C] line from 50 St to 168 St.\nListen for announcements to hear how your train will run.",
+        "periods": [
+          {
+            "start": 1794395503,
+            "end": null
+          }
+        ],
+        "createdAt": 1794395503,
+        "updatedAt": 1794395635
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809940532
+            "end": 1809947634
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "32d221b86bf48c5da9dd956acbf574ba338411ccc34a8e9b39d18d6f399d7540"
+    "sha256": "fcbbdb5a96efd8e39375811d699ed4cd903fdf540c59016b13034914bb50fe25"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T11:03:53.085024Z",
+    "fetchedAt": "2026-11-11T11:18:55.948944Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

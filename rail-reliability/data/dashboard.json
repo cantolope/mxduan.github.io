@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T18:34:42.810567Z",
+  "generatedAt": "2026-11-11T18:49:45.094329Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T18:34:09Z",
-    "fetchedAt": "2026-11-11T18:34:42.810567Z",
+    "sourceAt": "2026-11-11T18:47:17Z",
+    "fetchedAt": "2026-11-11T18:49:45.094329Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275854:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [C][E] trains are running with delays after we requested NYPD assistance for people being disruptive on a train at Canal St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794420959,
-            "end": 1794422100
-          }
-        ],
-        "createdAt": 1794420959,
-        "updatedAt": 1794420959
-      },
       {
         "id": "lmm:planned_work:35523",
         "type": "Planned - Express to Local",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809974049
+            "end": 1809974832
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8f96a088fce88d8cef20642f1d6b9ca8d7dfb1f1dc85b73841d085a58aeb9e81"
+    "sha256": "2b6e04c5605bd0eaeabd9b15f0222af015ee8ef93d98cd6e33562a347676ea71"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T18:34:42.810567Z",
+    "fetchedAt": "2026-11-11T18:49:45.094329Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

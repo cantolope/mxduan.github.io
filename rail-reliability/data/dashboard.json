@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T22:20:13.815773Z",
+  "generatedAt": "2026-11-11T22:35:14.603425Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,42 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T22:18:13Z",
-    "fetchedAt": "2026-11-11T22:20:13.815773Z",
+    "sourceAt": "2026-11-11T22:33:53Z",
+    "fetchedAt": "2026-11-11T22:35:14.603425Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275879:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are delayed while we address a signal problem at Queens Plaza.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794435776,
+            "end": null
+          }
+        ],
+        "createdAt": 1794435776,
+        "updatedAt": 1794435776
+      },
+      {
+        "id": "lmm:alert:275882:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [C][E] trains are delayed while we investigate what caused a train's brakes to activate at 14 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794436433,
+            "end": null
+          }
+        ],
+        "createdAt": 1794436433,
+        "updatedAt": 1794436433
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809987492
+            "end": 1809988431
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fd268dfea6d7a432ba8ac74a1ecbd23ab91677afc72ada022dd62a64ad0b5cbf"
+    "sha256": "7166db25b1e14d01da7efe7ea74984d8739ee1adf7dc3b2435497613ea7d561c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T22:20:13.815773Z",
+    "fetchedAt": "2026-11-11T22:35:14.603425Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

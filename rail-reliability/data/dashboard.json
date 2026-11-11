@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T23:05:18.527102Z",
+  "generatedAt": "2026-11-11T23:20:22.908654Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T23:03:00Z",
-    "fetchedAt": "2026-11-11T23:05:18.527102Z",
+    "sourceAt": "2026-11-11T23:19:57Z",
+    "fetchedAt": "2026-11-11T23:20:22.908654Z",
     "state": "ok",
     "alerts": [
       {
@@ -30,7 +30,7 @@
         "planned": false,
         "priority": 26,
         "header": "Downtown [E][F] trains are running with delays while we address a signal problem at Queens Plaza.",
-        "description": "Some downtown [F] trains are rerouted via Roosevelt Island from Jackson Hts-Roosevelt Av to 47-50 Sts Rockefeller Ctr.\nSome downtown [F] trains are running on the [G] line from Court Sq to Bergen St\n.\nListen to train announcements to hear how your train will run.",
+        "description": "Some downtown [F] trains are rerouted via Roosevelt Island from Jackson Hts-Roosevelt Av to 47-50 Sts Rockefeller Ctr.\nSome downtown [F] trains are running on the [G] line from Court Sq to Bergen St.\nSome Manhattan-bound [E] trains are running over the [M] line from Jackson Heights-Roosevelt Av to W 4 St-Wash Sq\n.\nListen to train announcements to hear how your train will run.",
         "periods": [
           {
             "start": 1794435776,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794435776,
-        "updatedAt": 1794437288
+        "updatedAt": 1794438463
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809990179
+            "end": 1809991195
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "aeb556abd919a7785235a3da067344fb8d127555cef8abcc8e43c592a12f256f"
+    "sha256": "826cd55b86673dd0c239a5ae93b3e5b3544c8ffd2fc1dc50c27fab91ac31b984"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T23:05:18.527102Z",
+    "fetchedAt": "2026-11-11T23:20:22.908654Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

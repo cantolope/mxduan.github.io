@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T12:49:04.252361Z",
+  "generatedAt": "2026-11-11T13:04:04.209658Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T12:46:42Z",
-    "fetchedAt": "2026-11-11T12:49:04.252361Z",
+    "sourceAt": "2026-11-11T13:02:08Z",
+    "fetchedAt": "2026-11-11T13:04:04.209658Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275805:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after we addressed a signal problem at Kew Gardens-Union Tpke.",
-        "description": "Jamaica Center-York College-bound [E] and Jamaica-179 St-bound [F] trains have resumed making regular stops in Queens.",
-        "periods": [
-          {
-            "start": 1794395503,
-            "end": null
-          }
-        ],
-        "createdAt": 1794395503,
-        "updatedAt": 1794398759
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809953200
+            "end": 1809954128
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "cc2a9c71beae2454b1e298badbe60571a771f776e903ca6d5316f5fadf07482f"
+    "sha256": "93bef00b35693e9341610a73304c60bf53a97918da7e85f42febbc6fcbfd117d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T12:49:04.252361Z",
+    "fetchedAt": "2026-11-11T13:04:04.209658Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

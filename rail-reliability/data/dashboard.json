@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T19:50:01.930448Z",
+  "generatedAt": "2026-11-11T20:04:53.970121Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-11T19:30:48Z",
-    "fetchedAt": "2026-11-11T19:50:01.930448Z",
+    "fetchedAt": "2026-11-11T20:04:53.970121Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:planned_work:35523",
-        "type": "Planned - Express to Local",
-        "planned": true,
-        "priority": 14,
-        "header": "In Queens, Manhattan-bound [E] stops at Briarwood and 75 Av",
-        "description": "Note: Service runs as scheduled at these stations all other times.\n\nWhat's happening?\nSignal maintenance",
-        "periods": [
-          {
-            "start": 1794409200,
-            "end": 1794427200
-          }
-        ],
-        "createdAt": 1791467561,
-        "updatedAt": 1791898155
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T19:50:01.930448Z",
+    "fetchedAt": "2026-11-11T20:04:53.970121Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

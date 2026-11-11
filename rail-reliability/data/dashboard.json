@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T23:20:22.908654Z",
+  "generatedAt": "2026-11-11T23:35:21.935772Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T23:19:57Z",
-    "fetchedAt": "2026-11-11T23:20:22.908654Z",
+    "sourceAt": "2026-11-11T23:31:10Z",
+    "fetchedAt": "2026-11-11T23:35:21.935772Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays while we address a signal problem at Queens Plaza.",
-        "description": "Some downtown [F] trains are rerouted via Roosevelt Island from Jackson Hts-Roosevelt Av to 47-50 Sts Rockefeller Ctr.\nSome downtown [F] trains are running on the [G] line from Court Sq to Bergen St.\nSome Manhattan-bound [E] trains are running over the [M] line from Jackson Heights-Roosevelt Av to W 4 St-Wash Sq\n.\nListen to train announcements to hear how your train will run.",
+        "header": "[E][F] trains are running with delays in both directions after we addressed a signal problem at Queens Plaza.",
+        "description": "[E] and [F] trains have resumed making regular stops between Manhattan and Queens.",
         "periods": [
           {
             "start": 1794435776,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794435776,
-        "updatedAt": 1794438463
+        "updatedAt": 1794439509
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809991195
+            "end": 1809991868
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "826cd55b86673dd0c239a5ae93b3e5b3544c8ffd2fc1dc50c27fab91ac31b984"
+    "sha256": "9e38e426898482c2fd6c54d56b6c4fcd4da673f5af3a9427cd3a2966fdfc6255"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T23:20:22.908654Z",
+    "fetchedAt": "2026-11-11T23:35:21.935772Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

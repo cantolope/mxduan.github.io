@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T12:04:00.401877Z",
+  "generatedAt": "2026-11-11T12:19:06.227142Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,17 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T11:45:54Z",
-    "fetchedAt": "2026-11-11T12:04:00.401877Z",
+    "sourceAt": "2026-11-11T12:18:28Z",
+    "fetchedAt": "2026-11-11T12:19:06.227142Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:275805:34",
-        "type": "Part Suspended",
+        "id": "lmm:alert:275805:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 34,
-        "header": "No [E][F] service between Kew Gardens-Union Tpke and Jamaica Center-York College or Jamaica-179 St while we address a signal problem at Kew Gardens-Union Tpke.",
-        "description": "Some Jamaica Center-York College--bound [E] and Jamaica-179 St-bound [F] trains will end at Queens Plaza or Forest Hills-71 Av.\nSome uptown [E] trains are running on the [C] line from 50 St to 168 St.\nListen for announcements to hear how your train will run.\nAlternatives:\nLIRR is cross-honoring OMNY users at no additional cost between Jamaica and Penn Station/Grand Central.\nFor service between Manhattan and Queens, consider [7][M][R][N][W] trains and Q60 buses.",
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions after we addressed a signal problem at Kew Gardens-Union Tpke.",
+        "description": "Jamaica Center-York College-bound [E] and Jamaica-179 St-bound [F] trains have resumed making regular stops in Queens.",
         "periods": [
           {
             "start": 1794395503,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794395503,
-        "updatedAt": 1794396784
+        "updatedAt": 1794398759
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809949554
+            "end": 1809951507
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a96edf702c7674c928dcd2e6e02e754cdf5fc145e0429f297f5de077d829beb8"
+    "sha256": "112b84c1c105475cd950883d71925bc7d08ca711115510d032d2c4ffdd85681f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T12:04:00.401877Z",
+    "fetchedAt": "2026-11-11T12:19:06.227142Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

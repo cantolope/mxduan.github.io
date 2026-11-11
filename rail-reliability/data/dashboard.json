@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T14:49:17.907092Z",
+  "generatedAt": "2026-11-11T15:04:28.924972Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T14:38:26Z",
-    "fetchedAt": "2026-11-11T14:49:17.907092Z",
+    "sourceAt": "2026-11-11T15:04:15Z",
+    "fetchedAt": "2026-11-11T15:04:28.924972Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:35523",
+        "type": "Planned - Express to Local",
+        "planned": true,
+        "priority": 14,
+        "header": "In Queens, Manhattan-bound [E] stops at Briarwood and 75 Av",
+        "description": "Note: Service runs as scheduled at these stations all other times.\n\nWhat's happening?\nSignal maintenance",
+        "periods": [
+          {
+            "start": 1794409200,
+            "end": 1794427200
+          }
+        ],
+        "createdAt": 1791467561,
+        "updatedAt": 1791898155
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809959906
+            "end": 1809961455
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "d0a796026e8121ccda11249a7373c0886f02b37b25aa7f5b681f4add04a8a4ee"
+    "sha256": "6b0416aa832f3be62af4a39dfbd03c621f9c9b7d5d5d69e83d269b2ebc2cca4e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T14:49:17.907092Z",
+    "fetchedAt": "2026-11-11T15:04:28.924972Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T22:53:55.667849Z",
+  "generatedAt": "2026-11-11T23:05:18.527102Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-11T22:51:20Z",
-    "fetchedAt": "2026-11-11T22:53:55.667849Z",
+    "sourceAt": "2026-11-11T23:03:00Z",
+    "fetchedAt": "2026-11-11T23:05:18.527102Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,22 +41,6 @@
         "updatedAt": 1794437288
       },
       {
-        "id": "lmm:alert:275882:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [C][E] trains are running with delays after we moved a train that had its brakes activated at 14 St.",
-        "description": "Downtown [C][E] trains have resumed making scheduled stops.",
-        "periods": [
-          {
-            "start": 1794436433,
-            "end": 1794438060
-          }
-        ],
-        "createdAt": 1794436433,
-        "updatedAt": 1794437480
-      },
-      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809989480
+            "end": 1809990179
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ed1e2afb8021e2a8ff20a5c337e37eb21ada3c3d346316942c561c5c5866d6dc"
+    "sha256": "aeb556abd919a7785235a3da067344fb8d127555cef8abcc8e43c592a12f256f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-11T22:53:55.667849Z",
+    "fetchedAt": "2026-11-11T23:05:18.527102Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T05:50:40.608352Z",
+  "generatedAt": "2026-11-12T06:05:39.144337Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-12T05:13:31Z",
-    "fetchedAt": "2026-11-12T05:50:40.608352Z",
+    "fetchedAt": "2026-11-12T06:05:39.144337Z",
     "state": "ok",
     "alerts": [
       {
@@ -90,7 +90,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T05:50:40.608352Z",
+    "fetchedAt": "2026-11-12T06:05:39.144337Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -104,17 +104,10 @@
   },
   "history": {
     "coverageEnd": "2026-08-11T23:51:00.000",
-    "fetchedAt": "2026-11-11T06:02:41.913783Z",
+    "fetchedAt": "2026-11-12T06:05:39.144337Z",
     "source": "https://data.ny.gov/resource/7kct-peq7.json",
     "periods": {
       "day": [
-        {
-          "start": "2026-07-15",
-          "end": "2026-07-16",
-          "coverage": "archive-window",
-          "count": 4,
-          "days": 1
-        },
         {
           "start": "2026-07-16",
           "end": "2026-07-17",
@@ -944,6 +937,13 @@
         {
           "start": "2026-11-11",
           "end": "2026-11-12",
+          "coverage": "unavailable",
+          "count": null,
+          "days": null
+        },
+        {
+          "start": "2026-11-12",
+          "end": "2026-11-13",
           "coverage": "unavailable",
           "count": null,
           "days": null

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T09:51:15.082941Z",
+  "generatedAt": "2026-11-12T10:06:15.280576Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,53 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-12T09:50:14Z",
-    "fetchedAt": "2026-11-12T09:51:15.082941Z",
+    "fetchedAt": "2026-11-12T10:06:15.280576Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275927:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after track maintenance in Queens concluded.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794460390,
-            "end": 1794477600
-          }
-        ],
-        "createdAt": 1794460390,
-        "updatedAt": 1794476322
-      },
-      {
-        "id": "lmm:planned_work:35526",
-        "type": "Planned - Stops Skipped",
-        "planned": true,
-        "priority": 16,
-        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
-        "description": "For service to these stations, take a train to Jackson Hts-Roosevelt Av and transfer to a Manhattan-bound [E][F] local.\n\nFor service from these stations, take the [E] to Queens Plaza, or the [F] to 21 St-Queensbridge and transfer to a Jamaica-bound train.\n\nWhat's happening?\nTrack maintenance",
-        "periods": [
-          {
-            "start": 1794285900,
-            "end": 1794304800
-          },
-          {
-            "start": 1794372300,
-            "end": 1794391200
-          },
-          {
-            "start": 1794458700,
-            "end": 1794477600
-          },
-          {
-            "start": 1794545100,
-            "end": 1794564000
-          }
-        ],
-        "createdAt": 1791468498,
-        "updatedAt": 1791900669
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -90,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T09:51:15.082941Z",
+    "fetchedAt": "2026-11-12T10:06:15.280576Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

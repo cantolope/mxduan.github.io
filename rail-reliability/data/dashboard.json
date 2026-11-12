@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T22:22:39.014340Z",
+  "generatedAt": "2026-11-12T22:37:44.373533Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T22:17:46Z",
-    "fetchedAt": "2026-11-12T22:22:39.014340Z",
+    "sourceAt": "2026-11-12T22:36:13Z",
+    "fetchedAt": "2026-11-12T22:37:44.373533Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are running with delays in both directions while we investigate why a train's brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
+        "header": "[E] trains are running with delays in both directions, severely downtown. \nWe moved a train that had its brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794520862,
-        "updatedAt": 1794521865
+        "updatedAt": 1794522694
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810073865
+            "end": 1810074971
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4872c729ecb9b360a2d2a8bcf172de28419fe853d7189f12fd14faecf176b040"
+    "sha256": "24eb0870f03f17c770c5f9976ac6e4728c487d2ec3b5bb3cd5c15f51edcc5c50"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T22:22:39.014340Z",
+    "fetchedAt": "2026-11-12T22:37:44.373533Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

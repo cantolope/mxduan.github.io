@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T19:37:20.176238Z",
+  "generatedAt": "2026-11-12T19:52:21.583888Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T19:34:58Z",
-    "fetchedAt": "2026-11-12T19:37:20.176238Z",
+    "sourceAt": "2026-11-12T19:51:41Z",
+    "fetchedAt": "2026-11-12T19:52:21.583888Z",
     "state": "ok",
     "alerts": [
       {
@@ -38,23 +38,7 @@
           }
         ],
         "createdAt": 1794501810,
-        "updatedAt": 1794507300
-      },
-      {
-        "id": "lmm:alert:275993:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C] trains have resumed local stops from Canal St to 59 St after we addressed a signal problem at 42 St.\nExpect uptown [C][E] train delays.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794507498,
-            "end": 1794513600
-          }
-        ],
-        "createdAt": 1794507498,
-        "updatedAt": 1794511291
+        "updatedAt": 1794512958
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810064098
+            "end": 1810065101
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c2d55320ef8740b960297eb102b153cbbacd97e383f34c227c5fda149e480c5c"
+    "sha256": "01e828bd4b8c356b076b899a63ad33bfdf93f8c9189c3eff3234e5ceb84168d6"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T19:37:20.176238Z",
+    "fetchedAt": "2026-11-12T19:52:21.583888Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -1903,7 +1887,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-11-11T19:50:01.930448Z",
+    "fetchedAt": "2026-11-12T19:52:21.583888Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }

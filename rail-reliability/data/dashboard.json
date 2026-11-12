@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T22:52:42.362444Z",
+  "generatedAt": "2026-11-12T23:07:47.973632Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T22:50:52Z",
-    "fetchedAt": "2026-11-12T22:52:42.362444Z",
+    "sourceAt": "2026-11-12T22:56:41Z",
+    "fetchedAt": "2026-11-12T23:07:47.973632Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are running with delays in both directions, severely downtown. \nWe moved a train that had its brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
+        "header": "[E] trains are running with delays in both directions after we moved a train that had its brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
         "description": "",
         "periods": [
           {
             "start": 1794520862,
-            "end": null
+            "end": 1794526200
           }
         ],
         "createdAt": 1794520862,
-        "updatedAt": 1794522694
+        "updatedAt": 1794524176
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810075852
+            "end": 1810076198
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "17d4f388cea52b27cd7365a51bc8386eb5492b7011180c1911e36bb77d6a381b"
+    "sha256": "59949020dca89cbc4998e3b249de6f015892de88484776a5529f667839e685ab"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T22:52:42.362444Z",
+    "fetchedAt": "2026-11-12T23:07:47.973632Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

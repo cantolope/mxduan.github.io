@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T00:20:28.838297Z",
+  "generatedAt": "2026-11-12T00:35:31.364594Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T00:20:00Z",
-    "fetchedAt": "2026-11-12T00:20:28.838297Z",
+    "sourceAt": "2026-11-12T00:31:30Z",
+    "fetchedAt": "2026-11-12T00:35:31.364594Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:275879:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions after we addressed a signal problem at Queens Plaza.",
-        "description": "[E] and [F] trains have resumed making regular stops between Manhattan and Queens.",
-        "periods": [
-          {
-            "start": 1794435776,
-            "end": null
-          }
-        ],
-        "createdAt": 1794435776,
-        "updatedAt": 1794439509
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1809994800
+            "end": 1809995490
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "240e1580405e5920e9e53b4d1bb78bfd774b6cd6bd3905a1ffba58f9094c83d0"
+    "sha256": "308efcfcb1baf4e7f268f0104f3b77dd1f4fb571e32a83cf68160973d4c3d173"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T00:20:28.838297Z",
+    "fetchedAt": "2026-11-12T00:35:31.364594Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

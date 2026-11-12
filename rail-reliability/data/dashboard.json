@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T19:07:16.962038Z",
+  "generatedAt": "2026-11-12T19:22:22.314835Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T19:06:36Z",
-    "fetchedAt": "2026-11-12T19:07:16.962038Z",
+    "sourceAt": "2026-11-12T19:21:32Z",
+    "fetchedAt": "2026-11-12T19:22:22.314835Z",
     "state": "ok",
     "alerts": [
       {
@@ -45,16 +45,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [C] trains are running express from Canal St to 59 St-Columbus Circle while we address a signal problem at 42 St-Port Authority Bus Terminal.",
-        "description": "If your stop is skipped, use a downtown train. \nBoarding Change:\nFor service at 34 St-Penn Station, board on the express track.\nExpect delays on uptown [C][E] trains.",
+        "header": "Uptown [C] trains have resumed local stops from Canal St to 59 St after we addressed a signal problem at 42 St.\nExpect uptown [C][E] train delays.",
+        "description": "",
         "periods": [
           {
             "start": 1794507498,
-            "end": null
+            "end": 1794513600
           }
         ],
         "createdAt": 1794507498,
-        "updatedAt": 1794507815
+        "updatedAt": 1794511291
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810062396
+            "end": 1810063292
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "6d64a3e3b4466544dfb1553bffb30347a1801a22a4bb625fd551f7674fc81eef"
+    "sha256": "9c19389ce0cec1880da1c736f07935bf699845311f19cfc4906070d601d9db35"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T19:07:16.962038Z",
+    "fetchedAt": "2026-11-12T19:22:22.314835Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

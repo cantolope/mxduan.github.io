@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T16:36:57.031442Z",
+  "generatedAt": "2026-11-12T16:51:58.387722Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T16:36:11Z",
-    "fetchedAt": "2026-11-12T16:36:57.031442Z",
+    "sourceAt": "2026-11-12T16:49:06Z",
+    "fetchedAt": "2026-11-12T16:51:58.387722Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:275987:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays while we address a signal malfunction near 5 Av/53 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794501810,
+            "end": null
+          }
+        ],
+        "createdAt": 1794501810,
+        "updatedAt": 1794501810
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810053371
+            "end": 1810054146
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1ea5a9d72307101521545f019f969a36ddb1b0e412f9d8ff3735cf293118b0a0"
+    "sha256": "7935abfab70972d4fa143734061ea29f5aaa95e69129da83dc21e89c83ca805d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T16:36:57.031442Z",
+    "fetchedAt": "2026-11-12T16:51:58.387722Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

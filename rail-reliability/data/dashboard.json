@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T18:07:20.606759Z",
+  "generatedAt": "2026-11-12T18:22:08.120049Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-12T17:54:05Z",
-    "fetchedAt": "2026-11-12T18:07:20.606759Z",
+    "sourceAt": "2026-11-12T18:20:44Z",
+    "fetchedAt": "2026-11-12T18:22:08.120049Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays while we address a signal malfunction near 5 Av/53 St.",
+        "header": "[E][F] trains are running with delays in both directions while we address a signal malfunction near 5 Av/53 St.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,23 @@
           }
         ],
         "createdAt": 1794501810,
-        "updatedAt": 1794501810
+        "updatedAt": 1794507300
+      },
+      {
+        "id": "lmm:alert:275993:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [C][E] trains are running with delays while we address a signal problem at 42 St-Port Authority Bus Terminal.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794507498,
+            "end": null
+          }
+        ],
+        "createdAt": 1794507498,
+        "updatedAt": 1794507498
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810058045
+            "end": 1810059644
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0793ac26154e7b2bfa738e03ab2548c62717b927823ea2c371fdfc76b3e38ba1"
+    "sha256": "97c43d33f60194bfb5c972cd40d3319b368cb6cf2111d4ed93f7ab328ead6ec1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-12T18:07:20.606759Z",
+    "fetchedAt": "2026-11-12T18:22:08.120049Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

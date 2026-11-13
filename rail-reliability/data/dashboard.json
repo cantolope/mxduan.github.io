@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T19:40:20.287625Z",
+  "generatedAt": "2026-11-13T19:55:19.205186Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-13T19:28:39Z",
-    "fetchedAt": "2026-11-13T19:40:20.287625Z",
+    "sourceAt": "2026-11-13T19:54:42Z",
+    "fetchedAt": "2026-11-13T19:55:19.205186Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810150119
+            "end": 1810151681
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3b22612b27de342ed164e331013207ce4a84cf83e08443d30baaeb2cd4806cdf"
+    "sha256": "3a07306697afb1afeec8591969d56cfb14343c361da9b978110080b1a4591a52"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-13T19:40:20.287625Z",
+    "fetchedAt": "2026-11-13T19:55:19.205186Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -1786,6 +1786,13 @@
   "performance": {
     "months": [
       {
+        "month": "2026-10-01T00:00:00.000",
+        "passengers": 7941027.849121094,
+        "journeyOnTime": 0.8414630592401748,
+        "extraWait": 1.589078839325825,
+        "extraRide": 0.768547251460402
+      },
+      {
         "month": "2026-09-01T00:00:00.000",
         "passengers": 7966793.958984375,
         "journeyOnTime": 0.8718023220016221,
@@ -1861,17 +1868,10 @@
         "journeyOnTime": 0.8560693881113455,
         "extraWait": 1.2260718505122696,
         "extraRide": 0.5557117468481543
-      },
-      {
-        "month": "2025-10-01T00:00:00.000",
-        "passengers": 10254530.704101562,
-        "journeyOnTime": 0.8411692865233578,
-        "extraWait": 1.3155529796416328,
-        "extraRide": 0.7686880636129071
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-11-12T19:52:21.583888Z",
+    "fetchedAt": "2026-11-13T19:55:19.205186Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }

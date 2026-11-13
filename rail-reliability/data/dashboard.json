@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T23:25:48.306740Z",
+  "generatedAt": "2026-11-13T23:40:46.695888Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-13T23:24:48Z",
-    "fetchedAt": "2026-11-13T23:25:48.306740Z",
+    "sourceAt": "2026-11-13T23:34:23Z",
+    "fetchedAt": "2026-11-13T23:40:46.695888Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276298:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays after we requested EMS for person in need on a train at W 4 St-Wash Sq.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794611728,
-            "end": 1794612600
-          }
-        ],
-        "createdAt": 1794611728,
-        "updatedAt": 1794612287
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810164288
+            "end": 1810164860
           }
         ],
         "createdAt": 1784303199,
@@ -58,18 +42,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "17362dbaa7166bde7ae912684363c5371fe2c323db11a78557d1d151be40db7b"
+    "sha256": "f63cad143a937e45152054f99d44a0ec6bf490f3b28c521a69a2d6ad8253d575"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-13T23:25:48.306740Z",
+    "fetchedAt": "2026-11-13T23:40:46.695888Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Part Suspended",
+        "reason": "Victoria Line: No service between Brixton and Warren Street while we respond to a security alert. GOOD SERVICE on the rest of the line.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-13T23:37:43Z",
+            "toDate": "2026-11-14T02:39:40Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

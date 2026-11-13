@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T23:40:46.695888Z",
+  "generatedAt": "2026-11-13T23:55:53.130582Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-13T23:34:23Z",
-    "fetchedAt": "2026-11-13T23:40:46.695888Z",
+    "sourceAt": "2026-11-13T23:53:40Z",
+    "fetchedAt": "2026-11-13T23:55:53.130582Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810164860
+            "end": 1810166019
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f63cad143a937e45152054f99d44a0ec6bf490f3b28c521a69a2d6ad8253d575"
+    "sha256": "6821b4c9ef76759a4daee2b59183aa5f88b9202b4cd782104cca416fa974cda3"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-13T23:40:46.695888Z",
+    "fetchedAt": "2026-11-13T23:55:53.130582Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Brixton and Warren Street while we respond to a security alert. GOOD SERVICE on the rest of the line.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to an earlier security alert.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-13T23:37:43Z",
-            "toDate": "2026-11-14T02:39:40Z",
+            "fromDate": "2026-11-13T23:42:10Z",
+            "toDate": "2026-11-14T01:29:00Z",
             "isNow": true
           }
         ]

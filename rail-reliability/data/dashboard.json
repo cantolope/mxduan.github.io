@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T21:13:23.989053Z",
+  "generatedAt": "2026-11-14T21:28:24.180878Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T21:05:41Z",
-    "fetchedAt": "2026-11-14T21:13:23.989053Z",
+    "sourceAt": "2026-11-14T21:19:17Z",
+    "fetchedAt": "2026-11-14T21:28:24.180878Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810242340
+            "end": 1810243156
           }
         ],
         "createdAt": 1784303199,
@@ -58,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b61cd7bebed02dd26fb9a5ccec7e2ccb15460e4ef4c7f18088d9d9c81b9e8b58"
+    "sha256": "f49cad41a3f67f330e4151a71b533c2309f398313b4b0d52ab311ad91844c820"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T21:13:23.989053Z",
+    "fetchedAt": "2026-11-14T21:28:24.180878Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Seven Sisters and Highbury & Islington and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
+        "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-14T20:55:07Z",
+            "fromDate": "2026-11-14T21:19:01Z",
             "toDate": "2026-11-15T01:29:00Z",
             "isNow": true
           }
@@ -80,12 +80,12 @@
       },
       {
         "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Seven Sisters and Highbury & Islington and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
+        "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-14T20:55:07Z",
-            "toDate": "2026-11-15T00:12:40Z",
+            "fromDate": "2026-11-14T21:19:01Z",
+            "toDate": "2026-11-15T00:26:41Z",
             "isNow": true
           }
         ]

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T21:43:24.691674Z",
+  "generatedAt": "2026-11-14T21:58:24.586247Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T21:39:02Z",
-    "fetchedAt": "2026-11-14T21:43:24.691674Z",
+    "sourceAt": "2026-11-14T21:44:58Z",
+    "fetchedAt": "2026-11-14T21:58:24.586247Z",
     "state": "ok",
     "alerts": [
       {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794668764,
-        "updatedAt": 1794683921
+        "updatedAt": 1794692697
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810244341
+            "end": 1810244698
           }
         ],
         "createdAt": 1784303199,
@@ -58,34 +58,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "cd52f914e1e79b11cfc0aa8daee3ffc61ab5f98036f854c335033bba12f9d099"
+    "sha256": "748e372b031e5cb2afe08d6073c9ffbfda2f8b3169d87d4b71438ba542fff3ea"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T21:43:24.691674Z",
+    "fetchedAt": "2026-11-14T21:58:24.586247Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
+        "reason": "Victoria Line: Severe delays due to an earlier animal on the track. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway, and Southeastern service.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-14T21:19:01Z",
+            "fromDate": "2026-11-14T21:46:03Z",
             "toDate": "2026-11-15T01:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-14T21:19:01Z",
-            "toDate": "2026-11-15T00:42:41Z",
             "isNow": true
           }
         ]

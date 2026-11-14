@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T23:13:34.665871Z",
+  "generatedAt": "2026-11-14T23:22:10.964752Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T23:05:40Z",
-    "fetchedAt": "2026-11-14T23:13:34.665871Z",
+    "sourceAt": "2026-11-14T23:21:03Z",
+    "fetchedAt": "2026-11-14T23:22:10.964752Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:276406:32",
+        "type": "Reroute",
+        "planned": false,
+        "priority": 32,
+        "header": "Uptown [A] via [D] from W 4 St-Wash Sq to 59 St-Columbus Circle\n.\nUptown [E] via [F] from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr.",
+        "description": "What's Happening? \nWe are investigating what caused a train's brakes to activate at 42 St-Port Authority Bus Terminal\n.\nPlanned work reminder: \nIn Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St.",
+        "periods": [
+          {
+            "start": 1794698177,
+            "end": null
+          }
+        ],
+        "createdAt": 1794698177,
+        "updatedAt": 1794698463
+      },
       {
         "id": "lmm:alert:276374:26",
         "type": "Delays",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810249537
+            "end": 1810250463
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e92b5cad6f790a013e40e5786ec6fbca9ab7954091e63ae0a34fbcf5b70844d8"
+    "sha256": "a1d8ace88361f9bad463f5058d74baea800a5fda230d33f3cc6d4334d3c44c6f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T23:13:34.665871Z",
+    "fetchedAt": "2026-11-14T23:22:10.964752Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

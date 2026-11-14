@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T09:11:58.507513Z",
+  "generatedAt": "2026-11-14T09:27:00.648793Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T08:56:46Z",
-    "fetchedAt": "2026-11-14T09:11:58.507513Z",
+    "sourceAt": "2026-11-14T09:23:20Z",
+    "fetchedAt": "2026-11-14T09:27:00.648793Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276347:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][E] trains are running with delays after we performed track maintenance near W 4 St-Wash Sq.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794645960,
-            "end": 1794647580
-          }
-        ],
-        "createdAt": 1794645960,
-        "updatedAt": 1794646376
-      },
       {
         "id": "lmm:planned_work:35556",
         "type": "Planned - Stops Skipped",
@@ -74,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810198606
+            "end": 1810200198
           }
         ],
         "createdAt": 1784303199,
@@ -82,11 +66,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "902b74c1f475bf51126c5ca2483297539bc66bd5d575138849920e9fbeb09888"
+    "sha256": "ee6305f13e966ba465b6d3eb4217bc31c439a634e704ba8335f4d5d4ad3736fe"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T09:11:58.507513Z",
+    "fetchedAt": "2026-11-14T09:27:00.648793Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

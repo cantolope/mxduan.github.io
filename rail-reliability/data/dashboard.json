@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T23:22:10.964752Z",
+  "generatedAt": "2026-11-14T23:28:35.907733Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T23:21:03Z",
-    "fetchedAt": "2026-11-14T23:22:10.964752Z",
+    "sourceAt": "2026-11-14T23:28:27Z",
+    "fetchedAt": "2026-11-14T23:28:35.907733Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Reroute",
         "planned": false,
         "priority": 32,
-        "header": "Uptown [A] via [D] from W 4 St-Wash Sq to 59 St-Columbus Circle\n.\nUptown [E] via [F] from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr.",
-        "description": "What's Happening? \nWe are investigating what caused a train's brakes to activate at 42 St-Port Authority Bus Terminal\n.\nPlanned work reminder: \nIn Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St and Spring St.",
+        "header": "Uptown [A] via [D] from W 4 St to 59 St-CC\n.\nUptown [E] via [F] from W 4 St to 47-50 Sts-Rockefeller Ctr.\nAt W 4 St, board uptown [A][E] on lower level ([D][F] platform).",
+        "description": "What's Happening?\n \nWe are investigating what caused a train's brakes to activate at 42 St-Port Authority Bus Terminal\n.\nPlanned Work Reminder:\n \nIn Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St, and Spring St.\n\n[C] rerouted in both directions via [D] between 59 St-Columbus Circle and W 4 St-Wash Sq, then via [F] between Jay St-MetroTech.",
         "periods": [
           {
             "start": 1794698177,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794698177,
-        "updatedAt": 1794698463
+        "updatedAt": 1794698778
       },
       {
         "id": "lmm:alert:276374:26",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810250463
+            "end": 1810250906
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a1d8ace88361f9bad463f5058d74baea800a5fda230d33f3cc6d4334d3c44c6f"
+    "sha256": "d321fbe24290763b5e5aa5847327b8fa526a74062273cb91d3ab5e80ec875f5d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T23:22:10.964752Z",
+    "fetchedAt": "2026-11-14T23:28:35.907733Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

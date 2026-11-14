@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T19:13:05.884401Z",
+  "generatedAt": "2026-11-14T19:27:45.590734Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T19:09:56Z",
-    "fetchedAt": "2026-11-14T19:13:05.884401Z",
+    "sourceAt": "2026-11-14T19:22:09Z",
+    "fetchedAt": "2026-11-14T19:27:45.590734Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F][R] trains are running with delays while we conduct track maintenance in Queens.",
+        "header": "Downtown [R] trains are running with delays while we conduct track maintenance in Queens.\n[E][F] trains are running with delays in both directions.",
         "description": "",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794668764,
-        "updatedAt": 1794683318
+        "updatedAt": 1794683921
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810235396
+            "end": 1810236128
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e900ef1f67963059cd29ee0e0ed00b92653f4ab40389c9de453ffbff59657acf"
+    "sha256": "4e573e33cc8c22c02e950d00ec5c25c9dd9d7a8a226ecebc64acacd7cb522065"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T19:13:05.884401Z",
+    "fetchedAt": "2026-11-14T19:27:45.590734Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

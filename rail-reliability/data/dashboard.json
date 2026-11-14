@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T04:41:25.356466Z",
+  "generatedAt": "2026-11-14T04:56:28.019891Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,9 +21,33 @@
   },
   "current": {
     "sourceAt": "2026-11-14T04:36:35Z",
-    "fetchedAt": "2026-11-14T04:41:25.356466Z",
+    "fetchedAt": "2026-11-14T04:56:28.019891Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:35556",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
+        "description": "For service to these stations, take the [E] to Jackson Hts-Roosevelt Av and transfer to a local Manhattan-bound [E] or [F].\n\nFor service from these stations, take the [E] to Queens Plaza or the [F] to 21 St-Queensbridge and transfer to a Jamaica-bound local train.\n\nSchedule reminder: [E][F] does not serve these local stations days and evenings.\n\nWhat's happening?\nTrack maintenance",
+        "periods": [
+          {
+            "start": 1794631500,
+            "end": 1794654000
+          },
+          {
+            "start": 1794711600,
+            "end": 1794740400
+          },
+          {
+            "start": 1794798000,
+            "end": 1794823200
+          }
+        ],
+        "createdAt": 1791482131,
+        "updatedAt": 1791903730
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -46,7 +70,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T04:41:25.356466Z",
+    "fetchedAt": "2026-11-14T04:56:28.019891Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

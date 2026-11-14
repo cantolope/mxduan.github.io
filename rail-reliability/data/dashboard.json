@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T20:43:22.068700Z",
+  "generatedAt": "2026-11-14T20:58:18.094719Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-14T20:40:13Z",
-    "fetchedAt": "2026-11-14T20:43:22.068700Z",
+    "sourceAt": "2026-11-14T20:53:23Z",
+    "fetchedAt": "2026-11-14T20:58:18.094719Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810240813
+            "end": 1810241603
           }
         ],
         "createdAt": 1784303199,
@@ -58,18 +58,37 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1eaa5b2df54d663522a07074b3b4ffd8f3410ac10f68247a627b263a7f79c4e9"
+    "sha256": "0e6e4dbaf8c380a7fbf783c4718f87910f8b4bed3208c1f7a474960b86b597b8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-14T20:43:22.068700Z",
+    "fetchedAt": "2026-11-14T20:58:18.094719Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Severe Delays",
+        "reason": "Victoria Line: No service between Seven Sisters and Highbury & Islington and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-14T20:55:07Z",
+            "toDate": "2026-11-15T01:29:00Z",
+            "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Part Suspended",
+        "reason": "Victoria Line: No service between Seven Sisters and Highbury & Islington and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-14T20:55:07Z",
+            "toDate": "2026-11-14T23:56:10Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

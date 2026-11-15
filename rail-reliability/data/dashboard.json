@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T18:45:20.096504Z",
+  "generatedAt": "2026-11-15T19:00:20.259934Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T18:45:08Z",
-    "fetchedAt": "2026-11-15T18:45:20.096504Z",
+    "sourceAt": "2026-11-15T18:53:44Z",
+    "fetchedAt": "2026-11-15T19:00:20.259934Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810320307
+            "end": 1810320821
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,34 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8d667dd0b0794ea04121dc7a86d9ae075e0d14a666748d4e651367b21d92a949"
+    "sha256": "b720c4782e8d3db8d0f328bd0961dc14c3cce0a908169117679dbf3764a277f7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T18:45:20.096504Z",
+    "fetchedAt": "2026-11-15T19:00:20.259934Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Suspended",
-        "reason": "Victoria Line: No service on the entire line while respond to a fire alert at Seven Sisters. Tickets are being accepted on London Buses.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while respond to a fire alert at Seven Sisters. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-15T18:36:57Z",
-            "toDate": "2026-11-15T21:44:09Z",
+            "fromDate": "2026-11-15T18:57:17Z",
+            "toDate": "2026-11-16T01:29:00Z",
+            "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Part Suspended",
+        "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while respond to a fire alert at Seven Sisters. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-15T18:57:17Z",
+            "toDate": "2026-11-15T21:59:28Z",
             "isNow": true
           }
         ]

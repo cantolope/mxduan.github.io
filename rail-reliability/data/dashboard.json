@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T21:15:20.731098Z",
+  "generatedAt": "2026-11-15T21:30:28.220249Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T21:10:57Z",
-    "fetchedAt": "2026-11-15T21:15:20.731098Z",
+    "sourceAt": "2026-11-15T21:25:35Z",
+    "fetchedAt": "2026-11-15T21:30:28.220249Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810329057
+            "end": 1810329934
           }
         ],
         "createdAt": 1784303199,
@@ -42,34 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f4f79b563326a9a0dd77d0725da5303ce1f9d27242778cf1457778710f9c52b0"
+    "sha256": "da17b6bbc08c31404db661d362b66c687e6e9d08dca2cd7d4a3090804c514e82"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T21:15:20.731098Z",
+    "fetchedAt": "2026-11-15T21:30:28.220249Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+        "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters and an earlier points failure at Brixton. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-15T19:53:55Z",
+            "fromDate": "2026-11-15T21:22:28Z",
             "toDate": "2026-11-16T01:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-15T19:53:55Z",
-            "toDate": "2026-11-16T00:14:05Z",
             "isNow": true
           }
         ]

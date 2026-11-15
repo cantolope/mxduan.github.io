@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T06:59:23.136016Z",
+  "generatedAt": "2026-11-15T07:14:25.869724Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T06:58:41Z",
-    "fetchedAt": "2026-11-15T06:59:23.136016Z",
+    "sourceAt": "2026-11-15T07:14:19Z",
+    "fetchedAt": "2026-11-15T07:14:25.869724Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:276436:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E][F] trains are running with delays in both directions after we safely moved crews into place to conduct maintenance near 36 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794726012,
+            "end": null
+          }
+        ],
+        "createdAt": 1794726012,
+        "updatedAt": 1794726012
+      },
       {
         "id": "lmm:planned_work:35556",
         "type": "Planned - Stops Skipped",
@@ -58,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810277919
+            "end": 1810278858
           }
         ],
         "createdAt": 1784303199,
@@ -66,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "af0890b47c523cc3510fe2edea35941d40ad4f341abb2dee1f7e4e1bd0084f05"
+    "sha256": "e71c1b5ba4b241a12e518ae2cfebcc9c9e93fd4511483db5e84b71cce7a5c764"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T06:59:23.136016Z",
+    "fetchedAt": "2026-11-15T07:14:25.869724Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

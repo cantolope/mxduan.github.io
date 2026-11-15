@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T01:58:54.088699Z",
+  "generatedAt": "2026-11-15T02:13:56.888659Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,33 +20,17 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T01:53:45Z",
-    "fetchedAt": "2026-11-15T01:58:54.088699Z",
+    "sourceAt": "2026-11-15T02:08:17Z",
+    "fetchedAt": "2026-11-15T02:13:56.888659Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276406:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays.\n[A] trains are running with delays in both directions.",
-        "description": "What Happened?\nWe requested EMS for a person in need on a train at 42 St-Port Authority Bus Terminal\n.\nPlanned Work Reminder:\n \nIn Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St, and Spring St.\n[C] rerouted in both directions via [D] between 59 St-Columbus Circle and W 4 St-Wash Sq, then via [F] between Jay St-MetroTech.",
-        "periods": [
-          {
-            "start": 1794698177,
-            "end": 1794708300
-          }
-        ],
-        "createdAt": 1794698177,
-        "updatedAt": 1794707602
-      },
       {
         "id": "lmm:alert:276419:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Jamaica Center-bound [E] trains are running with delays while we investigate why a train's brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
-        "description": "Some Jamaica Center-York College-bound [E] trains are rerouted via the [F] from Briarwood to Jamaica-179 St.\nFor service to/from skipped stops, take a Manhattan-bound [E] trains.\n\nListen to announcements to hear how your train will run.",
+        "header": "Jamaica Center-bound [E] trains are running with delays after we moved a train that had its brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
+        "description": "Jamaica Center-York College-bound [E] trains have resumed making scheduled stops in Queens.",
         "periods": [
           {
             "start": 1794706641,
@@ -54,7 +38,7 @@
           }
         ],
         "createdAt": 1794706641,
-        "updatedAt": 1794707466
+        "updatedAt": 1794707951
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810259623
+            "end": 1810260493
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ce4ef97241db3de341d8452c5f6cf796380207079721f840b46fd3f3a1ae7502"
+    "sha256": "37d96daa570e9b092f5d42e2ec18c562c3c4cb4fa5857f71e845e79c5384a36e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T01:58:54.088699Z",
+    "fetchedAt": "2026-11-15T02:13:56.888659Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

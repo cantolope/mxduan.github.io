@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T18:30:19.279612Z",
+  "generatedAt": "2026-11-15T18:45:20.096504Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T18:26:25Z",
-    "fetchedAt": "2026-11-15T18:30:19.279612Z",
+    "sourceAt": "2026-11-15T18:45:08Z",
+    "fetchedAt": "2026-11-15T18:45:20.096504Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810319183
+            "end": 1810320307
           }
         ],
         "createdAt": 1784303199,
@@ -42,18 +42,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "424435e8ca2c06695db770a5c6c62157060a79f7960a55d83ba34c7e1305d21e"
+    "sha256": "8d667dd0b0794ea04121dc7a86d9ae075e0d14a666748d4e651367b21d92a949"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T18:30:19.279612Z",
+    "fetchedAt": "2026-11-15T18:45:20.096504Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Suspended",
+        "reason": "Victoria Line: No service on the entire line while respond to a fire alert at Seven Sisters. Tickets are being accepted on London Buses.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-15T18:36:57Z",
+            "toDate": "2026-11-15T21:44:09Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

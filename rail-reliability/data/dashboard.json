@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T01:44:00.813553Z",
+  "generatedAt": "2026-11-15T01:58:54.088699Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T01:42:35Z",
-    "fetchedAt": "2026-11-15T01:44:00.813553Z",
+    "sourceAt": "2026-11-15T01:53:45Z",
+    "fetchedAt": "2026-11-15T01:58:54.088699Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,18 +34,18 @@
         "periods": [
           {
             "start": 1794698177,
-            "end": null
+            "end": 1794708300
           }
         ],
         "createdAt": 1794698177,
-        "updatedAt": 1794703158
+        "updatedAt": 1794707602
       },
       {
         "id": "lmm:alert:276419:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Jamaica Center-bound [E] trains are delayed while we investigate why a train's brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
+        "header": "Jamaica Center-bound [E] trains are running with delays while we investigate why a train's brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
         "description": "Some Jamaica Center-York College-bound [E] trains are rerouted via the [F] from Briarwood to Jamaica-179 St.\nFor service to/from skipped stops, take a Manhattan-bound [E] trains.\n\nListen to announcements to hear how your train will run.",
         "periods": [
           {
@@ -54,7 +54,7 @@
           }
         ],
         "createdAt": 1794706641,
-        "updatedAt": 1794706947
+        "updatedAt": 1794707466
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810258955
+            "end": 1810259623
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "344992f8737520fdf57d424dad3151c077e0af5b8dac6f07f005f1bbea4b6e05"
+    "sha256": "ce4ef97241db3de341d8452c5f6cf796380207079721f840b46fd3f3a1ae7502"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T01:44:00.813553Z",
+    "fetchedAt": "2026-11-15T01:58:54.088699Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

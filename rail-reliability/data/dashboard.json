@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T01:28:49.018311Z",
+  "generatedAt": "2026-11-15T01:44:00.813553Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T01:28:02Z",
-    "fetchedAt": "2026-11-15T01:28:49.018311Z",
+    "sourceAt": "2026-11-15T01:42:35Z",
+    "fetchedAt": "2026-11-15T01:44:00.813553Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,6 +41,22 @@
         "updatedAt": 1794703158
       },
       {
+        "id": "lmm:alert:276419:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica Center-bound [E] trains are delayed while we investigate why a train's brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
+        "description": "Some Jamaica Center-York College-bound [E] trains are rerouted via the [F] from Briarwood to Jamaica-179 St.\nFor service to/from skipped stops, take a Manhattan-bound [E] trains.\n\nListen to announcements to hear how your train will run.",
+        "periods": [
+          {
+            "start": 1794706641,
+            "end": null
+          }
+        ],
+        "createdAt": 1794706641,
+        "updatedAt": 1794706947
+      },
+      {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
         "planned": true,
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810258082
+            "end": 1810258955
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +74,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "87c75ded0fcce38bb4f33e5759af00ca44d8137c236728c9094fd0b8fa635e1f"
+    "sha256": "344992f8737520fdf57d424dad3151c077e0af5b8dac6f07f005f1bbea4b6e05"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T01:28:49.018311Z",
+    "fetchedAt": "2026-11-15T01:44:00.813553Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier animal on the track. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway, and Southeastern service.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-14T21:46:03Z",
-            "toDate": "2026-11-16T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

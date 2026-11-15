@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T00:28:44.698653Z",
+  "generatedAt": "2026-11-15T00:43:45.062309Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T00:14:33Z",
-    "fetchedAt": "2026-11-15T00:28:44.698653Z",
+    "sourceAt": "2026-11-15T00:39:39Z",
+    "fetchedAt": "2026-11-15T00:43:45.062309Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,7 +29,7 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays.\n[A][F] trains are running with delays in both directions.",
+        "header": "Uptown [C][E] trains are running with delays.\n[A] trains are running with delays in both directions.",
         "description": "What Happened?\nWe requested EMS for a person in need on a train at 42 St-Port Authority Bus Terminal\n.\nPlanned Work Reminder:\n \nIn Brooklyn and Lower Manhattan, no Inwood-bound [A] at High St, Fulton St, Chambers St, Canal St, and Spring St.\n[C] rerouted in both directions via [D] between 59 St-Columbus Circle and W 4 St-Wash Sq, then via [F] between Jay St-MetroTech.",
         "periods": [
           {
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1794698177,
-        "updatedAt": 1794701604
+        "updatedAt": 1794703158
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810253672
+            "end": 1810255176
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2e297985dbcdb1c191fdf8467bd263ce285d446417ec7b26a9d01d434d7808f4"
+    "sha256": "dbddcdf3da791894cb4e2ab8817ef62ac210590912dd9be86996330b8f20ef4e"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T00:28:44.698653Z",
+    "fetchedAt": "2026-11-15T00:43:45.062309Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

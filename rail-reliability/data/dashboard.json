@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T02:58:59.176725Z",
+  "generatedAt": "2026-11-15T03:13:59.357842Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,33 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-15T02:58:38Z",
-    "fetchedAt": "2026-11-15T02:58:59.176725Z",
+    "sourceAt": "2026-11-15T03:00:12Z",
+    "fetchedAt": "2026-11-15T03:13:59.357842Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:276419:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica Center-bound [E] trains are running with delays after we moved a train that had its brakes activated at Sutphin Blvd/Archer Av-JFK Airport.",
-        "description": "Jamaica Center-York College-bound [E] trains have resumed making scheduled stops in Queens.",
+        "id": "lmm:planned_work:35556",
+        "type": "Planned - Stops Skipped",
+        "planned": true,
+        "priority": 16,
+        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
+        "description": "For service to these stations, take the [E] to Jackson Hts-Roosevelt Av and transfer to a local Manhattan-bound [E] or [F].\n\nFor service from these stations, take the [E] to Queens Plaza or the [F] to 21 St-Queensbridge and transfer to a Jamaica-bound local train.\n\nSchedule reminder: [E][F] does not serve these local stations days and evenings.\n\nWhat's happening?\nTrack maintenance",
         "periods": [
           {
-            "start": 1794706641,
-            "end": 1794711600
+            "start": 1794631500,
+            "end": 1794654000
+          },
+          {
+            "start": 1794711600,
+            "end": 1794740400
+          },
+          {
+            "start": 1794798000,
+            "end": 1794823200
           }
         ],
-        "createdAt": 1794706641,
-        "updatedAt": 1794710139
+        "createdAt": 1791482131,
+        "updatedAt": 1791903730
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +58,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810263517
+            "end": 1810263612
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +66,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "30a0e6a47ebd8b4a738779d84d0b8b01a3fc70610801cb4879a772db054b2341"
+    "sha256": "46406d1b707671f7e9939e9c895332ed59fb6d09b3b23e918bab1a206ba2709b"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-15T02:58:59.176725Z",
+    "fetchedAt": "2026-11-15T03:13:59.357842Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

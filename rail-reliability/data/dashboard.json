@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T09:46:20.170633Z",
+  "generatedAt": "2026-11-16T10:01:24.824619Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,34 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-16T09:23:01Z",
-    "fetchedAt": "2026-11-16T09:46:20.170633Z",
+    "sourceAt": "2026-11-16T10:01:11Z",
+    "fetchedAt": "2026-11-16T10:01:24.824619Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:planned_work:35556",
-        "type": "Planned - Stops Skipped",
-        "planned": true,
-        "priority": 16,
-        "header": "In Queens, Jamaica-bound [E][F] local skips 36 St, Steinway St, 46 St, Northern Blvd and 65 St",
-        "description": "For service to these stations, take the [E] to Jackson Hts-Roosevelt Av and transfer to a local Manhattan-bound [E] or [F].\n\nFor service from these stations, take the [E] to Queens Plaza or the [F] to 21 St-Queensbridge and transfer to a Jamaica-bound local train.\n\nSchedule reminder: [E][F] does not serve these local stations days and evenings.\n\nWhat's happening?\nTrack maintenance",
-        "periods": [
-          {
-            "start": 1794631500,
-            "end": 1794654000
-          },
-          {
-            "start": 1794711600,
-            "end": 1794740400
-          },
-          {
-            "start": 1794798000,
-            "end": 1794823200
-          }
-        ],
-        "createdAt": 1791482131,
-        "updatedAt": 1791903730
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -58,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810372981
+            "end": 1810375266
           }
         ],
         "createdAt": 1784303199,
@@ -66,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fc0884db93a940fee29cf8b1af41497ddf4853185cbe3d9f1a0753f0bf223a18"
+    "sha256": "d208a61ab831c63b8a76ee324801118ad81876d16eb48114a7abc81d1ec2b098"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T09:46:20.170633Z",
+    "fetchedAt": "2026-11-16T10:01:24.824619Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

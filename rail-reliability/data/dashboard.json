@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T14:16:24.029547Z",
+  "generatedAt": "2026-11-16T14:31:46.856905Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-16T14:10:16Z",
-    "fetchedAt": "2026-11-16T14:16:24.029547Z",
+    "sourceAt": "2026-11-16T14:25:04Z",
+    "fetchedAt": "2026-11-16T14:31:46.856905Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276570:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E]  trains are running with delays after we removed a train with a door problem from service at Kew Gardens-Union Tpke.",
-        "description": "Downtown [E] trains have resumed making scheduled stops.",
-        "periods": [
-          {
-            "start": 1794836308,
-            "end": 1794838800
-          }
-        ],
-        "createdAt": 1794836308,
-        "updatedAt": 1794837152
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810390214
+            "end": 1810391103
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3e2ecdf88074f8e6a6b59fa0305ad4ead9cbe9a4c115e4a20fd8033cdf333616"
+    "sha256": "fb708c31ae0bea577f6186607f972949f495e34f9f6b35124a568ba8e6911de9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T14:16:24.029547Z",
+    "fetchedAt": "2026-11-16T14:31:46.856905Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

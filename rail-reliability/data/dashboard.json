@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T05:01:07.468449Z",
+  "generatedAt": "2026-11-16T05:16:04.416293Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-16T04:58:51Z",
-    "fetchedAt": "2026-11-16T05:01:07.468449Z",
+    "sourceAt": "2026-11-16T05:13:37Z",
+    "fetchedAt": "2026-11-16T05:16:04.416293Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:276512:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[F] trains are rerouted via Court Sq-23 St in both directions between Manhattan and Queens.",
+        "description": "What's Happening?\nWe are conducting an investigation near Roosevelt Island\n.\n[F] trains are rerouted via Court Sq between 5 Av/53 St and Jackson Heights-Roosevelt Av in both directions \nExpect a longer wait for an [E] train in both directions while they share the track with rerouted trains.\n[F] trains are delayed in both directions.",
+        "periods": [
+          {
+            "start": 1794805130,
+            "end": null
+          }
+        ],
+        "createdAt": 1794805130,
+        "updatedAt": 1794806016
+      },
       {
         "id": "lmm:planned_work:35556",
         "type": "Planned - Stops Skipped",
@@ -58,7 +74,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810357130
+            "end": 1810358017
           }
         ],
         "createdAt": 1784303199,
@@ -66,11 +82,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "28e07010db89f38d7f5835521b18816c867c0563c3481a2c2d5edabbf31199ad"
+    "sha256": "dd2a422e6c309cd1cbcb4bb50d3a46d267de84c7250001a3e867cb2ef9867df5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T05:01:07.468449Z",
+    "fetchedAt": "2026-11-16T05:16:04.416293Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T13:46:22.849069Z",
+  "generatedAt": "2026-11-16T14:01:39.160105Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-16T13:45:50Z",
-    "fetchedAt": "2026-11-16T13:46:22.849069Z",
+    "sourceAt": "2026-11-16T13:52:33Z",
+    "fetchedAt": "2026-11-16T14:01:39.160105Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:276570:25",
-        "type": "Express to Local",
+        "id": "lmm:alert:276570:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 25,
-        "header": "Downtown [E]  trains are running local from Kew Gardens-Union Tpke to Forest Hills-71 Av while we address a door problem on a train at Kew Gardens-Union Tpke.",
-        "description": "Expect downtown [F] delays while tracks are shared.",
+        "priority": 26,
+        "header": "Downtown [E]  trains are running with delays after we removed a train with a door problem from service at Kew Gardens-Union Tpke.",
+        "description": "Downtown [E] trains have resumed making scheduled stops.",
         "periods": [
           {
             "start": 1794836308,
-            "end": null
+            "end": 1794838800
           }
         ],
         "createdAt": 1794836308,
-        "updatedAt": 1794836749
+        "updatedAt": 1794837152
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810388750
+            "end": 1810389149
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9eb69b2eb9b0322726c23f2d5dda367a25c6e39855009b7ba1487233bb8dc524"
+    "sha256": "be9a1c27d03ed6c24ec011338dea2f5c83b2c7584d8c180cc986a18d81b6a87d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T13:46:22.849069Z",
+    "fetchedAt": "2026-11-16T14:01:39.160105Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

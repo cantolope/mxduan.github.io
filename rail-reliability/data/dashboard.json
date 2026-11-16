@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T00:45:38.488492Z",
+  "generatedAt": "2026-11-16T01:00:40.914341Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-16T00:36:31Z",
-    "fetchedAt": "2026-11-16T00:45:38.488492Z",
+    "sourceAt": "2026-11-16T00:50:36Z",
+    "fetchedAt": "2026-11-16T01:00:40.914341Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810341387
+            "end": 1810342236
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8a7bae435c025420c7532dc2d8d4e3e353131a6c05d05a036c6fd1ab228ce3de"
+    "sha256": "9e3a7ef1432dcd03424a141a31a300b8b6efabce267e0179de28133d0dfbb83d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T00:45:38.488492Z",
+    "fetchedAt": "2026-11-16T01:00:40.914341Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters and an earlier points failure at Brixton. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-15T21:22:28Z",
-            "toDate": "2026-11-17T01:29:00Z",
+            "fromDate": "2026-11-16T00:47:15Z",
+            "toDate": "2026-11-16T03:58:48Z",
             "isNow": true
           }
         ]

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T18:47:27.556425Z",
+  "generatedAt": "2026-11-16T19:02:42.538501Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-16T18:14:48Z",
-    "fetchedAt": "2026-11-16T18:47:27.556425Z",
+    "sourceAt": "2026-11-16T18:48:12Z",
+    "fetchedAt": "2026-11-16T19:02:42.538501Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810404887
+            "end": 1810406892
           }
         ],
         "createdAt": 1784303199,
@@ -42,25 +42,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "616abc32f2947676efbc94a404c8ce650ab5e50518c25c569494f2b0326287a8"
+    "sha256": "000cd60002287a236b0daa6e310a232e37742483c019bcf51d3f41199330fa60"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T18:47:27.556425Z",
+    "fetchedAt": "2026-11-16T19:02:42.538501Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays while we carry out a track inspection at Seven Sisters.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-16T18:18:22Z",
-            "toDate": "2026-11-17T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

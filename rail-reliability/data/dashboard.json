@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T11:16:20.706928Z",
+  "generatedAt": "2026-11-16T11:31:20.365519Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-16T11:11:17Z",
-    "fetchedAt": "2026-11-16T11:16:20.706928Z",
+    "fetchedAt": "2026-11-16T11:31:20.365519Z",
     "state": "ok",
     "alerts": [
       {
@@ -46,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-16T11:16:20.706928Z",
+    "fetchedAt": "2026-11-16T11:31:20.365519Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

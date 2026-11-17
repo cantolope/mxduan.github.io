@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T02:43:29.735322Z",
+  "generatedAt": "2026-11-17T02:48:18.548412Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-17T02:33:11Z",
-    "fetchedAt": "2026-11-17T02:43:29.735322Z",
+    "fetchedAt": "2026-11-17T02:48:18.548412Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276699:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] and Forest Hills-71 Av-bound [M][R] trains are running with delays after NYPD responded to someone being disruptive on a train at Grand Av-Newtown.",
-        "description": "Forest Hills-71 Av-bound [M][R] have resumed making local stops from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "periods": [
-          {
-            "start": 1794880947,
-            "end": 1794883500
-          }
-        ],
-        "createdAt": 1794880947,
-        "updatedAt": 1794882790
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-17T02:43:29.735322Z",
+    "fetchedAt": "2026-11-17T02:48:18.548412Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-17T01:19:32Z",
-            "toDate": "2026-11-17T05:41:58Z",
+            "toDate": "2026-11-17T05:46:28Z",
             "isNow": true
           }
         ]

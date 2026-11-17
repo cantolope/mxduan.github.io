@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T02:18:08.776634Z",
+  "generatedAt": "2026-11-17T02:43:29.735322Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-17T02:11:12Z",
-    "fetchedAt": "2026-11-17T02:18:08.776634Z",
+    "sourceAt": "2026-11-17T02:33:11Z",
+    "fetchedAt": "2026-11-17T02:43:29.735322Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Forest Hills-71 Av-bound [M][R] trains are running express from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "description": "If your stop is skipped, take a downtown [M][R] train. \nExpect delays on Jamaica Center-York College-bound [E] and Jamaica-179 St-bound [F] trains while they share the tracks with rerouted trains. \nWhat's Happening?\n \nNYPD is responding to someone being disruptive on a train at Grand Av-Newtown.",
+        "header": "Jamaica-bound [E][F] and Forest Hills-71 Av-bound [M][R] trains are running with delays after NYPD responded to someone being disruptive on a train at Grand Av-Newtown.",
+        "description": "Forest Hills-71 Av-bound [M][R] have resumed making local stops from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
         "periods": [
           {
             "start": 1794880947,
-            "end": null
+            "end": 1794883500
           }
         ],
         "createdAt": 1794880947,
-        "updatedAt": 1794881471
+        "updatedAt": 1794882790
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810433472
+            "end": 1810434789
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "2d16d372cdc13217f88ce68a4ad536239215b33742cee636c3d22abe6523392d"
+    "sha256": "0d0aa02d8d905f836996966dc59ad00af2d87ed6a85ee94033a578f8e455dfee"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-17T02:18:08.776634Z",
+    "fetchedAt": "2026-11-17T02:43:29.735322Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-17T01:19:32Z",
-            "toDate": "2026-11-17T05:17:28Z",
+            "toDate": "2026-11-17T05:41:58Z",
             "isNow": true
           }
         ]

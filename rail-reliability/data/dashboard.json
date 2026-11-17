@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T02:03:08.020482Z",
+  "generatedAt": "2026-11-17T02:18:08.776634Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-17T02:02:27Z",
-    "fetchedAt": "2026-11-17T02:03:08.020482Z",
+    "sourceAt": "2026-11-17T02:11:12Z",
+    "fetchedAt": "2026-11-17T02:18:08.776634Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:276699:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Forest Hills-71 Av-bound [M][R] trains are running express from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
+        "description": "If your stop is skipped, take a downtown [M][R] train. \nExpect delays on Jamaica Center-York College-bound [E] and Jamaica-179 St-bound [F] trains while they share the tracks with rerouted trains. \nWhat's Happening?\n \nNYPD is responding to someone being disruptive on a train at Grand Av-Newtown.",
+        "periods": [
+          {
+            "start": 1794880947,
+            "end": null
+          }
+        ],
+        "createdAt": 1794880947,
+        "updatedAt": 1794881471
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810432947
+            "end": 1810433472
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b233ba56f4bda130f28173081e7277b9fc9deb4b41cdaaf3e5ebdb842b6e104a"
+    "sha256": "2d16d372cdc13217f88ce68a4ad536239215b33742cee636c3d22abe6523392d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-17T02:03:08.020482Z",
+    "fetchedAt": "2026-11-17T02:18:08.776634Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-17T01:19:32Z",
-            "toDate": "2026-11-17T05:01:27Z",
+            "toDate": "2026-11-17T05:17:28Z",
             "isNow": true
           }
         ]

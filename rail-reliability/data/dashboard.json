@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T11:33:32.289917Z",
+  "generatedAt": "2026-11-17T11:48:29.745952Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-17T11:15:35Z",
-    "fetchedAt": "2026-11-17T11:33:32.289917Z",
+    "fetchedAt": "2026-11-17T11:48:29.745952Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276736:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we addressed a door problem on a train at Lexington Av/53 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794914135,
-            "end": 1794915300
-          }
-        ],
-        "createdAt": 1794914135,
-        "updatedAt": 1794914135
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-17T11:33:32.289917Z",
+    "fetchedAt": "2026-11-17T11:48:29.745952Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

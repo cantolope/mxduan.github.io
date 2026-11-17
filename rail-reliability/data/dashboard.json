@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T06:18:21.017726Z",
+  "generatedAt": "2026-11-17T06:33:35.012054Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-17T06:14:46Z",
-    "fetchedAt": "2026-11-17T06:18:21.017726Z",
+    "sourceAt": "2026-11-17T06:23:13Z",
+    "fetchedAt": "2026-11-17T06:33:35.012054Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276716:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica Center-York College-bound [E]/Jamaica-179 St-bound [F] trains are running with delays after we requested EMS assistance for a person in need on a train at Forest Hills-71 Av.",
-        "description": "Jamaica Center-York College-bound [E]/Jamaica-179 St-bound [F] trains have resumed running local from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "periods": [
-          {
-            "start": 1794892822,
-            "end": 1794896400
-          }
-        ],
-        "createdAt": 1794892822,
-        "updatedAt": 1794894901
-      },
       {
         "id": "lmm:alert:276717:26",
         "type": "Delays",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810448084
+            "end": 1810448591
           }
         ],
         "createdAt": 1784303199,
@@ -94,11 +78,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "bf0695f0f6c93a268fc6fa19175f7bc5f00e9d1386d0f853c2d23a119c3249c1"
+    "sha256": "f65006585a7f62470a9b3592508cd85c8cec50717e31dfae29ebbb2860b025c9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-17T06:18:21.017726Z",
+    "fetchedAt": "2026-11-17T06:33:35.012054Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

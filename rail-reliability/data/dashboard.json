@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T03:34:09.553687Z",
+  "generatedAt": "2026-11-18T03:49:08.020808Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-18T03:26:31Z",
-    "fetchedAt": "2026-11-18T03:34:09.553687Z",
+    "sourceAt": "2026-11-18T03:45:27Z",
+    "fetchedAt": "2026-11-18T03:49:08.020808Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:276869:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are running with delays in both directions after we addressed a mechanical problem on a train at 23 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1794973527,
+            "end": null
+          }
+        ],
+        "createdAt": 1794973527,
+        "updatedAt": 1794973527
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810524391
+            "end": 1810525526
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "d4770a14501b4a54a1ce3b29f47bce5f0675ef75b49191b17a677441f4217cde"
+    "sha256": "2e662c43e43201f44a2c0d912868c9825483df8dd27545a1e9a7dc03473ca435"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T03:34:09.553687Z",
+    "fetchedAt": "2026-11-18T03:49:08.020808Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +89,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-18T01:26:12Z",
-            "toDate": "2026-11-18T06:32:39Z",
+            "toDate": "2026-11-18T06:48:30Z",
             "isNow": true
           }
         ]

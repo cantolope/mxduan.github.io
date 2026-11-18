@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T02:49:00.069174Z",
+  "generatedAt": "2026-11-18T03:04:15.178327Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-18T02:14:00Z",
-    "fetchedAt": "2026-11-18T02:49:00.069174Z",
+    "sourceAt": "2026-11-18T02:53:46Z",
+    "fetchedAt": "2026-11-18T03:04:15.178327Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,19 +34,35 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810520038
+            "end": 1810522423
           }
         ],
         "createdAt": 1784303199,
         "updatedAt": 1784303262
+      },
+      {
+        "id": "lmm:planned_work:36450",
+        "type": "Station Notice",
+        "planned": true,
+        "priority": 3,
+        "header": "[airplane icon] JFK AirTrain service is suspended and replaced by free shuttle buses",
+        "description": "Note: AirTrain is operated by the Port Authority of New York and New Jersey.\n\nLearn more and view additional travel alternatives",
+        "periods": [
+          {
+            "start": 1794970800,
+            "end": 1794999600
+          }
+        ],
+        "createdAt": 1794243066,
+        "updatedAt": 1794927333
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "85d1061ff2dc1e00702f3ddfa071736b41fbece7e5a5e30c9d03b37071d7305e"
+    "sha256": "ba6a52ad80a54e267212d500044ef387243057e5253b18382c86b4ad6313ee21"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T02:49:00.069174Z",
+    "fetchedAt": "2026-11-18T03:04:15.178327Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -57,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-18T01:26:12Z",
-            "toDate": "2026-11-18T05:48:09Z",
+            "toDate": "2026-11-18T06:02:39Z",
             "isNow": true
           }
         ]

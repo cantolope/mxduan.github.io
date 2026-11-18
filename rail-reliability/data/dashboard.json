@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T05:04:17.878986Z",
+  "generatedAt": "2026-11-18T05:19:19.674659Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-18T04:45:02Z",
-    "fetchedAt": "2026-11-18T05:04:17.878986Z",
+    "fetchedAt": "2026-11-18T05:19:19.674659Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276875:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are running with delays in both directions after we addressed a mechanical problem on a train at World Trade Center.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1794974979,
-            "end": 1794978900
-          }
-        ],
-        "createdAt": 1794974979,
-        "updatedAt": 1794977102
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -78,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T05:04:17.878986Z",
+    "fetchedAt": "2026-11-18T05:19:19.674659Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

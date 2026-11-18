@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T04:34:14.907849Z",
+  "generatedAt": "2026-11-18T04:49:23.583186Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-18T04:09:48Z",
-    "fetchedAt": "2026-11-18T04:34:14.907849Z",
+    "sourceAt": "2026-11-18T04:45:02Z",
+    "fetchedAt": "2026-11-18T04:49:23.583186Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are running with delays in both directions while we address a mechanical problem on a train at World Trade Center.",
+        "header": "[E] trains are running with delays in both directions after we addressed a mechanical problem on a train at World Trade Center.",
         "description": "",
         "periods": [
           {
             "start": 1794974979,
-            "end": null
+            "end": 1794978900
           }
         ],
         "createdAt": 1794974979,
-        "updatedAt": 1794974979
+        "updatedAt": 1794977102
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810526987
+            "end": 1810529102
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "44a03ea0c7cdd05520b32e69952e9f3e800c93ad9b4f40aca3a028c7e93fda2f"
+    "sha256": "8685bf732733a53f8ee86fc92eed4c3730fb1d630b0bccb898cbd453735e5828"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T04:34:14.907849Z",
+    "fetchedAt": "2026-11-18T04:49:23.583186Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T04:04:12.995811Z",
+  "generatedAt": "2026-11-18T04:19:13.718901Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-18T04:04:01Z",
-    "fetchedAt": "2026-11-18T04:04:12.995811Z",
+    "sourceAt": "2026-11-18T04:09:48Z",
+    "fetchedAt": "2026-11-18T04:19:13.718901Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:276869:26",
+        "id": "lmm:alert:276875:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are running with delays in both directions after we addressed a mechanical problem on a train at 23 St.",
+        "header": "[E] trains are running with delays in both directions while we address a mechanical problem on a train at World Trade Center.",
         "description": "",
         "periods": [
           {
-            "start": 1794973527,
-            "end": 1794975300
+            "start": 1794974979,
+            "end": null
           }
         ],
-        "createdAt": 1794973527,
-        "updatedAt": 1794974640
+        "createdAt": 1794974979,
+        "updatedAt": 1794974979
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810526639
+            "end": 1810526987
           }
         ],
         "createdAt": 1784303199,
@@ -74,25 +74,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7e68f611f76acdc2725039badd2b27d77be681268b9d2a0c66762c7c15a64f2c"
+    "sha256": "44a03ea0c7cdd05520b32e69952e9f3e800c93ad9b4f40aca3a028c7e93fda2f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T04:04:12.995811Z",
+    "fetchedAt": "2026-11-18T04:19:13.718901Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
-        "reason": "Victoria Line: Service will resume later this morning.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-18T01:26:12Z",
-            "toDate": "2026-11-18T07:03:48Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T16:35:14.308129Z",
+  "generatedAt": "2026-11-18T16:50:17.526086Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-18T16:12:35Z",
-    "fetchedAt": "2026-11-18T16:35:14.308129Z",
+    "sourceAt": "2026-11-18T16:47:18Z",
+    "fetchedAt": "2026-11-18T16:50:17.526086Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:276931:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays after NYPD assisted with someone being disruptive on a train at Queens Plaza.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795020046,
+            "end": null
+          }
+        ],
+        "createdAt": 1795020046,
+        "updatedAt": 1795020437
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810570354
+            "end": 1810572438
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "fd5403232cb52f882fcd9496886f60cc92c07f3421623851051082b7e7fe77e6"
+    "sha256": "3bcc605d39528af5b4f580634d60a6cc825a371afb5a8d15556af96ff75c4091"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T16:35:14.308129Z",
+    "fetchedAt": "2026-11-18T16:50:17.526086Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

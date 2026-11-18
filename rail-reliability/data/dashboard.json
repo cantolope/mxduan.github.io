@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T19:50:40.626397Z",
+  "generatedAt": "2026-11-18T20:05:43.640051Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-18T19:49:30Z",
-    "fetchedAt": "2026-11-18T19:50:40.626397Z",
+    "fetchedAt": "2026-11-18T20:05:43.640051Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:276955:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays after we addressed a door problem on a train at 23 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795029674,
-            "end": 1795032000
-          }
-        ],
-        "createdAt": 1795029674,
-        "updatedAt": 1795030883
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-18T19:50:40.626397Z",
+    "fetchedAt": "2026-11-18T20:05:43.640051Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -1562,7 +1546,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-11-17T20:03:56.106171Z",
+    "fetchedAt": "2026-11-18T20:05:43.640051Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }

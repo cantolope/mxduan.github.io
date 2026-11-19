@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-19T11:52:55.776075Z",
+  "generatedAt": "2026-11-19T12:07:56.451212Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-19T11:31:13Z",
-    "fetchedAt": "2026-11-19T11:52:55.776075Z",
+    "sourceAt": "2026-11-19T11:54:33Z",
+    "fetchedAt": "2026-11-19T12:07:56.451212Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,24 +29,24 @@
         "type": "Station Notice",
         "planned": true,
         "priority": 3,
-        "header": "Enter/exit 5 Av/53 St [E][F] Station at 5 Av only\nThe Madison Av side is closed",
+        "header": "Enter 5 Av/53 St [E][F] Station at 5 Av only\nMadison Av entrance has reopened and will be exit only.",
         "description": "What's happening?\nWe're replacing escalators",
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810639873
+            "end": 1810641273
           }
         ],
         "createdAt": 1784303199,
-        "updatedAt": 1795016964
+        "updatedAt": 1795089272
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e80391c44685c14f01d66df48ca3e1883e1aa00c9d3464875a4942ac6d2e7435"
+    "sha256": "1e46cb02957c08ca4b084f131e584e06988a092ab11de3d812527b446f8865fd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-19T11:52:55.776075Z",
+    "fetchedAt": "2026-11-19T12:07:56.451212Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

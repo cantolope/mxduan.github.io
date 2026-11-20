@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T17:56:12.262213Z",
+  "generatedAt": "2026-11-20T18:11:14.811444Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T17:55:41Z",
-    "fetchedAt": "2026-11-20T17:56:12.262213Z",
+    "sourceAt": "2026-11-20T18:05:46Z",
+    "fetchedAt": "2026-11-20T18:11:14.811444Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810749340
+            "end": 1810749946
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "215c58eea55f0e46301c9fc941d3da20085a8771a223ea2568f0b9ca4cb364eb"
+    "sha256": "e4e4862652903cf6cbced0d7e42e887dc8e224234abdd7366603fdecb8a940bd"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T17:56:12.262213Z",
+    "fetchedAt": "2026-11-20T18:11:14.811444Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays while we fix a points failure at Brixton. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Greater Anglia, Southeastern and South Western Railway.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to an earlier points failure at Brixton.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-20T17:53:32Z",
+            "fromDate": "2026-11-20T18:03:55Z",
             "toDate": "2026-11-21T01:29:00Z",
             "isNow": true
           }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T16:56:09.131022Z",
+  "generatedAt": "2026-11-20T17:11:07.662448Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T16:54:32Z",
-    "fetchedAt": "2026-11-20T16:56:09.131022Z",
+    "sourceAt": "2026-11-20T17:10:24Z",
+    "fetchedAt": "2026-11-20T17:11:07.662448Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277294:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [C][E] trains are running with delays after we addressed a door problem on a train at Spring St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795192781,
-            "end": 1795194240
-          }
-        ],
-        "createdAt": 1795192781,
-        "updatedAt": 1795192991
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810745671
+            "end": 1810746624
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "32467c8c942fca9ceda2756e890e272ced5397ebdcf7b70c6e0cf997946a1ac6"
+    "sha256": "6cc8af938054fc69c7e6548f4b6ce5ca7f2093f7242d32095811e74b7179b990"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T16:56:09.131022Z",
+    "fetchedAt": "2026-11-20T17:11:07.662448Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

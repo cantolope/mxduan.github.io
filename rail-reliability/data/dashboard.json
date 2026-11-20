@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T21:26:44.318349Z",
+  "generatedAt": "2026-11-20T21:41:44.856243Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T21:19:07Z",
-    "fetchedAt": "2026-11-20T21:26:44.318349Z",
+    "sourceAt": "2026-11-20T21:32:49Z",
+    "fetchedAt": "2026-11-20T21:41:44.856243Z",
     "state": "ok",
     "alerts": [
       {
@@ -41,20 +41,20 @@
         "updatedAt": 1795208804
       },
       {
-        "id": "lmm:alert:277331:10",
-        "type": "Boarding Change",
+        "id": "lmm:alert:277331:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 10,
-        "header": "Downtown [E][F] trains are running with delays while NYPD conducts an investigation at Queens Plaza.",
-        "description": "Boarding Change\nBoard downtown [E][F] trains on the [R] platform at Queens Plaza.",
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays after NYPD conducted an investigation at Queens Plaza.",
+        "description": "",
         "periods": [
           {
             "start": 1795209360,
-            "end": null
+            "end": 1795211700
           }
         ],
         "createdAt": 1795209360,
-        "updatedAt": 1795209360
+        "updatedAt": 1795210176
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810761547
+            "end": 1810762370
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "259ccbf60403a6463c661b2b70b0e8e84f777d721a703a1cb836e6bbf50e1048"
+    "sha256": "dbcb5a7c4ebf9ea115aabddee1a4720752fcb83c1d15a0111e7dc24a70d1c2fb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T21:26:44.318349Z",
+    "fetchedAt": "2026-11-20T21:41:44.856243Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

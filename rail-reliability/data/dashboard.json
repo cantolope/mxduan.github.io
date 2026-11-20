@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T00:43:29.947323Z",
+  "generatedAt": "2026-11-20T00:53:53.483558Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T00:28:37Z",
-    "fetchedAt": "2026-11-20T00:43:29.947323Z",
+    "sourceAt": "2026-11-20T00:51:09Z",
+    "fetchedAt": "2026-11-20T00:53:53.483558Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277163:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F]  and Forest Hills-bound [M][R] are running with delays after we addressed a door problem on a train at Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795128809,
-            "end": null
-          }
-        ],
-        "createdAt": 1795128809,
-        "updatedAt": 1795133927
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810686517
+            "end": 1810687868
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "442b08b856d0f486530af59c4e3754977e1729ee209d08c264772955750d096b"
+    "sha256": "2ccfb25fd51ad4206714b4c738b109ba044db5c743690daee969b445040b1692"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T00:43:29.947323Z",
+    "fetchedAt": "2026-11-20T00:53:53.483558Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

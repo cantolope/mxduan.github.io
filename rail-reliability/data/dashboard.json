@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T03:09:22.351234Z",
+  "generatedAt": "2026-11-20T03:24:16.002655Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,25 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T02:55:04Z",
-    "fetchedAt": "2026-11-20T03:09:22.351234Z",
+    "sourceAt": "2026-11-20T03:21:24Z",
+    "fetchedAt": "2026-11-20T03:24:16.002655Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:277204:26",
+        "id": "lmm:alert:277210:26",
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [E] trains are running with delays while we perform track maintenance near 5 Av/53 St.",
-        "description": "",
+        "header": "Jamaica-bound [E][F] trains are running with delays after we requested medical assistance for someone in need on a train at Jamaica-179 St.",
+        "description": "Jamaica-bound [E][F] trains have resumed making scheduled stops from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
         "periods": [
           {
-            "start": 1795140277,
+            "start": 1795144408,
             "end": null
           }
         ],
-        "createdAt": 1795140277,
-        "updatedAt": 1795143164
+        "createdAt": 1795144408,
+        "updatedAt": 1795144688
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810695295
+            "end": 1810696881
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "f31837163ad1f39f6fbcbd9db82679f86bdf94dfd35f0160ab9165a9490a90eb"
+    "sha256": "e2ecb5549add7cf02c27c91ff92a76d99045098aacae2756dbec67b3c3438407"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T03:09:22.351234Z",
+    "fetchedAt": "2026-11-20T03:24:16.002655Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-20T01:26:31Z",
-            "toDate": "2026-11-20T06:07:43Z",
+            "toDate": "2026-11-20T06:23:03Z",
             "isNow": true
           }
         ]

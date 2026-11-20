@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T21:41:44.856243Z",
+  "generatedAt": "2026-11-20T21:56:48.484713Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T21:32:49Z",
-    "fetchedAt": "2026-11-20T21:41:44.856243Z",
+    "sourceAt": "2026-11-20T21:42:28Z",
+    "fetchedAt": "2026-11-20T21:56:48.484713Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[B][C][D][E] trains are running with delays in both directions after we addressed a signal problem near 59 St-Columbus Circle.",
-        "description": "Uptown [B][C][D][E] trains have resumed making scheduled stops in Manhattan.",
+        "header": "[B][D][E] trains are running with delays in both directions.\nDowntown [C] are running with delays.",
+        "description": "What Happened?\nWe addressed a signal problem near 59 St-Columbus Circle.",
         "periods": [
           {
             "start": 1795206232,
@@ -38,23 +38,7 @@
           }
         ],
         "createdAt": 1795206232,
-        "updatedAt": 1795208804
-      },
-      {
-        "id": "lmm:alert:277331:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after NYPD conducted an investigation at Queens Plaza.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795209360,
-            "end": 1795211700
-          }
-        ],
-        "createdAt": 1795209360,
-        "updatedAt": 1795210176
+        "updatedAt": 1795210946
       },
       {
         "id": "lmm:planned_work:33366",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810762370
+            "end": 1810762948
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "dbcb5a7c4ebf9ea115aabddee1a4720752fcb83c1d15a0111e7dc24a70d1c2fb"
+    "sha256": "31f3b9338cb8a5fbf9e7fe70d173032ef69e022f506c0af6db4e9f21286f1f20"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T21:41:44.856243Z",
+    "fetchedAt": "2026-11-20T21:56:48.484713Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

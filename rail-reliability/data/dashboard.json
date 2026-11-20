@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T20:41:41.663361Z",
+  "generatedAt": "2026-11-20T20:56:38.732143Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,41 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T20:40:34Z",
-    "fetchedAt": "2026-11-20T20:41:41.663361Z",
+    "sourceAt": "2026-11-20T20:55:16Z",
+    "fetchedAt": "2026-11-20T20:56:38.732143Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:277319:26",
-        "type": "Delays",
+        "id": "lmm:alert:277320:32",
+        "type": "Reroute",
         "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we addressed a signal problem at 7 Av.",
-        "description": "",
+        "priority": 32,
+        "header": "[A][B][C][D][E] trains are disrupted in Manhattan.\nUptown [C] express from Canal St to 59 St-Columbus Circle\n.\nUptown [E] via [F] W 4 St to 5 Av/53 St.",
+        "description": "What's Happening?\nWe are addressing a signal problem near 59 St-Columbus Circle\n.\nAdditional Service Changes\nSome uptown [B] trains are rerouted via the [Q] from 34 St-Herald Sq to 96 St.\nThe last stop on some uptown [B][D] trains will be 42 St-Bryant Park, where it will turn for downtown service.\nThe last stop on some uptown [D] trains will be 36 St (Bklyn). \nListen to announcements to hear how your train will run.\n\nFor service to/from skipped [C] train stops, take a [E] train.",
         "periods": [
           {
-            "start": 1795205816,
+            "start": 1795206232,
             "end": null
           }
         ],
-        "createdAt": 1795205816,
-        "updatedAt": 1795205816
+        "createdAt": 1795206232,
+        "updatedAt": 1795208115
+      },
+      {
+        "id": "lmm:alert:277326:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E][F] trains are running with delays after they shared tracks with rerouted [M][R] trains.",
+        "description": "What Happened?\nNYPD conducted an investigation at 46 St.",
+        "periods": [
+          {
+            "start": 1795207478,
+            "end": null
+          }
+        ],
+        "createdAt": 1795207478,
+        "updatedAt": 1795207478
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810759234
+            "end": 1810760115
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7b6c1811c9344a358bb49b6516ae2bef3a196de6c5cd1e0b93dd19f405cacd0e"
+    "sha256": "351cd5e73ec92ecb12784a6e62492811904c7f44e409377998529d498267aa06"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T20:41:41.663361Z",
+    "fetchedAt": "2026-11-20T20:56:38.732143Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

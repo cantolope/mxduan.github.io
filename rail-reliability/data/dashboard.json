@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T17:41:10.974501Z",
+  "generatedAt": "2026-11-20T17:56:12.262213Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T17:39:29Z",
-    "fetchedAt": "2026-11-20T17:41:10.974501Z",
+    "sourceAt": "2026-11-20T17:55:41Z",
+    "fetchedAt": "2026-11-20T17:56:12.262213Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810748368
+            "end": 1810749340
           }
         ],
         "createdAt": 1784303199,
@@ -42,18 +42,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e8b98d5bc9078fea1121cbb6bbff54ed16cd29cecf25f6e2de6450345fe3eb1b"
+    "sha256": "215c58eea55f0e46301c9fc941d3da20085a8771a223ea2568f0b9ca4cb364eb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T17:41:10.974501Z",
+    "fetchedAt": "2026-11-20T17:56:12.262213Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays while we fix a points failure at Brixton. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Greater Anglia, Southeastern and South Western Railway.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-20T17:53:32Z",
+            "toDate": "2026-11-21T01:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

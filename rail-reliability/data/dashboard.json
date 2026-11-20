@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T03:54:21.759025Z",
+  "generatedAt": "2026-11-20T04:09:25.119838Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T03:51:57Z",
-    "fetchedAt": "2026-11-20T03:54:21.759025Z",
+    "sourceAt": "2026-11-20T03:56:58Z",
+    "fetchedAt": "2026-11-20T04:09:25.119838Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277210:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we requested medical assistance for someone in need on a train at Jamaica-179 St.",
-        "description": "Jamaica-bound [E][F] trains have resumed making scheduled stops from Jackson Heights-Roosevelt Av to Forest Hills-71 Av.",
-        "periods": [
-          {
-            "start": 1795144408,
-            "end": null
-          }
-        ],
-        "createdAt": 1795144408,
-        "updatedAt": 1795144688
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810698715
+            "end": 1810699015
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9ecae809653042b7f61eec5c732908107cb232d5ac90fc866ea65646abd8cfe7"
+    "sha256": "20010f9d0c790ea0e2bec3d9a697f7134e524cacf0e1018c635b53e5cb656e53"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T03:54:21.759025Z",
+    "fetchedAt": "2026-11-20T04:09:25.119838Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-20T01:26:31Z",
-            "toDate": "2026-11-20T06:53:07Z",
+            "toDate": "2026-11-20T07:08:14Z",
             "isNow": true
           }
         ]

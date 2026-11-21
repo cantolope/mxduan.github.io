@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T05:57:55.867560Z",
+  "generatedAt": "2026-11-21T06:12:56.458118Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,42 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T05:51:06Z",
-    "fetchedAt": "2026-11-21T05:57:55.867560Z",
+    "sourceAt": "2026-11-21T06:10:20Z",
+    "fetchedAt": "2026-11-21T06:12:56.458118Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:277388:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E][F] trains are delayed in both directions while we conduct track maintenance along the line in Queens.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795241364,
+            "end": null
+          }
+        ],
+        "createdAt": 1795241364,
+        "updatedAt": 1795241364
+      },
+      {
+        "id": "lmm:alert:277389:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E] trains are delayed while we investigate a report of an unauthorized person on the tracks at 23 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795241419,
+            "end": null
+          }
+        ],
+        "createdAt": 1795241419,
+        "updatedAt": 1795241419
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810792264
+            "end": 1810793420
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ad13f53cc101133b9ccc9fff25975fed83272802cbc42149689c457d5d44cae1"
+    "sha256": "c95d353aaed4b3bfd970ef224b818e5ed56b4b756368edeadc8d6a34e3cd146a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T05:57:55.867560Z",
+    "fetchedAt": "2026-11-21T06:12:56.458118Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

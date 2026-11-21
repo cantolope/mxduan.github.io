@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T21:29:03.709084Z",
+  "generatedAt": "2026-11-21T21:44:07.795921Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-21T21:04:59Z",
-    "fetchedAt": "2026-11-21T21:29:03.709084Z",
+    "fetchedAt": "2026-11-21T21:44:07.795921Z",
     "state": "ok",
     "alerts": [
       {
@@ -46,17 +46,17 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T21:29:03.709084Z",
+    "fetchedAt": "2026-11-21T21:44:07.795921Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier points failure at Walthamstow Central. Tickets being accepted on London Buses.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to an earlier points failure at Walthamstow Central.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T20:50:42Z",
+            "fromDate": "2026-11-21T21:34:20Z",
             "toDate": "2026-11-22T01:29:00Z",
             "isNow": true
           }

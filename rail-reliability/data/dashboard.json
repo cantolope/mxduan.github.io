@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T09:28:19.615306Z",
+  "generatedAt": "2026-11-21T09:43:21.506953Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,42 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T09:22:42Z",
-    "fetchedAt": "2026-11-21T09:28:19.615306Z",
+    "sourceAt": "2026-11-21T09:43:20Z",
+    "fetchedAt": "2026-11-21T09:43:21.506953Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277388:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we conduct track maintenance along the lines in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795241364,
-            "end": null
-          }
-        ],
-        "createdAt": 1795241364,
-        "updatedAt": 1795246460
-      },
-      {
-        "id": "lmm:alert:277397:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we addressed a mechanical problem on a train at Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795252379,
-            "end": 1795254180
-          }
-        ],
-        "createdAt": 1795252379,
-        "updatedAt": 1795252961
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -66,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810804962
+            "end": 1810806197
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8a3200ff32553de54e7ad909820bd0fd8dee6b6beebbae319a016915eb2bf39c"
+    "sha256": "d05db5998e692d3fb20e1114051a615a7f9dca83ec5d4494e4078795171da0a1"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T09:28:19.615306Z",
+    "fetchedAt": "2026-11-21T09:43:21.506953Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

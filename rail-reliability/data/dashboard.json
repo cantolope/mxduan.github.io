@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T16:13:53.917827Z",
+  "generatedAt": "2026-11-21T16:28:53.380889Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T16:00:45Z",
-    "fetchedAt": "2026-11-21T16:13:53.917827Z",
+    "sourceAt": "2026-11-21T16:15:11Z",
+    "fetchedAt": "2026-11-21T16:28:53.380889Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810828845
+            "end": 1810829710
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,33 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "47356ffa42e6ed87a3b38b1dd4b89bc3f2ac640e9bd7aafd3c54ae86fa8bdf37"
+    "sha256": "9f69f5c89b9dc4a6530033e80830c775bb96c403068474e47fd526b5ace60b0d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T16:13:53.917827Z",
+    "fetchedAt": "2026-11-21T16:28:53.380889Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays while we fix a faulty train at Victoria.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays between Victoria and Brixton due to an earlier faulty  train at Victoria. MINOR DELAYS on the rest of the line.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T15:21:02Z",
+            "fromDate": "2026-11-21T16:18:20Z",
+            "toDate": "2026-11-22T01:29:00Z",
+            "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Severe delays between Victoria and Brixton due to an earlier faulty  train at Victoria. MINOR DELAYS on the rest of the line.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-21T16:18:20Z",
             "toDate": "2026-11-22T01:29:00Z",
             "isNow": true
           }

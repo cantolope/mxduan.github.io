@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T17:13:55.003731Z",
+  "generatedAt": "2026-11-21T17:28:55.029760Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T16:56:32Z",
-    "fetchedAt": "2026-11-21T17:13:55.003731Z",
+    "sourceAt": "2026-11-21T17:28:50Z",
+    "fetchedAt": "2026-11-21T17:28:55.029760Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810832190
+            "end": 1810834131
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c27e3bacc71b3ea4f6a62d001daf25dc80d2e26316584ec6fa2bd9e43cc7abdc"
+    "sha256": "500e006835d1eaf7cb1ea2263222b3b216563593970b46bebc8ea646cff0db51"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T17:13:55.003731Z",
+    "fetchedAt": "2026-11-21T17:28:55.029760Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delay due to an earlier faulty train at Victoria.",
+        "reason": "Victoria Line: Minor delays due to an earlier faulty train at Victoria.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T17:03:09Z",
+            "fromDate": "2026-11-21T17:23:38Z",
             "toDate": "2026-11-22T01:29:00Z",
             "isNow": true
           }

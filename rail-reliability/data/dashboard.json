@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T23:57:05.891395Z",
+  "generatedAt": "2026-11-21T00:12:08.464487Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-20T23:44:19Z",
-    "fetchedAt": "2026-11-20T23:57:05.891395Z",
+    "sourceAt": "2026-11-21T00:04:07Z",
+    "fetchedAt": "2026-11-21T00:12:08.464487Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810770257
+            "end": 1810771447
           }
         ],
         "createdAt": 1784303199,
@@ -42,25 +42,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "12e3fcd0c18ebdf9d4e2d561e1b1cbb585f98c0935fc90fae9563f8bd949427e"
+    "sha256": "9824c2053b92301e2331efb4ad404cf482474ebf1bc4246fa84bd4d7ab601afc"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-20T23:57:05.891395Z",
+    "fetchedAt": "2026-11-21T00:12:08.464487Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to an earlier points failure at Brixton.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-20T18:03:55Z",
-            "toDate": "2026-11-21T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

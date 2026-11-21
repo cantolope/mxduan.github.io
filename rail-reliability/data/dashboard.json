@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T16:58:55.722459Z",
+  "generatedAt": "2026-11-21T17:13:55.003731Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-21T16:56:32Z",
-    "fetchedAt": "2026-11-21T16:58:55.722459Z",
+    "fetchedAt": "2026-11-21T17:13:55.003731Z",
     "state": "ok",
     "alerts": [
       {
@@ -46,29 +46,17 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T16:58:55.722459Z",
+    "fetchedAt": "2026-11-21T17:13:55.003731Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays between Victoria and Brixton due to an earlier faulty  train at Victoria. MINOR DELAYS on the rest of the line.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T16:18:20Z",
-            "toDate": "2026-11-22T01:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
         "label": "Minor Delays",
-        "reason": "Victoria Line: Severe delays between Victoria and Brixton due to an earlier faulty  train at Victoria. MINOR DELAYS on the rest of the line.",
+        "reason": "Victoria Line: Minor delay due to an earlier faulty train at Victoria.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T16:18:20Z",
+            "fromDate": "2026-11-21T17:03:09Z",
             "toDate": "2026-11-22T01:29:00Z",
             "isNow": true
           }

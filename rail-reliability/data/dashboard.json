@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T18:14:01.147602Z",
+  "generatedAt": "2026-11-21T18:28:57.046731Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T18:00:28Z",
-    "fetchedAt": "2026-11-21T18:14:01.147602Z",
+    "sourceAt": "2026-11-21T18:22:21Z",
+    "fetchedAt": "2026-11-21T18:28:57.046731Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810836028
+            "end": 1810837340
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0ee7e274ca788fa7f5bffd5a0b738a006c26cdd31bfefa09e9815ba696bb8e8d"
+    "sha256": "632dd1f05c6ce7018ceaf550cee1caa1712129a8308741f1ddbc523c043461c8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T18:14:01.147602Z",
+    "fetchedAt": "2026-11-21T18:28:57.046731Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to an earlier faulty train at Victoria.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays while we fix a points failure at Walthamstow Central.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T17:23:38Z",
+            "fromDate": "2026-11-21T18:20:31Z",
             "toDate": "2026-11-22T01:29:00Z",
             "isNow": true
           }

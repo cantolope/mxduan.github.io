@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T20:44:01.976419Z",
+  "generatedAt": "2026-11-21T20:58:59.756827Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T20:12:56Z",
-    "fetchedAt": "2026-11-21T20:44:01.976419Z",
+    "sourceAt": "2026-11-21T20:58:46Z",
+    "fetchedAt": "2026-11-21T20:58:59.756827Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810843975
+            "end": 1810846724
           }
         ],
         "createdAt": 1784303199,
@@ -42,34 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "1d9925701d163c41fb7917d2a3ee26c437202df1f96fa8ab8aaacfe0e4744f0a"
+    "sha256": "1333e1ed203c1bf90b70cf2e9461e20d5eaa69f9214e1abf141e33b130de1e18"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T20:44:01.976419Z",
+    "fetchedAt": "2026-11-21T20:58:59.756827Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we fix a points failure at Walthamstow Central. Tickets being accepted on London Buses. SEVERE DELAYS on the rest of the line.",
+        "reason": "Victoria Line: Severe delays due to an earlier points failure at Walthamstow Central. Tickets being accepted on London Buses.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T19:54:57Z",
+            "fromDate": "2026-11-21T20:50:42Z",
             "toDate": "2026-11-22T01:29:00Z",
-            "isNow": true
-          }
-        ]
-      },
-      {
-        "label": "Part Suspended",
-        "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we fix a points failure at Walthamstow Central. Tickets being accepted on London Buses. SEVERE DELAYS on the rest of the line.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-21T19:54:57Z",
-            "toDate": "2026-11-21T23:42:41Z",
             "isNow": true
           }
         ]

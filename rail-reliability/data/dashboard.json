@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T12:28:38.541450Z",
+  "generatedAt": "2026-11-21T12:43:41.159358Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-21T12:23:12Z",
-    "fetchedAt": "2026-11-21T12:28:38.541450Z",
+    "sourceAt": "2026-11-21T12:34:28Z",
+    "fetchedAt": "2026-11-21T12:43:41.159358Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810815792
+            "end": 1810816466
           }
         ],
         "createdAt": 1784303199,
@@ -42,18 +42,37 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "bda60502fac1bc1b5fe6011f28de9b75bec3afe32272271e64ae7961ae0dc12f"
+    "sha256": "e103c0932f6f68147ce55034cf05f491dff1817031677e4f63ecc8ca0ebab0e5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-21T12:28:38.541450Z",
+    "fetchedAt": "2026-11-21T12:43:41.159358Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-21T12:30:51Z",
+            "toDate": "2026-11-22T01:29:00Z",
+            "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-21T12:31:19Z",
+            "toDate": "2026-11-22T01:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

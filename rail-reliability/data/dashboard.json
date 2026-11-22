@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T12:31:08.329430Z",
+  "generatedAt": "2026-11-22T12:46:13.328883Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-22T12:05:56Z",
-    "fetchedAt": "2026-11-22T12:31:08.329430Z",
+    "sourceAt": "2026-11-22T12:43:16Z",
+    "fetchedAt": "2026-11-22T12:46:13.328883Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:277496:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [A][E] trains are delayed while we investigate what caused a train's brakes to activate near 42 St-Port Authority Bus Terminal.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795351084,
+            "end": null
+          }
+        ],
+        "createdAt": 1795351084,
+        "updatedAt": 1795351085
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810901156
+            "end": 1810903394
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4eb73b2d5ff45c1b3672da30f68f0c1f41e0b3b032424c4a713d99a599772828"
+    "sha256": "227d8f977466558be8325813c42019e505487af2fd59bb194f6a13832f7636b0"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-22T12:31:08.329430Z",
+    "fetchedAt": "2026-11-22T12:46:13.328883Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

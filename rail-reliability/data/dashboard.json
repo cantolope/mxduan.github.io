@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T16:46:50.690083Z",
+  "generatedAt": "2026-11-22T17:01:52.013005Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-22T16:46:22Z",
-    "fetchedAt": "2026-11-22T16:46:50.690083Z",
+    "sourceAt": "2026-11-22T16:58:59Z",
+    "fetchedAt": "2026-11-22T17:01:52.013005Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:277505:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [A][E] trains are delayed while we request EMS/NYPD assistance for someone in need on a train at W 4 St-Wash Sq.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795366472,
+            "end": null
+          }
+        ],
+        "createdAt": 1795366472,
+        "updatedAt": 1795366738
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810917982
+            "end": 1810918738
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "5ea55d21ef52b1ca9a030ee1a203685430997b86a47c3d3b2cb540c3f22ddae4"
+    "sha256": "668487c68f4d04916fe1d90cf98bcb03fff4f74caee37ec6352bb91aaae0859d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-22T16:46:50.690083Z",
+    "fetchedAt": "2026-11-22T17:01:52.013005Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

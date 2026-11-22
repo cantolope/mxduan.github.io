@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T09:30:40.794240Z",
+  "generatedAt": "2026-11-22T09:45:42.483318Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-22T09:15:09Z",
-    "fetchedAt": "2026-11-22T09:30:40.794240Z",
+    "sourceAt": "2026-11-22T09:33:32Z",
+    "fetchedAt": "2026-11-22T09:45:42.483318Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277486:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica Center-York College-bound [E] trains are delayed while we investigate why a train's brakes activated near Lexington Av/53 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795338909,
-            "end": null
-          }
-        ],
-        "createdAt": 1795338909,
-        "updatedAt": 1795338909
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810890908
+            "end": 1810892011
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "387d653a89b38fc9bdda9c388b9f0b030cd3a203a7565fec2740fb7439b15464"
+    "sha256": "db42ab49565b8c33b239f22e5e58f96306e2e0484cb2ffe146b6a18cc7c10524"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-22T09:30:40.794240Z",
+    "fetchedAt": "2026-11-22T09:45:42.483318Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

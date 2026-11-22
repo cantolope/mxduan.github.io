@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T12:46:13.328883Z",
+  "generatedAt": "2026-11-22T13:01:14.786866Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-22T12:43:16Z",
-    "fetchedAt": "2026-11-22T12:46:13.328883Z",
+    "sourceAt": "2026-11-22T12:53:41Z",
+    "fetchedAt": "2026-11-22T13:01:14.786866Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [A][E] trains are delayed while we investigate what caused a train's brakes to activate near 42 St-Port Authority Bus Terminal.",
+        "header": "Downtown [A][E] trains are running with delays after we moved a train that had its brakes activated near 42 St-Port Authority Bus Terminal.",
         "description": "",
         "periods": [
           {
             "start": 1795351084,
-            "end": null
+            "end": 1795353300
           }
         ],
         "createdAt": 1795351084,
-        "updatedAt": 1795351085
+        "updatedAt": 1795352006
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810903394
+            "end": 1810904019
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "227d8f977466558be8325813c42019e505487af2fd59bb194f6a13832f7636b0"
+    "sha256": "a49094fa6ba53411c8db5dda761a9b9d21b30f8894ea9c09e77e8d27556c5799"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-22T12:46:13.328883Z",
+    "fetchedAt": "2026-11-22T13:01:14.786866Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

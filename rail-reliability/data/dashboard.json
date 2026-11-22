@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T17:17:00.320659Z",
+  "generatedAt": "2026-11-22T17:32:05.177035Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-22T17:16:40Z",
-    "fetchedAt": "2026-11-22T17:17:00.320659Z",
+    "fetchedAt": "2026-11-22T17:32:05.177035Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277505:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [A][E] trains are running with delays after NYPD responded to someone in need of medical assistance on a train at W 4 St-Wash Sq.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795366472,
-            "end": 1795368600
-          }
-        ],
-        "createdAt": 1795366472,
-        "updatedAt": 1795367586
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-22T17:17:00.320659Z",
+    "fetchedAt": "2026-11-22T17:32:05.177035Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

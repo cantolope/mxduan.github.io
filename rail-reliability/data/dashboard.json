@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T15:34:17.932305Z",
+  "generatedAt": "2026-11-23T15:49:09.906972Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-23T15:09:46Z",
-    "fetchedAt": "2026-11-23T15:34:17.932305Z",
+    "sourceAt": "2026-11-23T15:47:29Z",
+    "fetchedAt": "2026-11-23T15:49:09.906972Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:277619:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][C][E] trains are running with delays.\n\nUptown [A] trains are running local from Canal St to 59 St-Columbus Circle.",
+        "description": "What's Happening? \n\nOur track inspection train is moving along the line in Manhattan.",
+        "periods": [
+          {
+            "start": 1795448698,
+            "end": null
+          }
+        ],
+        "createdAt": 1795448698,
+        "updatedAt": 1795448849
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810998586
+            "end": 1811000849
           }
         ],
         "createdAt": 1784303199,
@@ -42,18 +58,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e7f74e064b3f0f905d0fe69507e746702850271d62800aa2a5e6205fe901dbb0"
+    "sha256": "79a825d2b6b631b3e613c5fcd19db1931a5ea2e0960ae032e2bf09fa956b2882"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T15:34:17.932305Z",
+    "fetchedAt": "2026-11-23T15:49:09.906972Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays while we help a person ill on a train at Green Park. Tickets are being accepted on London Buses and Weaver line.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-23T15:43:08Z",
+            "toDate": "2026-11-24T01:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

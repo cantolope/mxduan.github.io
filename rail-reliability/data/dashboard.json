@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T11:18:54.009382Z",
+  "generatedAt": "2026-11-23T11:33:55.699263Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-23T10:59:44Z",
-    "fetchedAt": "2026-11-23T11:18:54.009382Z",
+    "sourceAt": "2026-11-23T11:29:21Z",
+    "fetchedAt": "2026-11-23T11:33:55.699263Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:277582:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Jamaica-bound [E][F] trains are delayed while we investigate what caused a train's brakes to activate at Kew Gardens-Union Tpke.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795433360,
+            "end": null
+          }
+        ],
+        "createdAt": 1795433360,
+        "updatedAt": 1795433360
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810983582
+            "end": 1810985359
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "7d8b71936739e1f748818aec435ab59de8ee79fa229d0789f014b12defb73f42"
+    "sha256": "87ad02b05addbaaf071203b36e63ad777c7472dfb6aba9163a1744abb23123f2"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T11:18:54.009382Z",
+    "fetchedAt": "2026-11-23T11:33:55.699263Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

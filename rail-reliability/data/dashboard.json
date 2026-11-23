@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T14:49:03.915199Z",
+  "generatedAt": "2026-11-23T15:04:01.598404Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-23T14:46:45Z",
-    "fetchedAt": "2026-11-23T14:49:03.915199Z",
+    "fetchedAt": "2026-11-23T15:04:01.598404Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277614:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Jamaica-bound [E][F] trains are running with delays after we moved a train that had its brakes activated near 46 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795444524,
-            "end": 1795445700
-          }
-        ],
-        "createdAt": 1795444524,
-        "updatedAt": 1795445204
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T14:49:03.915199Z",
+    "fetchedAt": "2026-11-23T15:04:01.598404Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

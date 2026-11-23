@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T15:49:09.906972Z",
+  "generatedAt": "2026-11-23T16:04:14.608246Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-23T15:47:29Z",
-    "fetchedAt": "2026-11-23T15:49:09.906972Z",
+    "sourceAt": "2026-11-23T15:58:25Z",
+    "fetchedAt": "2026-11-23T16:04:14.608246Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [A][C][E] trains are running with delays.\n\nUptown [A] trains are running local from Canal St to 59 St-Columbus Circle.",
-        "description": "What's Happening? \n\nOur track inspection train is moving along the line in Manhattan.",
+        "header": "Uptown [A][C][E] trains are running with delays.",
+        "description": "What's Happened?\n\nOur track inspection train moved along the line in Manhattan.\nUptown [A] trains have resumed making express stops from Canal St to 59 St-Columbus Circle.",
         "periods": [
           {
             "start": 1795448698,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1795448698,
-        "updatedAt": 1795448849
+        "updatedAt": 1795449505
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811000849
+            "end": 1811001505
           }
         ],
         "createdAt": 1784303199,
@@ -58,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "79a825d2b6b631b3e613c5fcd19db1931a5ea2e0960ae032e2bf09fa956b2882"
+    "sha256": "8d7dfd09b5e90f98a0e23c9ef5676adba15cc4cdf1b69f2b21b2b23aaad5f0ba"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T15:49:09.906972Z",
+    "fetchedAt": "2026-11-23T16:04:14.608246Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays while we help a person ill on a train at Green Park. Tickets are being accepted on London Buses and Weaver line.",
+        "reason": "Victoria Line: Severe delays due to an earlier person ill on a train at Green Park. Tickets are being accepted on London Buses and Weaver line.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-23T15:43:08Z",
+            "fromDate": "2026-11-23T15:49:07Z",
             "toDate": "2026-11-24T01:29:00Z",
             "isNow": true
           }

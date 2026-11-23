@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T16:34:17.678275Z",
+  "generatedAt": "2026-11-23T16:49:17.677352Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-23T16:29:01Z",
-    "fetchedAt": "2026-11-23T16:34:17.678275Z",
+    "sourceAt": "2026-11-23T16:48:53Z",
+    "fetchedAt": "2026-11-23T16:49:17.677352Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277619:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [A][C][E] trains are running with delays.",
-        "description": "What's Happened?\n\nOur track inspection train moved along the line in Manhattan.\nUptown [A] trains have resumed making express stops from Canal St to 59 St-Columbus Circle.",
-        "periods": [
-          {
-            "start": 1795448698,
-            "end": 1795451700
-          }
-        ],
-        "createdAt": 1795448698,
-        "updatedAt": 1795451340
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811003338
+            "end": 1811004533
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "301db3400a8c2f337f3dfe0e415c7825fe465d61db34aaedc89982fefc29bac9"
+    "sha256": "0be08c6f0cba8c7c38b8ee68d3f911cdee3aab820ee3d953ae17ade63b00b9af"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T16:34:17.678275Z",
+    "fetchedAt": "2026-11-23T16:49:17.677352Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

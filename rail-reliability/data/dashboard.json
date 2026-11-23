@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T00:02:46.723250Z",
+  "generatedAt": "2026-11-23T00:17:48.806049Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-23T00:01:48Z",
-    "fetchedAt": "2026-11-23T00:02:46.723250Z",
+    "sourceAt": "2026-11-23T00:14:36Z",
+    "fetchedAt": "2026-11-23T00:17:48.806049Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:277543:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are delayed while we address a door problem on a train at Court Sq-23 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795392876,
+            "end": null
+          }
+        ],
+        "createdAt": 1795392876,
+        "updatedAt": 1795392876
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1810944107
+            "end": 1810944876
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "05a526110abaaed34061af1dcebd660be074510d5364316ae56b0422dd0c5eca"
+    "sha256": "7d2cf579692449e46647f1a44c49fb58085b08ededb975f38b23fed49568faf8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T00:02:46.723250Z",
+    "fetchedAt": "2026-11-23T00:17:48.806049Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

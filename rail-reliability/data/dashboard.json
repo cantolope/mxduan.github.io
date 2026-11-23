@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T00:32:47.525643Z",
+  "generatedAt": "2026-11-23T00:47:51.921776Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-23T00:19:01Z",
-    "fetchedAt": "2026-11-23T00:32:47.525643Z",
+    "fetchedAt": "2026-11-23T00:47:51.921776Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277543:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we addressed a door problem on a train at Court Sq-23 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795392876,
-            "end": 1795394100
-          }
-        ],
-        "createdAt": 1795392876,
-        "updatedAt": 1795393140
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,14 +46,21 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T00:32:47.525643Z",
+    "fetchedAt": "2026-11-23T00:47:51.921776Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-23T00:41:01Z",
+            "toDate": "2026-11-23T03:46:18Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

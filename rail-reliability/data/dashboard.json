@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T16:19:15.014389Z",
+  "generatedAt": "2026-11-23T16:34:17.678275Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-23T15:58:25Z",
-    "fetchedAt": "2026-11-23T16:19:15.014389Z",
+    "sourceAt": "2026-11-23T16:29:01Z",
+    "fetchedAt": "2026-11-23T16:34:17.678275Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,11 +34,11 @@
         "periods": [
           {
             "start": 1795448698,
-            "end": null
+            "end": 1795451700
           }
         ],
         "createdAt": 1795448698,
-        "updatedAt": 1795449505
+        "updatedAt": 1795451340
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811001505
+            "end": 1811003338
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +58,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "8d7dfd09b5e90f98a0e23c9ef5676adba15cc4cdf1b69f2b21b2b23aaad5f0ba"
+    "sha256": "301db3400a8c2f337f3dfe0e415c7825fe465d61db34aaedc89982fefc29bac9"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T16:19:15.014389Z",
+    "fetchedAt": "2026-11-23T16:34:17.678275Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to an earlier person ill on a train at Green Park.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-23T16:14:02Z",
-            "toDate": "2026-11-24T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

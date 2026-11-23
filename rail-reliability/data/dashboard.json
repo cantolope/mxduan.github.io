@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T09:48:54.930148Z",
+  "generatedAt": "2026-11-23T10:03:54.156640Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-23T09:16:17Z",
-    "fetchedAt": "2026-11-23T09:48:54.930148Z",
+    "fetchedAt": "2026-11-23T10:03:54.156640Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277564:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795411082,
-            "end": 1795427940
-          }
-        ],
-        "createdAt": 1795411082,
-        "updatedAt": 1795412972
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,7 +46,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-23T09:48:54.930148Z",
+    "fetchedAt": "2026-11-23T10:03:54.156640Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

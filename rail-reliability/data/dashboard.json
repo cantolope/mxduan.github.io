@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T12:36:28.796867Z",
+  "generatedAt": "2026-11-24T12:51:31.873765Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-24T12:24:58Z",
-    "fetchedAt": "2026-11-24T12:36:28.796867Z",
+    "sourceAt": "2026-11-24T12:51:14Z",
+    "fetchedAt": "2026-11-24T12:51:31.873765Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277741:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E][F] trains are running with delays after we removed a train car in need of cleaning from service at Lexington Av/53 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795522861,
-            "end": 1795524600
-          }
-        ],
-        "createdAt": 1795522861,
-        "updatedAt": 1795523097
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811075097
+            "end": 1811076674
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "99e82c509eaa5bed831b0b293b6747221ea991a9c42e8b7241dfe9561ec0d810"
+    "sha256": "7cd54bfc309fa63cd7e8b62b2d39efd0e4e3791706c90cde027a2689c93aa76d"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-24T12:36:28.796867Z",
+    "fetchedAt": "2026-11-24T12:51:31.873765Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

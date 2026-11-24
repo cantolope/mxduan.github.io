@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T02:20:25.229713Z",
+  "generatedAt": "2026-11-24T02:35:24.880176Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-24T02:18:27Z",
-    "fetchedAt": "2026-11-24T02:20:25.229713Z",
+    "sourceAt": "2026-11-24T02:29:18Z",
+    "fetchedAt": "2026-11-24T02:35:24.880176Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277697:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F][R] trains are running with delays after we conducted urgent track maintenance at Jackson Heights-Roosevelt Av.",
-        "description": "Downtown [E][F] trains have resumed making express stops from Forest Hills-71 Av to Jackson Heights-Roosevelt Av.",
-        "periods": [
-          {
-            "start": 1795482479,
-            "end": 1795487700
-          }
-        ],
-        "createdAt": 1795482479,
-        "updatedAt": 1795486101
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811038707
+            "end": 1811039358
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ca4ef793a8dae9c6c14dd9444c4027af54630698d41a779128de8ce935870a16"
+    "sha256": "7144ff953a30f93831891282ddfcfa6fff5bd4d1598c94a21fb31177f55cfaf7"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-24T02:20:25.229713Z",
+    "fetchedAt": "2026-11-24T02:35:24.880176Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-24T01:11:22Z",
-            "toDate": "2026-11-24T05:19:21Z",
+            "toDate": "2026-11-24T05:34:25Z",
             "isNow": true
           }
         ]

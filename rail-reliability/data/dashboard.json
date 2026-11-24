@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T11:36:16.403677Z",
+  "generatedAt": "2026-11-24T11:51:18.123394Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-24T11:28:39Z",
-    "fetchedAt": "2026-11-24T11:36:16.403677Z",
+    "sourceAt": "2026-11-24T11:49:59Z",
+    "fetchedAt": "2026-11-24T11:51:18.123394Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277736:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we moved a train that had its brakes activated at Jackson Heights-Roosevelt Av.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795519296,
-            "end": 1795521120
-          }
-        ],
-        "createdAt": 1795519296,
-        "updatedAt": 1795519689
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811071718
+            "end": 1811072996
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "30cb7c60f9dd931398efd8ee9518f3db337b93f839b5bea49fa83314cf72d2c7"
+    "sha256": "db54e39aa92cb3c67b2d06ce54def45b21896e91e03e21667dc1397d36397713"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-24T11:36:16.403677Z",
+    "fetchedAt": "2026-11-24T11:51:18.123394Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T01:50:26.156792Z",
+  "generatedAt": "2026-11-24T02:05:22.096922Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-24T01:38:14Z",
-    "fetchedAt": "2026-11-24T01:50:26.156792Z",
+    "sourceAt": "2026-11-24T01:58:48Z",
+    "fetchedAt": "2026-11-24T02:05:22.096922Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Downtown [E][F] trains are running with delays after we conducted urgent track maintenance at Jackson Heights-Roosevelt Av.",
+        "header": "Downtown [E][F][R] trains are running with delays after we conducted urgent track maintenance at Jackson Heights-Roosevelt Av.",
         "description": "Downtown [E][F] trains have resumed making express stops from Forest Hills-71 Av to Jackson Heights-Roosevelt Av.",
         "periods": [
           {
             "start": 1795482479,
-            "end": 1795485420
+            "end": null
           }
         ],
         "createdAt": 1795482479,
-        "updatedAt": 1795484294
+        "updatedAt": 1795485038
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811036294
+            "end": 1811037528
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "cde5fcf72dac574f3bb70b8bd785b9f2710b29e16d5af1a677cd089c55929767"
+    "sha256": "a1443ef2ef51f861858c5d24447f2056a19b1d4ac1305ca4e04183fc7de85baa"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-24T01:50:26.156792Z",
+    "fetchedAt": "2026-11-24T02:05:22.096922Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-24T01:11:22Z",
-            "toDate": "2026-11-24T04:49:19Z",
+            "toDate": "2026-11-24T05:04:20Z",
             "isNow": true
           }
         ]

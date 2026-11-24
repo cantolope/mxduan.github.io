@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-24T09:51:13.383645Z",
+  "generatedAt": "2026-11-24T10:06:08.420501Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,25 +21,9 @@
   },
   "current": {
     "sourceAt": "2026-11-24T09:11:18Z",
-    "fetchedAt": "2026-11-24T09:51:13.383645Z",
+    "fetchedAt": "2026-11-24T10:06:08.420501Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:277719:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E][F] trains are running with delays in both directions while we perform track maintenance in Queens.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795497603,
-            "end": 1795514340
-          }
-        ],
-        "createdAt": 1795497603,
-        "updatedAt": 1795497616
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -62,21 +46,14 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-24T09:51:13.383645Z",
+    "fetchedAt": "2026-11-24T10:06:08.420501Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to train cancellations.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-24T07:52:43Z",
-            "toDate": "2026-11-25T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

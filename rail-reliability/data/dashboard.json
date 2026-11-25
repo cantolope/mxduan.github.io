@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T14:54:09.500711Z",
+  "generatedAt": "2026-11-25T15:09:08.774228Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,9 +21,25 @@
   },
   "current": {
     "sourceAt": "2026-11-25T14:47:26Z",
-    "fetchedAt": "2026-11-25T14:54:09.500711Z",
+    "fetchedAt": "2026-11-25T15:09:08.774228Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:35954",
+        "type": "Planned - Express to Local",
+        "planned": true,
+        "priority": 14,
+        "header": "In Queens, Jamaica Center-bound [E] stops at 75 Av and Briarwood",
+        "description": "Note: Service runs as scheduled at these stations all other times.\n\nWhat's happening?\nSignal maintenance",
+        "periods": [
+          {
+            "start": 1795618800,
+            "end": 1795636800
+          }
+        ],
+        "createdAt": 1792682388,
+        "updatedAt": 1793193951
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -46,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-25T14:54:09.500711Z",
+    "fetchedAt": "2026-11-25T15:09:08.774228Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

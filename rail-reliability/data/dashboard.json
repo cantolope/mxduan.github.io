@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T16:42:23.930061Z",
+  "generatedAt": "2026-11-26T16:57:21.376783Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T16:13:43Z",
-    "fetchedAt": "2026-11-26T16:42:23.930061Z",
+    "sourceAt": "2026-11-26T16:57:14Z",
+    "fetchedAt": "2026-11-26T16:57:21.376783Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811261622
+            "end": 1811264233
           }
         ],
         "createdAt": 1784303199,
@@ -58,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ce383a57dd5aa043c27206796a55e466fa5bb6d5dd1a7c84d46a83ba61405737"
+    "sha256": "4a587ba201b0c4d462cd88df9d31bab01f8220146deaa3f7026e4397b03cef82"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T16:42:23.930061Z",
+    "fetchedAt": "2026-11-26T16:57:21.376783Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to strike action. Services are operating approximately every 5 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays due to strike action. Services are operating approximately every 5 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-26T14:52:57Z",
+            "fromDate": "2026-11-26T16:44:52Z",
             "toDate": "2026-11-27T01:29:00Z",
             "isNow": true
           }

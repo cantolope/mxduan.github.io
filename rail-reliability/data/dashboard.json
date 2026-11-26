@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T21:27:50.426952Z",
+  "generatedAt": "2026-11-26T21:43:02.976634Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T21:23:58Z",
-    "fetchedAt": "2026-11-26T21:27:50.426952Z",
+    "sourceAt": "2026-11-26T21:40:46Z",
+    "fetchedAt": "2026-11-26T21:43:02.976634Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811280237
+            "end": 1811281244
           }
         ],
         "createdAt": 1784303199,
@@ -58,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "20decf3bab258c1535299f4163ea569589a23037b058d7c099ef47f5039b8caf"
+    "sha256": "5647258dbfb5b97fdb3a02b1bdb0689f4eabf88e5e14825f38e876bcd07eafe8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T21:27:50.426952Z",
+    "fetchedAt": "2026-11-26T21:43:02.976634Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays while we deal with a customer incident. Tickets are being accepted on London Buses via any reasonable route.",
+        "reason": "Victoria Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses via any reasonable route.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-26T21:23:34Z",
+            "fromDate": "2026-11-26T21:39:20Z",
             "toDate": "2026-11-27T01:29:00Z",
             "isNow": true
           }

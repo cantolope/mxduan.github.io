@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T08:56:20.847553Z",
+  "generatedAt": "2026-11-26T09:11:21.917443Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T08:39:28Z",
-    "fetchedAt": "2026-11-26T08:56:20.847553Z",
+    "sourceAt": "2026-11-26T09:05:50Z",
+    "fetchedAt": "2026-11-26T09:11:21.917443Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,16 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "[E] trains are delayed entering/leaving Jamaica Center-York College while we conduct track maintenance at that station.",
+        "header": "[E] trains are running with delays in both directions after track maintenance at Jamaica Center-York College concluded.",
         "description": "",
         "periods": [
           {
             "start": 1795679222,
-            "end": null
+            "end": 1795685100
           }
         ],
         "createdAt": 1795679222,
-        "updatedAt": 1795679222
+        "updatedAt": 1795683950
       },
       {
         "id": "lmm:planned_work:36604",
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811234368
+            "end": 1811235949
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "11d7acd96db4f3f3ef95a333fdbbcfaa34686f6b56e1c43492fed13282f8ee1d"
+    "sha256": "50fab44874bb00ba3b62785b636af42b53ef6f850786ebb0c91636f70d45d630"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T08:56:20.847553Z",
+    "fetchedAt": "2026-11-26T09:11:21.917443Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

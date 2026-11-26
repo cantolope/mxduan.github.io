@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T20:57:53.782284Z",
+  "generatedAt": "2026-11-26T21:12:54.861288Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T20:49:20Z",
-    "fetchedAt": "2026-11-26T20:57:53.782284Z",
+    "sourceAt": "2026-11-26T21:08:35Z",
+    "fetchedAt": "2026-11-26T21:12:54.861288Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811278155
+            "end": 1811279314
           }
         ],
         "createdAt": 1784303199,
@@ -58,25 +58,18 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "273fabbcd3149f5f09d70a030c6fbbac29f6dda1747248d354ec145ba547dbe2"
+    "sha256": "12fbc876a6e6f444a9636fa74cfd6a45ec97a39ad4ce9a9836402a6db323d765"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T20:57:53.782284Z",
+    "fetchedAt": "2026-11-26T21:12:54.861288Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to strike action. Services are operating approximately every 5 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
-        "validity": [
-          {
-            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-26T20:20:42Z",
-            "toDate": "2026-11-27T01:29:00Z",
-            "isNow": true
-          }
-        ]
+        "label": "Good Service",
+        "reason": "",
+        "validity": []
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

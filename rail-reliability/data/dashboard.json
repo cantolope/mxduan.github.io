@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T01:10:24.450027Z",
+  "generatedAt": "2026-11-26T01:25:24.965449Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T01:08:44Z",
-    "fetchedAt": "2026-11-26T01:10:24.450027Z",
+    "sourceAt": "2026-11-26T01:23:53Z",
+    "fetchedAt": "2026-11-26T01:25:24.965449Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811207323
+            "end": 1811208232
           }
         ],
         "createdAt": 1784303199,
@@ -42,22 +42,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "113e82f2bb8ca5682c8e3b604ba2ad04140ac243c8af75c44b0170492d2e876f"
+    "sha256": "3d2cb4edcdc0880662d6aa3f98a6e17d2ead948e4cf1a5681f105f0f156cd3fb"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T01:10:24.450027Z",
+    "fetchedAt": "2026-11-26T01:25:24.965449Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to an earlier person ill on the train at Highbury & Islington.",
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service will resume later this morning.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-25T19:50:41Z",
-            "toDate": "2026-11-27T01:29:00Z",
+            "fromDate": "2026-11-26T01:10:13Z",
+            "toDate": "2026-11-26T04:24:39Z",
             "isNow": true
           }
         ]

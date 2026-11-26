@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T20:19:00.368905Z",
+  "generatedAt": "2026-11-26T20:27:49.209420Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T20:15:28Z",
-    "fetchedAt": "2026-11-26T20:19:00.368905Z",
+    "sourceAt": "2026-11-26T20:25:19Z",
+    "fetchedAt": "2026-11-26T20:27:49.209420Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811276127
+            "end": 1811276718
           }
         ],
         "createdAt": 1784303199,
@@ -58,21 +58,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "36fd1621c71163b510a6eb1b3344dd3cabd050e72978ad844e508dadd25b99e8"
+    "sha256": "6e1607c4bc3fc29bc763c86b579aaa3915221feeeca527f42a11e85e9b051a4c"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T20:19:00.368905Z",
+    "fetchedAt": "2026-11-26T20:27:49.209420Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to strike action. Services are operating approximately every 5 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to strike action. Services are operating approximately every 5 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-26T16:44:52Z",
+            "fromDate": "2026-11-26T20:20:42Z",
             "toDate": "2026-11-27T01:29:00Z",
             "isNow": true
           }
@@ -1321,7 +1321,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-11-25T20:24:44.669501Z",
+    "fetchedAt": "2026-11-26T20:27:49.209420Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }

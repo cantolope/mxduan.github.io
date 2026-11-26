@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T03:55:42.928574Z",
+  "generatedAt": "2026-11-26T04:10:44.098078Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T03:37:38Z",
-    "fetchedAt": "2026-11-26T03:55:42.928574Z",
+    "sourceAt": "2026-11-26T04:01:49Z",
+    "fetchedAt": "2026-11-26T04:10:44.098078Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:278035:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "[E] trains are running with delays in both directions after we requested EMS assistance for a person in need at Jamaica Center-York College.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795664257,
-            "end": 1795665600
-          }
-        ],
-        "createdAt": 1795664257,
-        "updatedAt": 1795664257
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811216249
+            "end": 1811217708
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3a8af262baa09fa4f9624a4f2f2c0192164a446f333ba8616fa2586b8581aadb"
+    "sha256": "58d510ada62737ed3720f237aa681cfe5f36da3b3953d60e077bb081d3679c81"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T03:55:42.928574Z",
+    "fetchedAt": "2026-11-26T04:10:44.098078Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-26T01:10:13Z",
-            "toDate": "2026-11-26T06:54:50Z",
+            "toDate": "2026-11-26T07:10:04Z",
             "isNow": true
           }
         ]

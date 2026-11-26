@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T07:41:13.071895Z",
+  "generatedAt": "2026-11-26T07:56:14.977007Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-26T07:39:02Z",
-    "fetchedAt": "2026-11-26T07:41:13.071895Z",
+    "sourceAt": "2026-11-26T07:49:06Z",
+    "fetchedAt": "2026-11-26T07:56:14.977007Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:278046:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "[E] trains are delayed entering/leaving Jamaica Center-York College while we conduct track maintenance at that station.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795679222,
+            "end": null
+          }
+        ],
+        "createdAt": 1795679222,
+        "updatedAt": 1795679222
+      },
       {
         "id": "lmm:planned_work:36604",
         "type": "Sunday Schedule",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811230742
+            "end": 1811231346
           }
         ],
         "createdAt": 1784303199,
@@ -58,18 +74,25 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "74ff4c08171c6b65d88c5861f66f2287e4780996fe7bea4f5802a6e8bee4b0ae"
+    "sha256": "0113a740bfc80f92c60013b3812919e81c1be8a7b0d265b4b0d4355a97550985"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T07:41:13.071895Z",
+    "fetchedAt": "2026-11-26T07:56:14.977007Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Good Service",
-        "reason": "",
-        "validity": []
+        "label": "Minor Delays",
+        "reason": "Victoria Line: Minor delays due to train cancellations.",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-26T07:52:35Z",
+            "toDate": "2026-11-27T01:29:00Z",
+            "isNow": true
+          }
+        ]
       }
     ],
     "definition": "Operator line status; not delayed trains or a punctuality percentage. Historical retention not verified."

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T04:55:51.428449Z",
+  "generatedAt": "2026-11-26T05:10:48.167414Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,9 +21,25 @@
   },
   "current": {
     "sourceAt": "2026-11-26T04:37:06Z",
-    "fetchedAt": "2026-11-26T04:55:51.428449Z",
+    "fetchedAt": "2026-11-26T05:10:48.167414Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:planned_work:36604",
+        "type": "Sunday Schedule",
+        "planned": true,
+        "priority": 8,
+        "header": "Subways operate on a Sunday schedule for Thanksgiving Day",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795669200,
+            "end": 1795755540
+          }
+        ],
+        "createdAt": 1794862104,
+        "updatedAt": 1794862104
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -46,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T04:55:51.428449Z",
+    "fetchedAt": "2026-11-26T05:10:48.167414Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

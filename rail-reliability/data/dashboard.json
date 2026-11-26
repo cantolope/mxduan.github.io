@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T09:56:33.575031Z",
+  "generatedAt": "2026-11-26T10:11:27.916638Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -21,7 +21,7 @@
   },
   "current": {
     "sourceAt": "2026-11-26T09:41:52Z",
-    "fetchedAt": "2026-11-26T09:56:33.575031Z",
+    "fetchedAt": "2026-11-26T10:11:27.916638Z",
     "state": "ok",
     "alerts": [
       {
@@ -62,7 +62,7 @@
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-26T09:56:33.575031Z",
+    "fetchedAt": "2026-11-26T10:11:27.916638Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -75,6 +75,18 @@
             "fromDate": "2026-11-26T07:52:35Z",
             "toDate": "2026-11-27T01:29:00Z",
             "isNow": true
+          }
+        ]
+      },
+      {
+        "label": "Reduced Service",
+        "reason": "TUBE STRIKE: Some London Underground Tube drivers are planning to take strike action from 1200 Thursday 26 until 1159 Friday 27 November. A normal service is expected until 1000 Thursday when services will begin to reduce. From 1200, there will be disruption on all lines and no service is expected after 2100. No trains will run from 1200 Thursday until 1200 Friday on the Circle and Piccadilly lines, or on the Waterloo & City line between 1200 Thursday and 1200 Friday. Disruption will continue between 1200 and 1800 Friday, with a normal service expected after then",
+        "validity": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2026-11-26T10:00:00Z",
+            "toDate": "2026-11-27T18:00:00Z",
+            "isNow": false
           }
         ]
       }

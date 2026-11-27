@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T01:13:38.014020Z",
+  "generatedAt": "2026-11-27T01:28:49.425128Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T01:05:32Z",
-    "fetchedAt": "2026-11-27T01:13:38.014020Z",
+    "sourceAt": "2026-11-27T01:28:39Z",
+    "fetchedAt": "2026-11-27T01:28:49.425128Z",
     "state": "ok",
     "alerts": [
       {
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811293530
+            "end": 1811294918
           }
         ],
         "createdAt": 1784303199,
@@ -58,22 +58,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3ef425591836ee2ebe1eebf8a05dd1d98f9b77d0a501d425b0d318ef28fdb3a7"
+    "sha256": "dd974cf1ecc4f1bf82eb1d921f0b26d3d2378593e0388f167f395399647917f5"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T01:13:38.014020Z",
+    "fetchedAt": "2026-11-27T01:28:49.425128Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses via any reasonable route.",
+        "label": "Service Closed",
+        "reason": "Victoria Line: Service is not expected to resume until after 07:00hrs due to strike action.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-26T21:39:20Z",
-            "toDate": "2026-11-28T01:29:00Z",
+            "fromDate": "2026-11-27T01:13:08Z",
+            "toDate": "2026-11-27T04:27:38Z",
             "isNow": true
           }
         ]

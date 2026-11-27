@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T03:59:09.153674Z",
+  "generatedAt": "2026-11-27T04:14:08.825913Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T03:50:38Z",
-    "fetchedAt": "2026-11-27T03:59:09.153674Z",
+    "sourceAt": "2026-11-27T04:09:37Z",
+    "fetchedAt": "2026-11-27T04:14:08.825913Z",
     "state": "ok",
     "alerts": [
       {
@@ -66,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811303437
+            "end": 1811304574
           }
         ],
         "createdAt": 1784303199,
@@ -74,22 +74,22 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "3c65c194668ccfd3c39a6c78509f781e4e886ab1676f9ac36a5b6bce9316c209"
+    "sha256": "a54434bb67bea2fc0fe9e4392609a10a061a22a16e7e0959409bf029ed57acc8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T03:59:09.153674Z",
+    "fetchedAt": "2026-11-27T04:14:08.825913Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Service Closed",
+        "label": "Suspended",
         "reason": "Victoria Line: Service is not expected to resume until after 07:00hrs due to strike action.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-27T01:13:08Z",
-            "toDate": "2026-11-27T06:58:11Z",
+            "fromDate": "2026-11-27T04:11:20Z",
+            "toDate": "2026-11-27T07:13:21Z",
             "isNow": true
           }
         ]

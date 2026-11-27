@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T04:44:20.758542Z",
+  "generatedAt": "2026-11-27T04:59:20.578463Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T04:43:29Z",
-    "fetchedAt": "2026-11-27T04:44:20.758542Z",
+    "sourceAt": "2026-11-27T04:46:07Z",
+    "fetchedAt": "2026-11-27T04:59:20.578463Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:planned_work:36604",
-        "type": "Sunday Schedule",
-        "planned": true,
-        "priority": 8,
-        "header": "Subways operate on a Sunday schedule for Thanksgiving Day",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795669200,
-            "end": 1795755540
-          }
-        ],
-        "createdAt": 1794862104,
-        "updatedAt": 1794862104
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811306608
+            "end": 1811306767
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "9c913424d85045646667eac1b9d497f83f7d228683f1b7097a487759b1057ca8"
+    "sha256": "b8b60897648ae4c0a3f9fad373556ec06192cbefa732941f7aaae5e58c006d42"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T04:44:20.758542Z",
+    "fetchedAt": "2026-11-27T04:59:20.578463Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +57,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-27T04:11:20Z",
-            "toDate": "2026-11-27T07:43:24Z",
+            "toDate": "2026-11-27T07:58:42Z",
             "isNow": true
           }
         ]

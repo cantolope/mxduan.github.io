@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T04:14:08.825913Z",
+  "generatedAt": "2026-11-27T04:29:25.361826Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T04:09:37Z",
-    "fetchedAt": "2026-11-27T04:14:08.825913Z",
+    "sourceAt": "2026-11-27T04:18:40Z",
+    "fetchedAt": "2026-11-27T04:29:25.361826Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:278173:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [E] trains are running with delays after we moved a train that had its brakes activated by debris on the track at Lexington Av/53 St.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795750816,
-            "end": 1795753200
-          }
-        ],
-        "createdAt": 1795750816,
-        "updatedAt": 1795751438
-      },
       {
         "id": "lmm:planned_work:36604",
         "type": "Sunday Schedule",
@@ -66,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811304574
+            "end": 1811305119
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "a54434bb67bea2fc0fe9e4392609a10a061a22a16e7e0959409bf029ed57acc8"
+    "sha256": "d9d6aca14ecd2868e759a405b5bb46e346474d573cafc84ebeb005c2a53e516f"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T04:14:08.825913Z",
+    "fetchedAt": "2026-11-27T04:29:25.361826Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -89,7 +73,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-27T04:11:20Z",
-            "toDate": "2026-11-27T07:13:21Z",
+            "toDate": "2026-11-27T07:28:24Z",
             "isNow": true
           }
         ]

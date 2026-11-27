@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T20:46:53.107574Z",
+  "generatedAt": "2026-11-27T21:01:50.166308Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T20:40:04Z",
-    "fetchedAt": "2026-11-27T20:46:53.107574Z",
+    "sourceAt": "2026-11-27T21:01:00Z",
+    "fetchedAt": "2026-11-27T21:01:50.166308Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:278274:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Downtown [E] trains are running with delays after we addressed a door problem on a train at 50 St.",
-        "description": "Downtown [E] trains have resumed scheduled service from 5 Av/53 St to W 4 St-Wash Sq.",
-        "periods": [
-          {
-            "start": 1795811498,
-            "end": 1795812900
-          }
-        ],
-        "createdAt": 1795811498,
-        "updatedAt": 1795812004
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811364003
+            "end": 1811365259
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "c3873a2c5fde31ca96fe6be5bedd71870786af62cabc94ed98ec2186b972fa9c"
+    "sha256": "afbb91241d9fc00ffb691844b6b8cdc9d66d1e0f5c59afa0949e173e3e4f36ac"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T20:46:53.107574Z",
+    "fetchedAt": "2026-11-27T21:01:50.166308Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

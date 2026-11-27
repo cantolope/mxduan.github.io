@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T15:00:48.278592Z",
+  "generatedAt": "2026-11-27T15:15:49.277900Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T15:00:37Z",
-    "fetchedAt": "2026-11-27T15:00:48.278592Z",
+    "sourceAt": "2026-11-27T15:15:38Z",
+    "fetchedAt": "2026-11-27T15:15:49.277900Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,8 +29,8 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays while we continue to address a signal problem near  34 St-Penn Station.",
-        "description": "Uptown [C] trains have resumed making scheduled stops and boarding from their usual track at 34 St-Penn Station.",
+        "header": "Uptown [C][E] trains are running with delays while we continue to address a signal problem near 34 St-Penn Station.",
+        "description": "",
         "periods": [
           {
             "start": 1795790194,
@@ -38,7 +38,7 @@
           }
         ],
         "createdAt": 1795790194,
-        "updatedAt": 1795790528
+        "updatedAt": 1795791836
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811343637
+            "end": 1811344536
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "ba59a6daeef4c76debece434f8520ba6cd590842dbdb1c85bc97ebb8a59d1913"
+    "sha256": "3bc0b6157c9cdc753c7e0271df5b60afa1d248261aa4a2a3dd474cd27f21a81a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T15:00:48.278592Z",
+    "fetchedAt": "2026-11-27T15:15:49.277900Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

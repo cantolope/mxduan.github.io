@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T20:16:51.985463Z",
+  "generatedAt": "2026-11-27T20:31:50.095538Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T20:16:48Z",
-    "fetchedAt": "2026-11-27T20:16:51.985463Z",
+    "sourceAt": "2026-11-27T20:31:38Z",
+    "fetchedAt": "2026-11-27T20:31:50.095538Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:278274:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Downtown [E] trains are delayed while we remove a train with a door problem from service at 50 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795811498,
+            "end": null
+          }
+        ],
+        "createdAt": 1795811498,
+        "updatedAt": 1795811498
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811362607
+            "end": 1811363498
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "0f56896755b454183f2187a6a6f8af880d4284fbb75ddee5a87ec00a662d4907"
+    "sha256": "0c3e18e5a5348c174ded8152b75cf69613524367df7aa860c14ef3f0b82bdb12"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T20:16:51.985463Z",
+    "fetchedAt": "2026-11-27T20:31:50.095538Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -1305,7 +1321,7 @@
       }
     ],
     "state": "ok",
-    "fetchedAt": "2026-11-26T20:27:49.209420Z",
+    "fetchedAt": "2026-11-27T20:31:50.095538Z",
     "source": "https://data.ny.gov/resource/r7qk-6tcy.json"
   }
 }

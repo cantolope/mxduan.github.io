@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T14:00:53.948921Z",
+  "generatedAt": "2026-11-27T14:15:44.396270Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T13:57:43Z",
-    "fetchedAt": "2026-11-27T14:00:53.948921Z",
+    "sourceAt": "2026-11-27T14:15:16Z",
+    "fetchedAt": "2026-11-27T14:15:44.396270Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:278223:25",
+        "type": "Express to Local",
+        "planned": false,
+        "priority": 25,
+        "header": "Downtown [E] trains are running local from Jamaica-Van Wyck to Forest Hills-71 Av.",
+        "description": "What's Happening?\n\nWe are requesting EMS for someone in need of medical assistance on a train at Kew Gardens-Union Tpke.",
+        "periods": [
+          {
+            "start": 1795788305,
+            "end": null
+          }
+        ],
+        "createdAt": 1795788305,
+        "updatedAt": 1795788681
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811339863
+            "end": 1811340916
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b04ca5227c636ee75e06d4893f1197111b9019f150d9e220e2582df92c864d32"
+    "sha256": "4a5bc68cabfccfef12959400430d3ffc8bf268d1d591e2fcf76a130d81f6104a"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T14:00:53.948921Z",
+    "fetchedAt": "2026-11-27T14:15:44.396270Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

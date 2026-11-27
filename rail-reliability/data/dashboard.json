@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T14:30:55.990768Z",
+  "generatedAt": "2026-11-27T14:45:47.978344Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,25 +20,41 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T14:25:03Z",
-    "fetchedAt": "2026-11-27T14:30:55.990768Z",
+    "sourceAt": "2026-11-27T14:44:24Z",
+    "fetchedAt": "2026-11-27T14:45:47.978344Z",
     "state": "ok",
     "alerts": [
       {
-        "id": "lmm:alert:278223:25",
-        "type": "Express to Local",
+        "id": "lmm:alert:278223:26",
+        "type": "Delays",
         "planned": false,
-        "priority": 25,
-        "header": "Downtown [E] trains are running local from Jamaica-Van Wyck to Forest Hills-71 Av.",
-        "description": "What's Happening?\n\nWe are requesting EMS for someone in need of medical assistance on a train at Kew Gardens-Union Tpke.",
+        "priority": 26,
+        "header": "Downtown [E] trains are running with delays after EMS responded to someone in need of medical assistance on a train at Kew Gardens-Union Tpke.",
+        "description": "Downtown [E] trains have resumed making scheduled stops.",
         "periods": [
           {
             "start": 1795788305,
-            "end": null
+            "end": 1795791000
           }
         ],
         "createdAt": 1795788305,
-        "updatedAt": 1795788681
+        "updatedAt": 1795790663
+      },
+      {
+        "id": "lmm:alert:278229:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [C][E] trains are running with delays while we continue to address a signal problem near  34 St-Penn Station.",
+        "description": "Uptown [C] trains have resumed making scheduled stops and boarding from their usual track at 34 St-Penn Station.",
+        "periods": [
+          {
+            "start": 1795790194,
+            "end": null
+          }
+        ],
+        "createdAt": 1795790194,
+        "updatedAt": 1795790528
       },
       {
         "id": "lmm:planned_work:33366",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811341503
+            "end": 1811342662
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "dc96ff4f514ae3645b3d7f9e62977c3c6c8171b9129df403c10406f9a8a43950"
+    "sha256": "75634cc4525e2a5bcf5cefe4cb654e26d5051627e2fd1e923d36dc44d162a712"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T14:30:55.990768Z",
+    "fetchedAt": "2026-11-27T14:45:47.978344Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

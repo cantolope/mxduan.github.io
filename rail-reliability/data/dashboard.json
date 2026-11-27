@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T03:28:58.832979Z",
+  "generatedAt": "2026-11-27T03:44:08.595198Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T03:27:07Z",
-    "fetchedAt": "2026-11-27T03:28:58.832979Z",
+    "sourceAt": "2026-11-27T03:40:26Z",
+    "fetchedAt": "2026-11-27T03:44:08.595198Z",
     "state": "ok",
     "alerts": [
       {
@@ -29,16 +29,32 @@
         "type": "Delays",
         "planned": false,
         "priority": 26,
-        "header": "Uptown [E] trains are delayed while we conduct an investigation at 7 Av.",
-        "description": "Some uptown [E] trains will run via the [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr\n.\nListen for announcements for details on how your train will operate.",
+        "header": "Uptown [E] trains are running with delays after an investigation at 7 Av concluded.",
+        "description": "",
         "periods": [
           {
             "start": 1795749646,
-            "end": null
+            "end": 1795751400
           }
         ],
         "createdAt": 1795749646,
-        "updatedAt": 1795749646
+        "updatedAt": 1795750825
+      },
+      {
+        "id": "lmm:alert:278173:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E] trains are delayed while we investigate why a train's brakes were activated at Lexington Av/53 St.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795750816,
+            "end": null
+          }
+        ],
+        "createdAt": 1795750816,
+        "updatedAt": 1795750816
       },
       {
         "id": "lmm:planned_work:36604",
@@ -66,7 +82,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811302026
+            "end": 1811302823
           }
         ],
         "createdAt": 1784303199,
@@ -74,11 +90,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "4132ff0db9cdf8e81acb4812b934ca17820dbb7ffe69dcc4fcaf53b9a47c51e8"
+    "sha256": "e6743227caaac2ff8072ccb2c34f943125f27ba11e170a42bb66171bf4a2a759"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T03:28:58.832979Z",
+    "fetchedAt": "2026-11-27T03:44:08.595198Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -89,7 +105,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-27T01:13:08Z",
-            "toDate": "2026-11-27T06:27:52Z",
+            "toDate": "2026-11-27T06:42:53Z",
             "isNow": true
           }
         ]

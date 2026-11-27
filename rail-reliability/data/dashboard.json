@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T03:14:00.348619Z",
+  "generatedAt": "2026-11-27T03:28:58.832979Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T03:10:26Z",
-    "fetchedAt": "2026-11-27T03:14:00.348619Z",
+    "sourceAt": "2026-11-27T03:27:07Z",
+    "fetchedAt": "2026-11-27T03:28:58.832979Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:278172:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [E] trains are delayed while we conduct an investigation at 7 Av.",
+        "description": "Some uptown [E] trains will run via the [F] line from W 4 St-Wash Sq to 47-50 Sts-Rockefeller Ctr\n.\nListen for announcements for details on how your train will operate.",
+        "periods": [
+          {
+            "start": 1795749646,
+            "end": null
+          }
+        ],
+        "createdAt": 1795749646,
+        "updatedAt": 1795749646
+      },
       {
         "id": "lmm:planned_work:36604",
         "type": "Sunday Schedule",
@@ -50,7 +66,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811301026
+            "end": 1811302026
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +74,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e47951f243a6dd560819ff642ac7cc6405f14eb18ad69a01d8fced84e3822af2"
+    "sha256": "4132ff0db9cdf8e81acb4812b934ca17820dbb7ffe69dcc4fcaf53b9a47c51e8"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T03:14:00.348619Z",
+    "fetchedAt": "2026-11-27T03:28:58.832979Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
@@ -73,7 +89,7 @@
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
             "fromDate": "2026-11-27T01:13:08Z",
-            "toDate": "2026-11-27T06:12:52Z",
+            "toDate": "2026-11-27T06:27:52Z",
             "isNow": true
           }
         ]

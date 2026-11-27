@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T16:01:06.883014Z",
+  "generatedAt": "2026-11-27T16:16:01.102334Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,26 +20,10 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T15:58:51Z",
-    "fetchedAt": "2026-11-27T16:01:06.883014Z",
+    "sourceAt": "2026-11-27T16:04:09Z",
+    "fetchedAt": "2026-11-27T16:16:01.102334Z",
     "state": "ok",
     "alerts": [
-      {
-        "id": "lmm:alert:278229:26",
-        "type": "Delays",
-        "planned": false,
-        "priority": 26,
-        "header": "Uptown [C][E] trains are running with delays after we addressed a signal problem near 34 St-Penn Station.",
-        "description": "",
-        "periods": [
-          {
-            "start": 1795790194,
-            "end": 1795795800
-          }
-        ],
-        "createdAt": 1795790194,
-        "updatedAt": 1795795130
-      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -50,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811347130
+            "end": 1811347448
           }
         ],
         "createdAt": 1784303199,
@@ -58,11 +42,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "e4cd7a81a20ffcbac8ff4fa06a34411fd7aef70cf2b6fde1682f60874f25addf"
+    "sha256": "a209591fec02b1f0090a9badd649e4db60d96d4acaafdaa35231e40397a70587"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T16:01:06.883014Z",
+    "fetchedAt": "2026-11-27T16:16:01.102334Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [

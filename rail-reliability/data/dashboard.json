@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T09:44:59.332345Z",
+  "generatedAt": "2026-11-27T10:00:08.216968Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T09:13:18Z",
-    "fetchedAt": "2026-11-27T09:44:59.332345Z",
+    "sourceAt": "2026-11-27T09:58:40Z",
+    "fetchedAt": "2026-11-27T10:00:08.216968Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811322798
+            "end": 1811325518
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b3024ef01b919eb21a182273b5140a121c3936fe92f9118ecc69f663d0a67f7a"
+    "sha256": "4d9f957495b55450175ef680cc6c0502e706ead4440363a748a6000fea011b41"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T09:44:59.332345Z",
+    "fetchedAt": "2026-11-27T10:00:08.216968Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
         "label": "Severe Delays",
-        "reason": "Victoria Line: Severe delays due to strike action. Services are operating every 15 minutes.",
+        "reason": "Victoria Line: Severe delays due to strike action. Services are operating every 10 minutes.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-27T05:27:24Z",
+            "fromDate": "2026-11-27T09:44:14Z",
             "toDate": "2026-11-28T01:29:00Z",
             "isNow": true
           }

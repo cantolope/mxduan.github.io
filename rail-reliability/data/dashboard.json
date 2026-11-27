@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T13:45:46.098504Z",
+  "generatedAt": "2026-11-27T14:00:53.948921Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,8 +20,8 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-27T13:43:06Z",
-    "fetchedAt": "2026-11-27T13:45:46.098504Z",
+    "sourceAt": "2026-11-27T13:57:43Z",
+    "fetchedAt": "2026-11-27T14:00:53.948921Z",
     "state": "ok",
     "alerts": [
       {
@@ -34,7 +34,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811338985
+            "end": 1811339863
           }
         ],
         "createdAt": 1784303199,
@@ -42,21 +42,21 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "b9e3e179485e90b95cbd9c8023f5dd1cb375a2591ea5ba8862f7cbbbfedd6849"
+    "sha256": "b04ca5227c636ee75e06d4893f1197111b9019f150d9e220e2582df92c864d32"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-27T13:45:46.098504Z",
+    "fetchedAt": "2026-11-27T14:00:53.948921Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
       {
-        "label": "Minor Delays",
-        "reason": "Victoria Line: Minor delays due to strike action.",
+        "label": "Severe Delays",
+        "reason": "Victoria Line: Severe delays due to strike action.",
         "validity": [
           {
             "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
-            "fromDate": "2026-11-27T11:50:35Z",
+            "fromDate": "2026-11-27T13:55:27Z",
             "toDate": "2026-11-28T01:29:00Z",
             "isNow": true
           }

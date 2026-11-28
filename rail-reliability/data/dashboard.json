@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-28T06:02:53.115550Z",
+  "generatedAt": "2026-11-28T06:17:59.500240Z",
   "tozai": {
     "state": "manual",
     "publishedDate": "2026-10-06",
@@ -20,10 +20,26 @@
     "method": "Manual review of official page. Direct machine fetch403. Not an automatic adapter."
   },
   "current": {
-    "sourceAt": "2026-11-28T05:31:05Z",
-    "fetchedAt": "2026-11-28T06:02:53.115550Z",
+    "sourceAt": "2026-11-28T06:17:13Z",
+    "fetchedAt": "2026-11-28T06:17:59.500240Z",
     "state": "ok",
     "alerts": [
+      {
+        "id": "lmm:alert:278321:26",
+        "type": "Delays",
+        "planned": false,
+        "priority": 26,
+        "header": "Uptown [A][E] trains are running with delays after NYPD conducted an investigation at 34 St-Penn Station.",
+        "description": "",
+        "periods": [
+          {
+            "start": 1795846013,
+            "end": null
+          }
+        ],
+        "createdAt": 1795846013,
+        "updatedAt": 1795846633
+      },
       {
         "id": "lmm:planned_work:33366",
         "type": "Station Notice",
@@ -34,7 +50,7 @@
         "periods": [
           {
             "start": 1776333600,
-            "end": 1811395865
+            "end": 1811398633
           }
         ],
         "createdAt": 1784303199,
@@ -42,11 +58,11 @@
       }
     ],
     "source": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts",
-    "sha256": "64655452e00ca5a748c93508256ae750cd7927f1c42ef8507facb52c1008dbf6"
+    "sha256": "09abcbbd62c07ea8390d88000b15f14e3908570b3f8d9ad3d7e6e877c6cf8642"
   },
   "victoria": {
     "state": "ok",
-    "fetchedAt": "2026-11-28T06:02:53.115550Z",
+    "fetchedAt": "2026-11-28T06:17:59.500240Z",
     "sourceAt": null,
     "source": "https://api.tfl.gov.uk/Line/victoria/Status",
     "statuses": [
